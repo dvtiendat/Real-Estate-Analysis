@@ -36,6 +36,9 @@ class BDSWebCrawler(WebScraper):
         return driver, actions, wait
     
     def get_pages(self, driver):
+        
+        pages = []
+        
         for page in tqdm(range(1,self.num_pages+1)):
             if page == 1 :
                 url = self.base_url
@@ -45,9 +48,8 @@ class BDSWebCrawler(WebScraper):
             driver.implicitly_wait(0.5) 
             links =  driver.find_elements(By.XPATH , value="//a[@class='js__product-link-for-product-id']") 
     
-        pages = []
-        for link in links:
-            pages.append(link.get_attribute('href'))
+            for link in links:
+                pages.append(link.get_attribute('href'))
         
         driver.quit()
         return pages
