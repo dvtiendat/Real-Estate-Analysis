@@ -66,7 +66,6 @@ class BDSWebCrawler(WebScraper):
            'Pháp lý', 'Nội thất']
 
         house_data = {col: np.nan for col in columns}
-        driver.implicitly_wait(10)
 
         if 'vaymuanha' in page:
             driver.quit()
@@ -81,7 +80,7 @@ class BDSWebCrawler(WebScraper):
                 iframe = driver.find_elements(By.XPATH, '//iframe[@class="lazyload"]')[0]
                 scroll_shim(driver,iframe)
                 actions.move_to_element(iframe).perform()
-
+                driver.implicitly_wait(10)
                 iframe = driver.find_element(By.XPATH, '//iframe[@class=" lazyloaded"]')    
                 driver.switch_to.frame(frame_reference=iframe)
                 longitude , latitude = driver.find_element(By.XPATH , "//div[@class='place-name']").text.split(' ')
