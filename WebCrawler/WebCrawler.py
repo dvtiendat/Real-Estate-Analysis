@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class WebScraper(ABC):
+class WebCrawler(ABC):
     @abstractmethod
     def get_pages(self):
         pass
