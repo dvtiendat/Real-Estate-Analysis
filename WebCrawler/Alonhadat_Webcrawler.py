@@ -12,7 +12,7 @@ import time
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
-from WebCrawler.WebCrawler import WebScraper
+from WebCrawler import WebScraper
 from utils import dms_to_decimal, scroll_shim
 import logging
 import datetime
@@ -26,10 +26,13 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class AlonhadatWebCrawler(WebScraper):
-    def __init__(self, num_pages, base_url) : 
+    def __init__(self, base_url, num_pages = None) : 
         self.num_pages = num_pages
         self.base_url = base_url
-        logger.info(f"Initialized alonhadat.com.vn with {num_pages} pages and base URL: {base_url}")
+        if self.num_pages:
+            logger.info(f"Initialized batdongsan.com.vn with {num_pages} pages and base URL: {base_url}")
+        else :
+            logger.info(f"Initialized batdongsan.com.vn base URL: {base_url}")
 
     def init_driver(self):
         opt = Options()
@@ -59,9 +62,12 @@ class AlonhadatWebCrawler(WebScraper):
                 for link in links:
                     pages.append(link.get_attribute('href'))
                 page += 1 
+                if self.num_pages:
+                    if page == self.num_pages:
+                        logger.error(f'Process ended with total of {page} pages')
+                        break
         except Exception as e :
-                print(e)
-                print(page)
+            logger.error(f'Process ended with total of {page} pages : {e}')
         return pages
     
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))

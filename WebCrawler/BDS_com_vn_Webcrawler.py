@@ -12,7 +12,7 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
-from WebCrawler.WebCrawler import WebScraper
+from WebCrawler import WebScraper
 from utils import dms_to_decimal, scroll_shim
 import logging
 
@@ -20,11 +20,14 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class BDSWebCrawler(WebScraper):
-    def __init__(self, num_pages, base_url) : 
+    def __init__(self, base_url, num_pages= None) : 
         self.num_pages = num_pages
         self.base_url = base_url
-        logger.info(f"Initialized batdongsan.com.vn with {num_pages} pages and base URL: {base_url}")
-
+        if self.num_pages:
+            logger.info(f"Initialized batdongsan.com.vn with {num_pages} pages and base URL: {base_url}")
+        else :
+            logger.info(f"Initialized batdongsan.com.vn base URL: {base_url}")
+  
     def init_driver(self):
         opt = Options()
         # opt.add_argument("--headless")
@@ -35,23 +38,29 @@ class BDSWebCrawler(WebScraper):
 
         return driver, actions, wait
     
-    def get_pages(self, driver):
+    def get_pages(self,driver):
         
         pages = []
+        page = 1 
+        try :
+            while True : 
+                if page == 1 :
+                    url = self.base_url
+                else :
+                    url = self.base_url + '/p' + str(page)
+                driver.get(url)
+                driver.implicitly_wait(0.5) 
+                links =  driver.find_elements(By.XPATH , value="//div[@class='thumbnail']//a") 
         
-        for page in tqdm(range(1,self.num_pages+1)):
-            if page == 1 :
-                url = self.base_url
-            else :
-                url = self.base_url + '/p' + str(page)
-            driver.get(url)
-            driver.implicitly_wait(0.5) 
-            links =  driver.find_elements(By.XPATH , value="//a[@class='js__product-link-for-product-id']") 
-    
-            for link in links:
-                pages.append(link.get_attribute('href'))
-        
-        driver.quit()
+                for link in links:
+                    pages.append(link.get_attribute('href'))
+                page += 1 
+                if self.num_pages:
+                    if page >= self.num_pages:
+                        logger.error(f'Process ended with total of {page} pages')
+                        break
+        except Exception as e :
+            logger.error(f'Get total of {page} pages : {e}')
         return pages
     
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
