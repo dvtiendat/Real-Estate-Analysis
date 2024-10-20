@@ -4,7 +4,6 @@ from Alonhadat_Webcrawler import AlonhadatWebCrawler
 import logging
 import pandas as pd
 import yaml
-import traceback
 
 logging.basicConfig(
     filename='logs/alonhadat_logs',
@@ -27,7 +26,7 @@ def run_crawler(config):
     '''
     Begin scraping procedure
     '''
-    crawler_names = ['AlonhadatWebCrawler']
+    crawler_names = ['AlonhadatWebCrawler'] # CHANGE THIS
     
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler_names}')
@@ -56,7 +55,6 @@ def run_crawler(config):
                     logger.info(f'Completed scraping {crawler}')
                 except Exception as e:
                     logger.error(f"Error occurred while scraping: {str(e)}")
-                    logger.error("Traceback details:", exc_info=True)
 
     return final_df
 
@@ -65,7 +63,7 @@ def main():
         config = get_config('WebCrawler\config.yaml')
         final_df = run_crawler(config)
             
-        output_path = f"data/alonhadat_data.csv"
+        output_path = f"data/alonhadat_data.csv" # CHANGE THIS 
         final_df.to_csv(output_path, index=False)
         logger.info(f"Data saved to {output_path}")
     except Exception as e:
