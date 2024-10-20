@@ -18,7 +18,7 @@ import logging
 import datetime
 
 
-cur_datetime = datetime.now()
+cur_datetime = datetime.datetime.now()
 cur_date = cur_datetime.day
 cur_year = cur_datetime.year
 cur_month = cur_datetime.month
@@ -146,8 +146,8 @@ class AlonhadatWebCrawler(WebScraper):
         except Exception as e:
             logger.error(f'Error occurred while extracting data from page {page}: {e}') 
             raise
-        finally:
-            driver.quit()
+        # finally:
+        #     driver.quit()
   
 
     def multithread_extract(self, max_workers=4):
@@ -171,13 +171,10 @@ class AlonhadatWebCrawler(WebScraper):
             
     
     def transform(self,df):
-
-
         df['Số lầu'] = [float(x) for x in (df['Số lầu'].to_list())]
         df['Số phòng ngủ'] = [float(x) for x in (df['Số phòng ngủ'].to_list())]
         df['Chiều ngang'] = [float(x[:-1]) for x in (df['Chiều ngang'].to_list())]
         df['Chiều dài'] = [float(x[:-1]) for x in (df['Chiều dài'].to_list())]
-        
         df['Diện tích'] = [float(x.split()[0]) for x in (df['Diện tích'].to_list())]
         
     
@@ -195,9 +192,6 @@ class AlonhadatWebCrawler(WebScraper):
             else :
                 new_attribute.append(float(s[0].replace(',','.')))
         df['Mức giá'] = new_attribute
-        
-        
-        
     
         date_cols = ['Ngày', 'Tháng', 'Năm']
         for col in date_cols:
