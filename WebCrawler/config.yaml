@@ -1,0 +1,51 @@
+BDSWebCrawler:
+    property_types:
+      Chung cư:
+        base_url: https://batdongsan.com.vn/ban-can-ho-chung-cu
+        num_pages: 1
+      Nhà đất:
+        base_url: https://batdongsan.com.vn/ban-nha-dat
+        num_pages: 1
+      Đất nền:
+        base_url: https://batdongsan.com.vn/ban-dat-dat-nen
+        num_pages: 1
+    final_columns:
+    - Phường
+    - Quận
+    - Thành phố
+    - Mức giá
+    - Diện tích
+    - Mặt tiền
+    - Hướng nhà
+    - Số tầng
+    - Số toilet
+    - Đường vào
+    - Hướng ban công
+    - Số phòng ngủ
+    - Pháp lý
+    - Nội thất
+
+AlonhadatWebCrawler:
+  base_url: https://alonhadat.com.vn/nha-dat/can-ban.html
+  final_columns:
+    - Ngày
+    - Tháng
+    - Năm
+    - Phường
+    - Quận
+    - Thành phố
+    - Mức giá
+    - Diện tích
+    - Hướng
+    - Phòng ăn
+    - Đường trước nhà
+    - Nhà bếp
+    - Loại BDS
+    - Pháp lý
+    - Sân thượng
+    - Chiều ngang
+    - Số lầu
+    - Chỗ để xe hơi
+    - Chiều dài
+    - Số phòng ngủ
+    - Chính chủ

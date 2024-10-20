@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+
 class WebScraper(ABC):
     @abstractmethod
     def get_pages(self):
