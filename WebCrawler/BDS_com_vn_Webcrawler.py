@@ -12,13 +12,13 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
-from WebCrawler import WebScraper
+from WebCrawler import WebCrawler
 from utils import dms_to_decimal, scroll_shim
 import logging
 
 logger = logging.getLogger(__name__)
 
-class BDSWebCrawler(WebScraper):
+class BDSWebCrawler(WebCrawler):
     def __init__(self, base_url, num_pages= None) : 
         self.num_pages = num_pages
         self.base_url = base_url

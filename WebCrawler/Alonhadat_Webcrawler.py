@@ -12,7 +12,7 @@ import time
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
-from WebCrawler import WebScraper
+from WebCrawler import WebCrawler
 from utils import dms_to_decimal, scroll_shim
 import logging
 import datetime
@@ -25,7 +25,7 @@ cur_month = cur_datetime.month
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-class AlonhadatWebCrawler(WebScraper):
+class AlonhadatWebCrawler(WebCrawler):
     def __init__(self, base_url, num_pages = None) : 
         self.num_pages = num_pages
         self.base_url = base_url
