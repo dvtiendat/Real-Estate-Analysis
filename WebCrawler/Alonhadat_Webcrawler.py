@@ -63,7 +63,7 @@ class AlonhadatWebCrawler(WebCrawler):
                     pages.append(link.get_attribute('href'))
                 page += 1 
                 if self.num_pages:
-                    if page == self.num_pages:
+                    if page >= self.num_pages:
                         logger.error(f'Process ended with total of {page} pages')
                         break
         except Exception as e :
