@@ -4,9 +4,11 @@ from Alonhadat_Webcrawler import AlonhadatWebCrawler
 import logging
 import pandas as pd
 import yaml
+import os
+os.makedirs('logs', exist_ok=True)
 
 logging.basicConfig(
-    filename='logs/alonhadat_logs',
+    filename='logs/bds_com_logs',
     encoding='utf-8',
     filemode='a',
     level=logging.INFO, 
@@ -26,13 +28,13 @@ def run_crawler(config):
     '''
     Begin scraping procedure
     '''
-    crawler_names = ['AlonhadatWebCrawler'] # CHANGE THIS
+    crawler_names = ['BDSWebCrawler'] # CHANGE THIS
     
     for crawler in crawler_names:
-        logger.info(f'Starting crawler {crawler_names}')
+        logger.info(f'Starting crawler {crawler}')
 
         if crawler == 'BDSWebCrawler':
-            final_df = pd.DataFrame(columns=config[crawler]['property_types'])
+            final_df = pd.DataFrame(columns=config[crawler]['final_columns'])
             for property_type, settings in config[crawler]['property_types'].items():
                 try:
                     scraper = BDSWebCrawler(num_pages=settings['num_pages'], base_url=settings['base_url'])
@@ -46,7 +48,7 @@ def run_crawler(config):
                 except Exception as e:
                     logger.error(f"Error occurred while scraping {property_type}: {str(e)}")
         elif crawler == 'AlonhadatWebCrawler':
-                final_df = pd.DataFrame()
+                final_df = pd.DataFrame(columns=config[crawler]['final_columns'])
                 try:
                     scraper = AlonhadatWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
                     df = scraper.multithread_extract(max_workers=1)
@@ -63,7 +65,7 @@ def main():
         config = get_config('WebCrawler\config.yaml')
         final_df = run_crawler(config)
             
-        output_path = f"data/alonhadat_data.csv" # CHANGE THIS 
+        output_path = f"data/bds_com_data.csv" # CHANGE THIS 
         final_df.to_csv(output_path, index=False)
         logger.info(f"Data saved to {output_path}")
     except Exception as e:

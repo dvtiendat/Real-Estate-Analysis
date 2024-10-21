@@ -56,10 +56,12 @@ class BDSWebCrawler(WebCrawler):
                 page += 1 
                 if self.num_pages:
                     if page >= self.num_pages:
-                        logger.error(f'Process ended with total of {page} pages')
+                        logger.info(f'Process ended with total of {page} pages')
                         break
         except Exception as e :
             logger.error(f'Get total of {page} pages : {e}')
+        finally:
+            driver.quit()
         return pages
     
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
@@ -129,8 +131,8 @@ class BDSWebCrawler(WebCrawler):
         except Exception as e:
             logger.error(f'Error occurred while extracting data from page {page}: {e}') 
             raise
-        finally:
-            driver.quit()
+        # finally:
+        #     driver.quit()
   
 
     def multithread_extract(self, max_workers=4):
