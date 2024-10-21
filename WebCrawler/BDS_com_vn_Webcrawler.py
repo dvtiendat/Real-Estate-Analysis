@@ -49,7 +49,7 @@ class BDSWebCrawler(WebCrawler):
                     url = self.base_url + '/p' + str(page)
                 driver.get(url)
                 driver.implicitly_wait(0.5) 
-                links =  driver.find_elements(By.XPATH , value="//div[@class='thumbnail']//a") 
+                links =  driver.find_elements(By.XPATH , value="//a[@class='js__product-link-for-product-id']") 
         
                 for link in links:
                     pages.append(link.get_attribute('href'))
