@@ -5,6 +5,11 @@ import logging
 import pandas as pd
 import yaml
 import os
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+
+uri = "mongodb+srv://svbk:<PASSSWORD>@cluster0.h5ef7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #change password to access to the database
+client = MongoClient(uri, server_api = ServerApi('1'))
 
 # setup logger
 os.makedirs('logs', exist_ok=True)

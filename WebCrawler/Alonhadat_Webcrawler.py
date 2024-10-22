@@ -210,5 +210,12 @@ class AlonhadatWebCrawler(WebCrawler):
         
         return df
     
-    def load(self,df, csv_path):
+    def load_to_mongo(self,df,client):
+        db = client['VietNameseRealEstateData']
+        collection = db['Alo_nha_dat']
+        records = df.to_dict(orient='records')
+        collection.insert_many(records)
+        logger.info("Data loaded successfully")  
+    
+    def load_to_csv(self,df, csv_path):
         df = df.to_csv(csv_path)

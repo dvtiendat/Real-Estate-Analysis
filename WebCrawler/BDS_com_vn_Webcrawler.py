@@ -8,7 +8,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import concurrent.futures
 from tenacity import retry, stop_after_attempt, wait_exponential
-
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
@@ -203,6 +202,12 @@ class BDSWebCrawler(WebCrawler):
         
         
         return df
+    def load_to_mongo(self,df,client):
+        db = client['VietNameseRealEstateData']
+        collection = db['BDS_com_vn']
+        records = df.to_dict(orient='records')
+        collection.insert_many(records)
+        logger.info("Data loaded successfully")  
     
-    def load(self,df, csv_path):
+    def load_to_csv(self,df, csv_path):
         df = df.to_csv(csv_path)
