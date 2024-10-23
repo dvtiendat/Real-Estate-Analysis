@@ -64,7 +64,7 @@ class AlonhadatWebCrawler(WebCrawler):
                 page += 1 
                 if self.num_pages:
                     if page >= self.num_pages:
-                        logger.info(f'Process ended with total of {page} pages')
+                        logger.info(f'Process ended with total of {self.num_pages} pages')
                         break
         except Exception as e :
             logger.error(f'Process ended with total of {page} pages : {e}')
