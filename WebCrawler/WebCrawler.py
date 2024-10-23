@@ -14,5 +14,9 @@ class WebCrawler(ABC):
         pass
 
     @abstractmethod
-    def load(self,df):
+    def load_to_csv(self,df):
+        pass
+    
+    @abstractmethod
+    def load_to_mongo(self,df):
         pass
