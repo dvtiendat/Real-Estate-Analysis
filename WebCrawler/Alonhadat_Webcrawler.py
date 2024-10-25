@@ -79,7 +79,7 @@ class AlonhadatWebCrawler(WebCrawler):
 
         logger.info(f'Extracting from: {page}')
 
-        columns = ['Ngày', 'Tháng', 'Năm','Phường','Quận','Thành phố','Mức giá','Diện tích','Hướng', 
+        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm','Phường','Quận','Thành phố','Mức giá','Diện tích','Hướng', 
            'Phòng ăn','Đường trước nhà','Nhà bếp', 'Loại BDS','Pháp lý',
            'Sân thượng', 'Chiều ngang' , 'Số lầu','Chổ để xe hơi','Chiều dài', 'Số phòng ngủ', 'Chính chủ']
 
@@ -131,7 +131,7 @@ class AlonhadatWebCrawler(WebCrawler):
 
                 values = driver.find_elements(By.XPATH , "//td")
                 for i in range(0,len(values),2):
-                    if i == 0 or i == 6  :
+                    if i == 6  :
                         continue
                     else : 
                         if values[i+1] == '': 
@@ -171,6 +171,7 @@ class AlonhadatWebCrawler(WebCrawler):
             
     
     def transform(self,df):
+        df['Mã tin'] = [int(x) for x in (df['Mã tin'].to_list())]
         df['Số lầu'] = [float(x) for x in (df['Số lầu'].to_list())]
         df['Số phòng ngủ'] = [float(x) for x in (df['Số phòng ngủ'].to_list())]
         df['Chiều ngang'] = [float(x[:-1]) for x in (df['Chiều ngang'].to_list())]

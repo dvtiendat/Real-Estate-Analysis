@@ -72,7 +72,7 @@ class BDSWebCrawler(WebCrawler):
 
         logger.info(f'Extracting from: {page}')
 
-        columns = ['Ngày', 'Tháng', 'Năm', 'Kinh độ', 'Vĩ độ','Phường','Quận','Thành phố','Mức giá','Diện tích','Mặt tiền' ,'Hướng nhà', 
+        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Kinh độ', 'Vĩ độ','Phường','Quận','Thành phố','Mức giá','Diện tích','Mặt tiền' ,'Hướng nhà', 
            'Số tầng','Số toilet','Đường vào', 'Hướng ban công','Số phòng ngủ',
            'Pháp lý', 'Nội thất']
 
@@ -87,6 +87,7 @@ class BDSWebCrawler(WebCrawler):
                 
                 address = driver.find_element(By.XPATH, "//span[@class='re__pr-short-description js__pr-address']").text.split(',')
                 date, month, year = driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[1]").text.splitlines()[1].split("/")
+                num = int(driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[4]").text.splitlines()[1])
 
                 iframe = driver.find_elements(By.XPATH, '//iframe[@class="lazyload"]')[0]
                 scroll_shim(driver,iframe)
@@ -103,7 +104,8 @@ class BDSWebCrawler(WebCrawler):
                 house_data['Ngày'] = date
                 house_data['Tháng'] = month
                 house_data['Năm'] = year
-                    
+                house_data['Mã tin'] = num
+                
                 p = address[-3].strip().split(' ')
                 if 'Phường' in p or 'Xã' in p or 'Thị trấn' in p :
                     p = ' '.join(p[1:])

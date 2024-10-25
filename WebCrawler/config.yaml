@@ -10,6 +10,7 @@ BDSWebCrawler:
         base_url: https://batdongsan.com.vn/ban-dat-dat-nen
         num_pages: 1
     final_columns:
+    - Mã tin
     - Ngày
     - Tháng
     - Năm
@@ -34,6 +35,7 @@ AlonhadatWebCrawler:
   base_url: https://alonhadat.com.vn/nha-dat/can-ban.html
   num_pages: 1
   final_columns:
+    - Mã tin
     - Ngày
     - Tháng
     - Năm
