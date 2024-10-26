@@ -57,3 +57,12 @@ AlonhadatWebCrawler:
     - Chiều dài
     - Số phòng ngủ
     - Chính chủ
+
+HomedyWebCrawler: 
+  property_types:
+    Nhà riêng: 
+      base_url: https://homedy.com/ban-nha-rieng
+      num_pages: 1
+    Căn hộ:
+      base_url: https://homedy.com/ban-can-ho-cao-cap
+      num_pages: 1
