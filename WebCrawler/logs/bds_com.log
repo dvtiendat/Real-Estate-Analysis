@@ -1,0 +1,1891 @@
+2024-10-27 16:58:36,714 - root - ERROR - An error occurred: [Errno 2] No such file or directory: 'WebCrawler\\config.yaml'
+2024-10-27 16:59:04,552 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 16:59:04,553 - root - ERROR - An error occurred: cannot access local variable 'final_df' where it is not associated with a value
+2024-10-27 17:10:18,241 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 17:10:18,244 - root - ERROR - Error occurred while scraping: name 'BDS_SoWebCrawler' is not defined
+2024-10-27 17:10:18,246 - root - ERROR - An error occurred: Cannot save file into a non-existent directory: 'data'
+2024-10-27 17:11:15,327 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 17:11:15,330 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so with 1 pages and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-27 17:11:51,788 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 17:11:55,436 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:11:58,751 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:12:06,289 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:12:08,911 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:12:16,441 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:12:19,065 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:12:19,066 - BDS_So_Webcrawler - ERROR - Fail to extract: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat - RetryError[<Future at 0x1e0ccdce810 state=finished raised TypeError>]
+2024-10-27 17:12:20,694 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:12:23,271 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:12:31,004 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:12:37,953 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:12:45,567 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:12:48,520 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:12:48,520 - BDS_So_Webcrawler - ERROR - Fail to extract: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat - RetryError[<Future at 0x1e0ccdcf950 state=finished raised TypeError>]
+2024-10-27 17:12:50,021 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2
+2024-10-27 17:13:04,042 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 17:13:11,689 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2
+2024-10-27 17:13:14,266 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2024-10-27 17:13:19,707 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2
+2024-10-27 17:13:33,008 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 17:13:34,446 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng#
+2024-10-27 17:13:57,789 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng#: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611A5FA85]
+	(No symbol) [0x00007FF611B02AD7]
+	(No symbol) [0x00007FF611B1B1B1]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 17:14:05,310 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng#
+2024-10-27 17:14:07,201 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng#: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611A5FA85]
+	(No symbol) [0x00007FF611B02AD7]
+	(No symbol) [0x00007FF611B1B1B1]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 17:14:14,884 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng#
+2024-10-27 17:14:54,561 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng#: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 17:14:56,007 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 17:15:00,479 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:15:07,964 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 17:15:10,461 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:15:18,054 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 17:15:20,595 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:15:22,052 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 17:15:24,542 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:15:32,094 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 17:15:36,863 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:15:44,398 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 17:15:46,867 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:15:48,351 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem
+2024-10-27 17:15:57,989 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem: 'NoneType' object has no attribute 'text'
+2024-10-27 17:16:05,481 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem
+2024-10-27 17:16:09,208 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611A72B8C]
+	(No symbol) [0x00007FF611A72AFC]
+	(No symbol) [0x00007FF611A71209]
+	(No symbol) [0x00007FF611A71FCF]
+	(No symbol) [0x00007FF611A89DE1]
+	(No symbol) [0x00007FF611A8A8CA]
+	(No symbol) [0x00007FF611A8E5E7]
+	(No symbol) [0x00007FF611A8E6A0]
+	(No symbol) [0x00007FF611AD54EA]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 17:26:38,259 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 17:26:38,262 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so with 1 pages and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-27 17:27:10,351 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 17:27:13,986 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:27:16,685 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:27:28,410 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:27:30,863 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:27:42,635 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:27:45,219 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:27:47,338 - BDS_So_Webcrawler - ERROR - Fail to extract: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat - RetryError[<Future at 0x1db6dddf550 state=finished raised TypeError>]
+2024-10-27 17:27:48,859 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:27:51,345 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:28:03,089 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:28:05,651 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: int() argument must be a string, a bytes-like object or a real number, not 'WebElement'
+2024-10-27 17:28:17,381 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:28:24,838 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611A5FA85]
+	(No symbol) [0x00007FF611B02AD7]
+	(No symbol) [0x00007FF611B1B1B1]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 17:28:28,445 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2
+2024-10-27 17:28:31,083 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611A7387B]
+	(No symbol) [0x00007FF611A7151E]
+	(No symbol) [0x00007FF611A71FCF]
+	(No symbol) [0x00007FF611A808CE]
+	(No symbol) [0x00007FF611A9385D]
+	(No symbol) [0x00007FF611A991FA]
+	(No symbol) [0x00007FF611A72734]
+	(No symbol) [0x00007FF611A933DF]
+	(No symbol) [0x00007FF611B1BBFC]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 17:30:04,192 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 17:30:04,195 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so with 1 pages and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-27 17:30:35,238 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 17:30:38,801 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:30:41,405 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: invalid literal for int() with base 10: '8,999999999'
+2024-10-27 17:30:53,192 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 17:30:55,780 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: invalid literal for int() with base 10: '8,999999999'
+2024-10-27 17:30:55,800 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/da75ef92a71f3b8f8073dbbc8c3babb8
+2024-10-27 18:51:45,718 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 18:51:45,721 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so with 1 pages and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-27 18:53:00,910 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 18:53:04,866 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 18:53:07,513 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat: 'WebDriver' object has no attribute 'find_elements_by_xpath'
+2024-10-27 18:56:33,547 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 18:56:33,550 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so with 1 pages and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-27 18:57:04,275 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 18:57:07,884 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 18:57:18,068 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 18:57:28,376 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2
+2024-10-27 18:57:41,870 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:08:34,149 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 19:08:34,151 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so with 1 pages and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-27 19:09:05,084 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 19:09:08,690 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 19:09:16,439 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 19:09:24,261 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/quan-2
+2024-10-27 19:09:32,067 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng#
+2024-10-27 19:10:11,082 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng#: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:10:22,876 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng#
+2024-10-27 19:11:02,363 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng#: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:11:14,190 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng#
+2024-10-27 19:11:53,301 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng#: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:11:55,448 - BDS_So_Webcrawler - ERROR - Fail to extract: https://batdongsan.so/nha-dat-ban/nha-rieng# - RetryError[<Future at 0x23dccbc1d50 state=finished raised NoSuchElementException>]
+2024-10-27 19:11:56,947 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 19:12:08,125 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 19:12:18,312 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem
+2024-10-27 19:12:31,791 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:12:43,558 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem
+2024-10-27 19:12:56,307 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:13:08,018 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem
+2024-10-27 19:13:20,923 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:13:23,081 - BDS_So_Webcrawler - ERROR - Fail to extract: https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem - RetryError[<Future at 0x23dccc05f50 state=finished raised NoSuchElementException>]
+2024-10-27 19:13:24,650 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng#
+2024-10-27 19:14:03,585 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng#: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:14:15,417 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng#
+2024-10-27 19:14:54,464 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng#: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:15:06,084 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng#
+2024-10-27 19:15:45,637 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng#: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:15:47,785 - BDS_So_Webcrawler - ERROR - Fail to extract: https://batdongsan.so/nha-dat-ban/nha-rieng# - RetryError[<Future at 0x23dccc07f90 state=finished raised NoSuchElementException>]
+2024-10-27 19:15:49,354 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-355-duong-xuan-dinh-vi-tri-dep-o-to-tranh-kinh-doanh-dt-222m2-gia-chao-49-7-ty
+2024-10-27 19:15:59,679 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-355-duong-xuan-dinh-vi-tri-dep-o-to-tranh-kinh-doanh-dt-222m2-gia-chao-49-7-ty
+2024-10-27 19:16:11,028 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem
+2024-10-27 19:16:23,998 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat-ban/nha-rieng/bac-tu-liem: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-address']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611AD5A3E]
+	(No symbol) [0x00007FF611AD5D2C]
+	(No symbol) [0x00007FF611B1EA97]
+	(No symbol) [0x00007FF611AFBA7F]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:30:57,517 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 19:30:57,520 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so with 1 pages and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-27 19:31:29,171 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 19:31:32,875 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-75-duong-phu-dien-vi-tri-dep-an-sinh-dinh-dt-60m2-x6-tang-gia-chao-11-8-ty
+2024-10-27 19:31:44,104 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat-1
+2024-10-27 19:31:51,765 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 19:31:59,502 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 19:32:09,982 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-355-duong-xuan-dinh-vi-tri-dep-o-to-tranh-kinh-doanh-dt-222m2-gia-chao-49-7-ty
+2024-10-27 19:32:20,567 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-trieu-khuc-lo-goc-2-thoang-ngo-thong-gan-pho-55m2-10-5-ty-lh-0983805858
+2024-10-27 19:32:31,543 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-hxh-nguyen-thi-minh-khai-gan-dai-truyen-hinh-htv-ngang-8m-thang-may-gia-tot
+2024-10-27 19:32:42,094 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/le-lu-phu-tho-hoa-tan-phu-hxh-4x10-4-tang-btct-ko-qh-lo-gioi-chi-5-79-ty
+2024-10-27 19:32:52,476 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-duong-le-van-thinh-quan-2-2-tang-3-pn-2-wc-duong-o-to-thong-102-m2-1
+2024-10-27 19:33:00,193 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-duong-le-van-thinh-quan-2-2-tang-3-pn-2-wc-duong-o-to-thong-102-m2
+2024-10-27 19:33:07,851 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/can-lo-goc-48m2x3t-full-noi-that-gan-cho-dong-la-5-phut-penika-to-huu
+2024-10-27 19:33:18,073 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-lien-khu-5-6-binh-hung-hoa-b-dt-46m2-2-lau-4pn-3wc-gia-3-95-ty
+2024-10-27 19:33:20,525 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/nha-hem-lien-khu-5-6-binh-hung-hoa-b-dt-46m2-2-lau-4pn-3wc-gia-3-95-ty: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611A8C2CC]
+	(No symbol) [0x00007FF611A8E5E7]
+	(No symbol) [0x00007FF611A8E6A0]
+	(No symbol) [0x00007FF611ACF9DB]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611AC9246]
+	(No symbol) [0x00007FF611AFBC50]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:33:32,203 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-lien-khu-5-6-binh-hung-hoa-b-dt-46m2-2-lau-4pn-3wc-gia-3-95-ty
+2024-10-27 19:33:42,901 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/hxh-nguyen-thi-minh-khai-ngang-7-7m-nha-moi-thang-may-gia-tot
+2024-10-27 19:33:46,196 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/hxh-nguyen-thi-minh-khai-ngang-7-7m-nha-moi-thang-may-gia-tot: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611A8C2CC]
+	(No symbol) [0x00007FF611A8E5E7]
+	(No symbol) [0x00007FF611A8E6A0]
+	(No symbol) [0x00007FF611ACF9DB]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611AC9246]
+	(No symbol) [0x00007FF611AFBC50]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:33:57,866 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/hxh-nguyen-thi-minh-khai-ngang-7-7m-nha-moi-thang-may-gia-tot
+2024-10-27 19:34:09,199 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-mat-tien-bui-duong-lich-binh-hung-hoa-b-dt-75m2-1-lau-2pn-2wc-gia-5-5-ty
+2024-10-27 19:34:19,715 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-hem-8m-dong-den-xe-hoi-vao-nha-gan-khu-bau-cat-nha-moi-kinh-doanh-tot-gia-re
+2024-10-27 19:34:30,493 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-chi-6-ty-nn-duong-nguyen-thi-dinh-quan-2-2-tang-2-pn-2-wc-81-m2-1
+2024-10-27 19:34:38,083 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-trung-tam-dong-da-vi-tri-cuc-dep-30m2-x-4-tang-so-do-san-chi-5-x-ty-lh-0965135166
+2024-10-27 19:34:48,385 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-chi-6-ty-nn-duong-nguyen-thi-dinh-quan-2-2-tang-2-pn-2-wc-81-m2
+2024-10-27 19:34:56,115 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-315-duong-nguyen-khang-vi-tri-dep-o-to-kinh-doanh-dt-126m2-gia-chao-33-ty
+2024-10-27 19:35:06,627 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hxh-duong-go-cat-dien-tich-51m-3-tang-vi-tri-dep
+2024-10-27 19:35:20,036 - root - ERROR - Error occurred while scraping: 'float' object has no attribute 'split'
+2024-10-27 19:35:20,038 - root - ERROR - An error occurred: Cannot save file into a non-existent directory: 'data'
+2024-10-27 19:40:11,633 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 19:40:11,635 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so with 1 pages and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-27 19:40:42,538 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 19:40:46,181 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-75-duong-phu-dien-vi-tri-dep-an-sinh-dinh-dt-60m2-x6-tang-gia-chao-11-8-ty
+2024-10-27 19:40:56,645 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat-1
+2024-10-27 19:41:04,287 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 19:41:11,881 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 19:41:22,575 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-355-duong-xuan-dinh-vi-tri-dep-o-to-tranh-kinh-doanh-dt-222m2-gia-chao-49-7-ty
+2024-10-27 19:41:32,971 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-trieu-khuc-lo-goc-2-thoang-ngo-thong-gan-pho-55m2-10-5-ty-lh-0983805858
+2024-10-27 19:41:43,429 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-hxh-nguyen-thi-minh-khai-gan-dai-truyen-hinh-htv-ngang-8m-thang-may-gia-tot
+2024-10-27 19:41:53,800 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/le-lu-phu-tho-hoa-tan-phu-hxh-4x10-4-tang-btct-ko-qh-lo-gioi-chi-5-79-ty
+2024-10-27 19:42:04,234 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-duong-le-van-thinh-quan-2-2-tang-3-pn-2-wc-duong-o-to-thong-102-m2-1
+2024-10-27 19:42:11,924 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-duong-le-van-thinh-quan-2-2-tang-3-pn-2-wc-duong-o-to-thong-102-m2
+2024-10-27 19:42:19,682 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/can-lo-goc-48m2x3t-full-noi-that-gan-cho-dong-la-5-phut-penika-to-huu
+2024-10-27 19:42:29,949 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-lien-khu-5-6-binh-hung-hoa-b-dt-46m2-2-lau-4pn-3wc-gia-3-95-ty
+2024-10-27 19:42:40,614 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/hxh-nguyen-thi-minh-khai-ngang-7-7m-nha-moi-thang-may-gia-tot
+2024-10-27 19:42:51,167 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-mat-tien-bui-duong-lich-binh-hung-hoa-b-dt-75m2-1-lau-2pn-2wc-gia-5-5-ty
+2024-10-27 19:43:01,511 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-hem-8m-dong-den-xe-hoi-vao-nha-gan-khu-bau-cat-nha-moi-kinh-doanh-tot-gia-re
+2024-10-27 19:43:11,905 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-chi-6-ty-nn-duong-nguyen-thi-dinh-quan-2-2-tang-2-pn-2-wc-81-m2-1
+2024-10-27 19:43:19,630 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-trung-tam-dong-da-vi-tri-cuc-dep-30m2-x-4-tang-so-do-san-chi-5-x-ty-lh-0965135166
+2024-10-27 19:43:30,060 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-chi-6-ty-nn-duong-nguyen-thi-dinh-quan-2-2-tang-2-pn-2-wc-81-m2
+2024-10-27 19:43:37,644 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-315-duong-nguyen-khang-vi-tri-dep-o-to-kinh-doanh-dt-126m2-gia-chao-33-ty
+2024-10-27 19:43:48,214 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hxh-duong-go-cat-dien-tich-51m-3-tang-vi-tri-dep
+2024-10-27 19:44:01,239 - root - ERROR - Error occurred while scraping: 'float' object has no attribute 'split'
+2024-10-27 19:44:01,242 - root - ERROR - An error occurred: Cannot save file into a non-existent directory: 'data'
+2024-10-27 19:44:36,804 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-27 19:44:36,807 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so with 1 pages and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-27 19:45:07,426 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 19:45:11,034 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-378-duong-my-dinh-vi-tri-dep-ngo-o-to-8-tang-kinh-doanh-dt-102m2-gia-chao-28-ty
+2024-10-27 19:45:21,367 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-75-duong-phu-dien-vi-tri-dep-an-sinh-dinh-dt-60m2-x6-tang-gia-chao-11-8-ty
+2024-10-27 19:45:31,572 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat-1
+2024-10-27 19:45:39,198 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-duong-thanh-my-loi-quan-2-2-tang-3-pn-2-wc-no-hau-tai-loc-113-m2-dat
+2024-10-27 19:45:46,873 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-xuan-dinh-btl-o-to-do-cua-7-tang-thang-may-mt-4-2m-75m2-16-5-ty-0398475316
+2024-10-27 19:45:57,280 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-355-duong-xuan-dinh-vi-tri-dep-o-to-tranh-kinh-doanh-dt-222m2-gia-chao-49-7-ty
+2024-10-27 19:46:08,153 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-trieu-khuc-lo-goc-2-thoang-ngo-thong-gan-pho-55m2-10-5-ty-lh-0983805858
+2024-10-27 19:46:18,530 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-hxh-nguyen-thi-minh-khai-gan-dai-truyen-hinh-htv-ngang-8m-thang-may-gia-tot
+2024-10-27 19:46:28,905 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/le-lu-phu-tho-hoa-tan-phu-hxh-4x10-4-tang-btct-ko-qh-lo-gioi-chi-5-79-ty
+2024-10-27 19:46:39,333 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-duong-le-van-thinh-quan-2-2-tang-3-pn-2-wc-duong-o-to-thong-102-m2-1
+2024-10-27 19:46:46,977 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-duong-le-van-thinh-quan-2-2-tang-3-pn-2-wc-duong-o-to-thong-102-m2
+2024-10-27 19:46:54,584 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/can-lo-goc-48m2x3t-full-noi-that-gan-cho-dong-la-5-phut-penika-to-huu
+2024-10-27 19:47:04,859 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-lien-khu-5-6-binh-hung-hoa-b-dt-46m2-2-lau-4pn-3wc-gia-3-95-ty
+2024-10-27 19:47:15,386 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/hxh-nguyen-thi-minh-khai-ngang-7-7m-nha-moi-thang-may-gia-tot
+2024-10-27 19:47:18,069 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/hxh-nguyen-thi-minh-khai-ngang-7-7m-nha-moi-thang-may-gia-tot: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A8580A]
+	(No symbol) [0x00007FF611A8C2CC]
+	(No symbol) [0x00007FF611A8E5E7]
+	(No symbol) [0x00007FF611A8E6A0]
+	(No symbol) [0x00007FF611ACF9DB]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611AC9246]
+	(No symbol) [0x00007FF611AFBC50]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 19:47:29,856 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/hxh-nguyen-thi-minh-khai-ngang-7-7m-nha-moi-thang-may-gia-tot
+2024-10-27 19:47:40,278 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-mat-tien-bui-duong-lich-binh-hung-hoa-b-dt-75m2-1-lau-2pn-2wc-gia-5-5-ty
+2024-10-27 19:47:50,689 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-hem-8m-dong-den-xe-hoi-vao-nha-gan-khu-bau-cat-nha-moi-kinh-doanh-tot-gia-re
+2024-10-27 19:48:01,100 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-chi-6-ty-nn-duong-nguyen-thi-dinh-quan-2-2-tang-2-pn-2-wc-81-m2-1
+2024-10-27 19:48:08,798 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-trung-tam-dong-da-vi-tri-cuc-dep-30m2-x-4-tang-so-do-san-chi-5-x-ty-lh-0965135166
+2024-10-27 19:48:19,114 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxh-chi-6-ty-nn-duong-nguyen-thi-dinh-quan-2-2-tang-2-pn-2-wc-81-m2
+2024-10-27 19:48:26,881 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-315-duong-nguyen-khang-vi-tri-dep-o-to-kinh-doanh-dt-126m2-gia-chao-33-ty
+2024-10-27 19:48:40,693 - root - ERROR - Error occurred while scraping: 'float' object has no attribute 'split'
+2024-10-27 19:48:40,695 - root - INFO - Data saved to data/bds_so_data.csv
+2024-10-27 19:53:05,547 - root - INFO - Starting crawler AlonhadatWebCrawler
+2024-10-27 19:53:05,550 - Alonhadat_Webcrawler - INFO - Initialized batdongsan.com.vn with 2 pages and base URL: https://alonhadat.com.vn/nha-dat/can-ban.html
+2024-10-27 19:53:35,727 - Alonhadat_Webcrawler - INFO - Process ended with total of 2 pages
+2024-10-27 19:53:37,253 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-ban-goc-2mt-1680m2-dat-duong-rong-18m-ngay-kcn-truong-hoc-cho-gia-240-trieu-so-15187892.html
+2024-10-27 19:53:47,100 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-mat-tien-dang-kinh-doanh-88-4m2-gia-900tr-ngay-sau-cho-so-hong-rieng-14143306.html
+2024-10-27 19:53:57,030 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/gap-chi-voi-4-ty-2-co-ngay-nha-nguyen-kiem-72m2-hem-xe-hoi-dan-cu-dong-duc-shr-15313810.html
+2024-10-27 19:54:06,896 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/gap-chi-voi-4-ty-560-co-ngay-can-nguyen-kiem-72m2-dang-cho-thue-17tr-thang-so-rieng-15336706.html
+2024-10-27 19:54:16,860 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-mat-tien-kinh-doanh-gia-800-trieu-cho-thue-8tr-thang-gan-cho-so-hong-rieng-15107181.html
+2024-10-27 19:54:26,777 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-buoi-vinh-phuc-ba-dinh-giap-pho-oto-kinh-doanh-dt-81m2-x-3t-mt-6-chi-15-5-ty-15239910.html
+2024-10-27 19:54:36,865 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-em-mat-pho-ngoc-lam-long-bien-gan-nga-tu-vip-60m2-x3t-xmt-8m-oto-kinh-doanh-13-8-15308102.html
+2024-10-27 19:54:46,696 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-moi-cung-thanh-xuan-sat-pho-lo-goc-o-to-do-cong-kd-vptot-45m2-x-6t-chi-12-5-ty-15283942.html
+2024-10-27 19:54:56,726 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-ngo-63-tran-quoc-vuong-cau-giay-kinh-doanh-ba-gac-dua-44m-mt4m-nhinh-3-ty-15341371.html
+2024-10-27 19:55:06,610 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-dat-ngop-dau-tu-da-nganh-3-500m2-gia-105-trieu-sat-cho-ql-13-hay-goi-nhanh--14698153.html
+2024-10-27 19:55:16,453 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-to-hien-thanh-vi-tri-vip-sat-bien-my-khe-dien-tich-2-lo-lien-ke-15341233.html
+2024-10-27 19:55:26,410 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-gap-nha-ngay-cho-binh-chanh-dang-cho-thue-7-5tr-th-120m2-630tr-15300231.html
+2024-10-27 19:55:36,323 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/biet-thu-mat-tien-nui-thanh-quan-hai-chau-tp-da-nang-110m-ngang-khung-6m-3-tang-3-14830837.html
+2024-10-27 19:55:46,582 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-mat-duong-lac-long-quan-tay-ho-dt-90m-7-tang-mt-5-5m-gia-ban-55-ty--15341257.html
+2024-10-27 19:55:56,629 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-so-hong-rieng-ngay-cho-123-vinh-loc-b-tp-hcm-15167547.html
+2024-10-27 19:56:06,559 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-tong-duy-tan-dt-89m-5-tang-mat-tien-5m-4x-ty--15327654.html
+2024-10-27 19:56:16,408 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/11x10m-ban-nha-2-tang-6pn-ngay-phan-van-tri-p7-go-vap-gia-10-x-ty-15332042.html
+2024-10-27 19:56:26,497 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/bo-ra-2-ty-360-nhan-ngay-nha-nguyen-trai-quan-5-56m2-3-lau-duong-lon-de-di-15341761.html
+2024-10-27 19:56:36,461 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ngay-van-hanh-mall-nha-3-2-quan-10-gia-3-ty380-5x13-65m2-duong-2-o-to-so-hong-rieng-15341476.html
+2024-10-27 19:56:46,383 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/mua-kinh-doanh-chon-ngay-nha-pham-van-chieu-go-vap-62m2-gia-mem-2ty325-duong-lon-15343049.html
+2024-10-27 19:56:56,949 - root - ERROR - Error occurred while scraping: could not convert string to float: '---'
+2024-10-27 19:56:56,956 - root - ERROR - An error occurred: Cannot save file into a non-existent directory: 'data'
+2024-10-27 20:03:43,528 - root - INFO - Starting crawler AlonhadatWebCrawler
+2024-10-27 20:03:43,531 - Alonhadat_Webcrawler - INFO - Initialized batdongsan.com.vn with 2 pages and base URL: https://alonhadat.com.vn/nha-dat/can-ban.html
+2024-10-27 20:03:51,885 - Alonhadat_Webcrawler - INFO - Process ended with total of 2 pages
+2024-10-27 20:03:53,349 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-le-huu-trac-kiet-o-to-tranh-mat-tien-rong-6m-gia-chi-152tr-m--15317587.html
+2024-10-27 20:04:03,737 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-buoi-vinh-phuc-ba-dinh-giap-pho-oto-kinh-doanh-dt-81m2-x-3t-mt-6-chi-15-5-ty-15239910.html
+2024-10-27 20:04:13,672 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-em-mat-pho-ngoc-lam-long-bien-gan-nga-tu-vip-60m2-x3t-xmt-8m-oto-kinh-doanh-13-8-15308102.html
+2024-10-27 20:04:23,783 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-ngo-63-tran-quoc-vuong-cau-giay-kinh-doanh-ba-gac-dua-44m-mt4m-nhinh-3-ty-15341371.html
+2024-10-27 20:04:33,728 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-moi-cung-thanh-xuan-sat-pho-lo-goc-o-to-do-cong-kd-vptot-45m2-x-6t-chi-12-5-ty-15283942.html
+2024-10-27 20:04:43,939 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-mat-tien-kinh-doanh-gia-800-trieu-cho-thue-8tr-thang-gan-cho-so-hong-rieng-15107181.html
+2024-10-27 20:04:53,873 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-dat-ngop-dau-tu-da-nganh-3-500m2-gia-105-trieu-sat-cho-ql-13-hay-goi-nhanh--14698153.html
+2024-10-27 20:05:03,886 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-ban-goc-2mt-1680m2-dat-duong-rong-18m-ngay-kcn-truong-hoc-cho-gia-240-trieu-so-15187892.html
+2024-10-27 20:05:14,851 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-mat-tien-dang-kinh-doanh-88-4m2-gia-900tr-ngay-sau-cho-so-hong-rieng-14143306.html
+2024-10-27 20:05:24,793 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/gap-chi-voi-4-ty-2-co-ngay-nha-nguyen-kiem-72m2-hem-xe-hoi-dan-cu-dong-duc-shr-15313810.html
+2024-10-27 20:05:35,085 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/gap-chi-voi-4-ty-560-co-ngay-can-nguyen-kiem-72m2-dang-cho-thue-17tr-thang-so-rieng-15336706.html
+2024-10-27 20:05:45,067 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-to-hien-thanh-vi-tri-vip-sat-bien-my-khe-dien-tich-2-lo-lien-ke-15341233.html
+2024-10-27 20:05:55,572 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-gap-nha-ngay-cho-binh-chanh-dang-cho-thue-7-5tr-th-120m2-630tr-15300231.html
+2024-10-27 20:06:06,119 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/biet-thu-mat-tien-nui-thanh-quan-hai-chau-tp-da-nang-110m-ngang-khung-6m-3-tang-3-14830837.html
+2024-10-27 20:06:16,036 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-mat-duong-lac-long-quan-tay-ho-dt-90m-7-tang-mt-5-5m-gia-ban-55-ty--15341257.html
+2024-10-27 20:06:26,082 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-so-hong-rieng-ngay-cho-123-vinh-loc-b-tp-hcm-15167547.html
+2024-10-27 20:06:36,102 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-tong-duy-tan-dt-89m-5-tang-mat-tien-5m-4x-ty--15327654.html
+2024-10-27 20:06:46,050 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/11x10m-ban-nha-2-tang-6pn-ngay-phan-van-tri-p7-go-vap-gia-10-x-ty-15332042.html
+2024-10-27 20:06:56,420 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/bo-ra-2-ty-360-nhan-ngay-nha-nguyen-trai-quan-5-56m2-3-lau-duong-lon-de-di-15341761.html
+2024-10-27 20:07:06,640 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ngay-van-hanh-mall-nha-3-2-quan-10-gia-3-ty380-5x13-65m2-duong-2-o-to-so-hong-rieng-15341476.html
+2024-10-27 20:07:17,027 - root - ERROR - Error occurred while scraping: could not convert string to float: '---'
+2024-10-27 20:07:17,030 - root - INFO - Data saved to data/alonhadat_data.csv
+2024-10-27 20:55:24,943 - root - INFO - Starting crawler BDSWebCrawler
+2024-10-27 20:55:24,946 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn with 1 pages and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-10-27 20:55:51,598 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 20:55:55,172 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/ro-hang-ngop-cat-lo-sau-q9-studio-1-2y-1pn-1-6ty-2pn-2ty-3pn-2-8ty-lh-pr39526274
+2024-10-27 20:56:04,009 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/gio-hang-tong-p-vinmes-tot-nhat-thang-10-2024-pr41299064
+2024-10-27 20:56:13,013 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-tran-hung-dao-phuong-nai-hien-dong-prj-sun-symphony-residence/gio-hang-doc-quyen-chu-dau-tu-group-cac-san-pham-spuse-townuse-biet-thu-ven-song-pr41216787
+2024-10-27 20:56:24,649 - root - INFO - Completed scraping Chung cư of BDSWebCrawler
+2024-10-27 20:56:24,650 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn with 1 pages and base URL: https://batdongsan.com.vn/ban-nha-dat
+2024-10-27 20:56:28,920 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 20:56:32,600 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/mo-ban-bom-tan-duy-nhat-tu-lap-dao-dua-dd2-197-pr41054141
+2024-10-27 20:56:41,601 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/-vip-cong-cong-vien-ocena-3-pr41210840
+2024-10-27 20:56:48,980 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-au-co-phuong-10-10/can-goc-2-mat-hem-tien-kinh-doanh-buon-ban-cach-20m-ra-cho-tran-van-quang-338-67-gia-3-9-ty-pr41332417
+2024-10-27 20:56:51,778 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-nha-rieng-duong-au-co-phuong-10-10/can-goc-2-mat-hem-tien-kinh-doanh-buon-ban-cach-20m-ra-cho-tran-van-quang-338-67-gia-3-9-ty-pr41332417: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 20:56:59,271 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-au-co-phuong-10-10/can-goc-2-mat-hem-tien-kinh-doanh-buon-ban-cach-20m-ra-cho-tran-van-quang-338-67-gia-3-9-ty-pr41332417
+2024-10-27 20:57:01,794 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-nha-rieng-duong-au-co-phuong-10-10/can-goc-2-mat-hem-tien-kinh-doanh-buon-ban-cach-20m-ra-cho-tran-van-quang-338-67-gia-3-9-ty-pr41332417: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 20:57:09,720 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-au-co-phuong-10-10/can-goc-2-mat-hem-tien-kinh-doanh-buon-ban-cach-20m-ra-cho-tran-van-quang-338-67-gia-3-9-ty-pr41332417
+2024-10-27 20:57:17,551 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-duong-xa-lo-ha-noi-phuong-thao-dien-prj-gateway-thao-dien/ban-vi-tri-cuc-dep-dang-duoc-starbuck-cafe-thue-5000-thang-pr41333999
+2024-10-27 20:57:25,034 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/ap-goc-view-ho-1-trong-nhung-can-dep-nhat-tot-tai-lh-pr40465470
+2024-10-27 20:57:33,364 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/doc-quyen-quy-can-de-o-vinhome-hang-chinh-chu-thap-nhat-thi-truong-pr40813376
+2024-10-27 20:57:40,954 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-to-huu-phuong-la-khe-prj-khu-do-thi-van-khe/ban-hoan-thien-gia-17-5-ty-pr41336850
+2024-10-27 20:57:49,653 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-quoc-lo-32-xa-di-trach-prj-hinode-royal-park/chi-hon-13-ty-so-huu-can-100m2-vi-tri-trung-tam-san-4-tang-hoan-thien-mat-ngoai-pr41336687
+2024-10-27 20:57:59,823 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/san-ho-70m-5-tang-7-phong-cho-thue-dong-tien-35tr-th-vi-tri-sieu-dep-kinh-doanh-sam-uat-nhat-vin-pr41323177
+2024-10-27 20:58:03,030 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/san-ho-70m-5-tang-7-phong-cho-thue-dong-tien-35tr-th-vi-tri-sieu-dep-kinh-doanh-sam-uat-nhat-vin-pr41323177: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 20:58:10,629 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/san-ho-70m-5-tang-7-phong-cho-thue-dong-tien-35tr-th-vi-tri-sieu-dep-kinh-doanh-sam-uat-nhat-vin-pr41323177
+2024-10-27 20:58:18,698 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-nguyen-dinh-chinh-phuong-11-9/ban-toa-can-ho-dich-vu-145-12a-p11-phu-nhuan-lh-lan-chu-pr41336032
+2024-10-27 20:58:28,717 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/-song-lap-re-chi-24-ty-tai-cam-ket-tot-nhat-thi-truong-pr41293521
+2024-10-27 20:58:38,085 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-trong-tan-phuong-duong-noi-prj-khu-do-thi-geleximco-le-trong-tan/ban-vi-tri-vang-lang-kinh-doanh-tai-c-d-aeon-mall-ha-dong-500m-gia-dau-tu-pr41335838
+2024-10-27 20:58:45,827 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-co-giang-phuong-2-21/can-ban-gia-5-95-ty-vnd-tai-phu-nhuan-ho-chi-minh-pr41335670
+2024-10-27 20:58:53,719 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-do-xuan-hop-phuong-an-phu-prj-the-global-city/full-gio-hang-chuyen-nhuong-t6-2024-pho-gia-tot-t-thi-truong-31-5-ty-pr40315272
+2024-10-27 20:59:03,355 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-nguyen-van-huyen-phuong-xuan-la-prj-kdt-tay-ho-tay-starlake-ha-noi/-20-ty-ban-gap-pr40778288
+2024-10-27 20:59:05,755 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-nguyen-van-huyen-phuong-xuan-la-prj-kdt-tay-ho-tay-starlake-ha-noi/-20-ty-ban-gap-pr40778288: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 20:59:13,312 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-nguyen-van-huyen-phuong-xuan-la-prj-kdt-tay-ho-tay-starlake-ha-noi/-20-ty-ban-gap-pr40778288
+2024-10-27 20:59:21,873 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/khong-con-can-nao-re-hon-o-vin-3-ban-anh-duong-20-64m2-70m2-tang-4-ve-bien-mien-dv-3nam-pr41283950
+2024-10-27 20:59:29,751 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-quang-trung-phuong-8-12/-hem-thong-xe-hoi-quay-daugia-8ty290-so-21-8-go-vaptret-lung-3-lau-pr41335277
+2024-10-27 20:59:38,941 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/quy-can-phan-khu-anh-duong-chinh-sach-chiet-khau-vo-cung-hap-dan-nhieu-loai-hinh-dien-tich-pr41327912
+2024-10-27 20:59:47,440 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-lien-phuong-phuong-phu-huu-2-prj-verosa-park-khang-dien/cap-nhat-gio-hang-chuyen-nhuong-moi-nhat-du-an-quan-9-thanh-pho-duc-pr35591737
+2024-10-27 20:59:56,518 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/ra-hang-quy-can-anh-duong-3-gia-chi-8-ty-can-dien-tich-70m2-pr41334696
+2024-10-27 21:00:05,158 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-10-27 21:00:15,427 - root - INFO - Completed scraping Nhà đất of BDSWebCrawler
+2024-10-27 21:00:15,428 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn with 1 pages and base URL: https://batdongsan.com.vn/ban-dat-dat-nen
+2024-10-27 21:00:19,627 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-27 21:00:23,257 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234
+2024-10-27 21:00:26,751 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:00:34,375 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234
+2024-10-27 21:00:37,204 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:00:44,784 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234
+2024-10-27 21:00:47,523 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:00:47,526 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234 - RetryError[<Future at 0x1e08566e690 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:00:49,253 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-415-xa-minh-quang/chinh-chu-ban-manh-mat-415-view-song-da-pr40099699
+2024-10-27 21:00:54,325 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-415-xa-minh-quang/chinh-chu-ban-manh-mat-415-view-song-da-pr40099699: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:01:01,976 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-415-xa-minh-quang/chinh-chu-ban-manh-mat-415-view-song-da-pr40099699
+2024-10-27 21:01:05,610 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-415-xa-minh-quang/chinh-chu-ban-manh-mat-415-view-song-da-pr40099699: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:01:13,187 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-415-xa-minh-quang/chinh-chu-ban-manh-mat-415-view-song-da-pr40099699
+2024-10-27 21:01:15,737 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-415-xa-minh-quang/chinh-chu-ban-manh-mat-415-view-song-da-pr40099699: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:01:15,739 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-duong-415-xa-minh-quang/chinh-chu-ban-manh-mat-415-view-song-da-pr40099699 - RetryError[<Future at 0x1e085690f10 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:01:17,661 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-phuong-phuoc-long-b-prj-kdc-phu-nhuan-phuoc-long-b/chuyen-tu-v-mua-nhh-nhu-qu-9-lh-0914-920-202-pr24302131
+2024-10-27 21:01:27,888 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-duong-to-hieu-phuong-vinh-nguyen-prj-mipeco-nha-trang/gio-hang-gia-tot-lien-ke-biet-thu-90m2-95-m2-149m2-163m2-234m2-pr41191311
+2024-10-27 21:01:38,320 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-phu-linh-1/can-tien-ban-gap-manh-tho-cu-dien-tich-618-m2-chi-hon-14-tr-m2-tai-soc-son-ha-noi-pr41330102
+2024-10-27 21:01:41,698 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-phu-linh-1/can-tien-ban-gap-manh-tho-cu-dien-tich-618-m2-chi-hon-14-tr-m2-tai-soc-son-ha-noi-pr41330102: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:01:50,207 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-phu-linh-1/can-tien-ban-gap-manh-tho-cu-dien-tich-618-m2-chi-hon-14-tr-m2-tai-soc-son-ha-noi-pr41330102
+2024-10-27 21:01:58,527 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-my-loc-1/lo-goc-2-mat-tien-duong-chua-thien-mu-duong-truoc-o-to-toi-cho-gia-chi-980tr-115m2-tho-cu-pr41329974
+2024-10-27 21:02:01,002 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-my-loc-1/lo-goc-2-mat-tien-duong-chua-thien-mu-duong-truoc-o-to-toi-cho-gia-chi-980tr-115m2-tho-cu-pr41329974: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:02:08,561 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-my-loc-1/lo-goc-2-mat-tien-duong-chua-thien-mu-duong-truoc-o-to-toi-cho-gia-chi-980tr-115m2-tho-cu-pr41329974
+2024-10-27 21:02:10,972 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-my-loc-1/lo-goc-2-mat-tien-duong-chua-thien-mu-duong-truoc-o-to-toi-cho-gia-chi-980tr-115m2-tho-cu-pr41329974: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:02:18,586 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-my-loc-1/lo-goc-2-mat-tien-duong-chua-thien-mu-duong-truoc-o-to-toi-cho-gia-chi-980tr-115m2-tho-cu-pr41329974
+2024-10-27 21:02:20,888 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-my-loc-1/lo-goc-2-mat-tien-duong-chua-thien-mu-duong-truoc-o-to-toi-cho-gia-chi-980tr-115m2-tho-cu-pr41329974: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:02:20,891 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-xa-my-loc-1/lo-goc-2-mat-tien-duong-chua-thien-mu-duong-truoc-o-to-toi-cho-gia-chi-980tr-115m2-tho-cu-pr41329974 - RetryError[<Future at 0x1e085698190 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:02:22,941 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-nguyen-chanh-phuong-trung-hoa-4/chu-can-tien-gap-ban-nhanh-vip-mat-pho-khu-sieu-dep-sieu-hiem-re-pr41329183
+2024-10-27 21:02:26,515 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-nguyen-chanh-phuong-trung-hoa-4/chu-can-tien-gap-ban-nhanh-vip-mat-pho-khu-sieu-dep-sieu-hiem-re-pr41329183: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:02:34,252 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-nguyen-chanh-phuong-trung-hoa-4/chu-can-tien-gap-ban-nhanh-vip-mat-pho-khu-sieu-dep-sieu-hiem-re-pr41329183
+2024-10-27 21:02:37,914 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-nguyen-chanh-phuong-trung-hoa-4/chu-can-tien-gap-ban-nhanh-vip-mat-pho-khu-sieu-dep-sieu-hiem-re-pr41329183: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:02:45,472 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-nguyen-chanh-phuong-trung-hoa-4/chu-can-tien-gap-ban-nhanh-vip-mat-pho-khu-sieu-dep-sieu-hiem-re-pr41329183
+2024-10-27 21:02:48,292 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-nguyen-chanh-phuong-trung-hoa-4/chu-can-tien-gap-ban-nhanh-vip-mat-pho-khu-sieu-dep-sieu-hiem-re-pr41329183: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:02:48,293 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-duong-nguyen-chanh-phuong-trung-hoa-4/chu-can-tien-gap-ban-nhanh-vip-mat-pho-khu-sieu-dep-sieu-hiem-re-pr41329183 - RetryError[<Future at 0x1e08569bad0 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:02:49,987 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-vinh-loc-b/muon-mua-tp-hcm-ma-it-tien-thi-goi-cho-em-ngan-ngay-a-48m2-320-trieu-pl-ro-rang-pr41328220
+2024-10-27 21:02:53,385 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-vinh-loc-b/muon-mua-tp-hcm-ma-it-tien-thi-goi-cho-em-ngan-ngay-a-48m2-320-trieu-pl-ro-rang-pr41328220: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:03:02,021 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-vinh-loc-b/muon-mua-tp-hcm-ma-it-tien-thi-goi-cho-em-ngan-ngay-a-48m2-320-trieu-pl-ro-rang-pr41328220
+2024-10-27 21:03:05,078 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-vinh-loc-b/muon-mua-tp-hcm-ma-it-tien-thi-goi-cho-em-ngan-ngay-a-48m2-320-trieu-pl-ro-rang-pr41328220: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:03:12,800 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-vinh-loc-b/muon-mua-tp-hcm-ma-it-tien-thi-goi-cho-em-ngan-ngay-a-48m2-320-trieu-pl-ro-rang-pr41328220
+2024-10-27 21:03:15,402 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-vinh-loc-b/muon-mua-tp-hcm-ma-it-tien-thi-goi-cho-em-ngan-ngay-a-48m2-320-trieu-pl-ro-rang-pr41328220: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:03:15,410 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-xa-vinh-loc-b/muon-mua-tp-hcm-ma-it-tien-thi-goi-cho-em-ngan-ngay-a-48m2-320-trieu-pl-ro-rang-pr41328220 - RetryError[<Future at 0x1e0856a4710 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:03:18,193 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-ha-long-phuong-2-23/lo-4500m2-co-tho-mat-tien-vung-tau-thich-hop-xay-dung-n-ng-kch-san-cao-cap-pr41326735
+2024-10-27 21:03:23,191 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-ha-long-phuong-2-23/lo-4500m2-co-tho-mat-tien-vung-tau-thich-hop-xay-dung-n-ng-kch-san-cao-cap-pr41326735: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:03:32,736 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-ha-long-phuong-2-23/lo-4500m2-co-tho-mat-tien-vung-tau-thich-hop-xay-dung-n-ng-kch-san-cao-cap-pr41326735
+2024-10-27 21:03:36,923 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-ha-long-phuong-2-23/lo-4500m2-co-tho-mat-tien-vung-tau-thich-hop-xay-dung-n-ng-kch-san-cao-cap-pr41326735: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:03:46,316 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-ha-long-phuong-2-23/lo-4500m2-co-tho-mat-tien-vung-tau-thich-hop-xay-dung-n-ng-kch-san-cao-cap-pr41326735
+2024-10-27 21:03:54,457 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-ha-long-phuong-2-23/lo-4500m2-co-tho-mat-tien-vung-tau-thich-hop-xay-dung-n-ng-kch-san-cao-cap-pr41326735: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:03:54,465 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-duong-ha-long-phuong-2-23/lo-4500m2-co-tho-mat-tien-vung-tau-thich-hop-xay-dung-n-ng-kch-san-cao-cap-pr41326735 - RetryError[<Future at 0x1e08568fa90 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:03:59,001 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-xa-dong-xa-prj-khu-do-thi-phuong-dong/30-can-gia-tot-nhat-tang-cay-vang-87-5m2-san-so-80m-ra-bai-tam-von-chi-can-30-tu-1-ty-pr41255373
+2024-10-27 21:05:24,990 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-thi-tran-thach-ha/voi-200-trieu-anh-chi-da-so-huu-so-san-tai-tinh-pr41322755
+2024-10-27 21:05:49,169 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-thi-tran-thach-ha/voi-200-trieu-anh-chi-da-so-huu-so-san-tai-tinh-pr41322755: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:06:01,320 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-thi-tran-thach-ha/voi-200-trieu-anh-chi-da-so-huu-so-san-tai-tinh-pr41322755
+2024-10-27 21:06:24,285 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-thi-tran-thach-ha/voi-200-trieu-anh-chi-da-so-huu-so-san-tai-tinh-pr41322755: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:06:33,343 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-thi-tran-thach-ha/voi-200-trieu-anh-chi-da-so-huu-so-san-tai-tinh-pr41322755
+2024-10-27 21:06:54,777 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-thi-tran-thach-ha/voi-200-trieu-anh-chi-da-so-huu-so-san-tai-tinh-pr41322755: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:06:54,822 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-thi-tran-thach-ha/voi-200-trieu-anh-chi-da-so-huu-so-san-tai-tinh-pr41322755 - RetryError[<Future at 0x1e0856b3290 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:07:05,609 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-6_1/-tp-tan-an-nam-ke-ben-aeon-mall-tan-an-tho-cu-100-shr-dt-100m2-chi-voi-1-5-ty-so-huu-ngay-pr41321845
+2024-10-27 21:07:45,779 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-phuong-6_1/-tp-tan-an-nam-ke-ben-aeon-mall-tan-an-tho-cu-100-shr-dt-100m2-chi-voi-1-5-ty-so-huu-ngay-pr41321845: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:08:09,691 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-6_1/-tp-tan-an-nam-ke-ben-aeon-mall-tan-an-tho-cu-100-shr-dt-100m2-chi-voi-1-5-ty-so-huu-ngay-pr41321845
+2024-10-27 21:08:13,315 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-phuong-6_1/-tp-tan-an-nam-ke-ben-aeon-mall-tan-an-tho-cu-100-shr-dt-100m2-chi-voi-1-5-ty-so-huu-ngay-pr41321845: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:08:20,990 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-6_1/-tp-tan-an-nam-ke-ben-aeon-mall-tan-an-tho-cu-100-shr-dt-100m2-chi-voi-1-5-ty-so-huu-ngay-pr41321845
+2024-10-27 21:08:23,782 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-phuong-6_1/-tp-tan-an-nam-ke-ben-aeon-mall-tan-an-tho-cu-100-shr-dt-100m2-chi-voi-1-5-ty-so-huu-ngay-pr41321845: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:08:23,783 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-phuong-6_1/-tp-tan-an-nam-ke-ben-aeon-mall-tan-an-tho-cu-100-shr-dt-100m2-chi-voi-1-5-ty-so-huu-ngay-pr41321845 - RetryError[<Future at 0x1e0856c4ed0 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:08:25,499 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-21-1-xa-binh-yen-1/can-tien-cho-con-di-du-hoc-nen-can-cho-ra-di-manh-mat-kinh-doanh-cuc-rong-sat-nha-tro-pr41321567
+2024-10-27 21:08:29,216 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-21-1-xa-binh-yen-1/can-tien-cho-con-di-du-hoc-nen-can-cho-ra-di-manh-mat-kinh-doanh-cuc-rong-sat-nha-tro-pr41321567: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:08:37,256 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-21-1-xa-binh-yen-1/can-tien-cho-con-di-du-hoc-nen-can-cho-ra-di-manh-mat-kinh-doanh-cuc-rong-sat-nha-tro-pr41321567
+2024-10-27 21:08:40,844 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-21-1-xa-binh-yen-1/can-tien-cho-con-di-du-hoc-nen-can-cho-ra-di-manh-mat-kinh-doanh-cuc-rong-sat-nha-tro-pr41321567: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:08:49,481 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-21-1-xa-binh-yen-1/can-tien-cho-con-di-du-hoc-nen-can-cho-ra-di-manh-mat-kinh-doanh-cuc-rong-sat-nha-tro-pr41321567
+2024-10-27 21:08:58,135 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-ly-thai-to-xa-loc-quang/lo-sieu-vip-goc-2-mat-tien-ngay-nga-tu-dt-317m2-co-san-133m2-tc-shr-giao-dich-voi-chinh-chu-pr41319779
+2024-10-27 21:09:00,774 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-ly-thai-to-xa-loc-quang/lo-sieu-vip-goc-2-mat-tien-ngay-nga-tu-dt-317m2-co-san-133m2-tc-shr-giao-dich-voi-chinh-chu-pr41319779: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:09:09,400 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-ly-thai-to-xa-loc-quang/lo-sieu-vip-goc-2-mat-tien-ngay-nga-tu-dt-317m2-co-san-133m2-tc-shr-giao-dich-voi-chinh-chu-pr41319779
+2024-10-27 21:09:16,946 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-long-an/chinh-chu-b-lo-lo-tam-quyet-mat-tien-ap-3-c-giuoc-gia-chua-toi-3tr-m2-shr-pr41318737
+2024-10-27 21:09:19,464 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-long-an/chinh-chu-b-lo-lo-tam-quyet-mat-tien-ap-3-c-giuoc-gia-chua-toi-3tr-m2-shr-pr41318737: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:09:27,122 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-long-an/chinh-chu-b-lo-lo-tam-quyet-mat-tien-ap-3-c-giuoc-gia-chua-toi-3tr-m2-shr-pr41318737
+2024-10-27 21:09:29,764 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-long-an/chinh-chu-b-lo-lo-tam-quyet-mat-tien-ap-3-c-giuoc-gia-chua-toi-3tr-m2-shr-pr41318737: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:09:37,269 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-long-an/chinh-chu-b-lo-lo-tam-quyet-mat-tien-ap-3-c-giuoc-gia-chua-toi-3tr-m2-shr-pr41318737
+2024-10-27 21:09:40,034 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-long-an/chinh-chu-b-lo-lo-tam-quyet-mat-tien-ap-3-c-giuoc-gia-chua-toi-3tr-m2-shr-pr41318737: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:09:40,035 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-xa-long-an/chinh-chu-b-lo-lo-tam-quyet-mat-tien-ap-3-c-giuoc-gia-chua-toi-3tr-m2-shr-pr41318737 - RetryError[<Future at 0x1e0856ce950 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:09:42,354 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-pham-van-dong-phuong-linh-tay/chinh-chu-can-ban-do-khong-du-tai-chinh-xay-dung-nen-can-ban-dat-pr41294393
+2024-10-27 21:09:46,453 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-pham-van-dong-phuong-linh-tay/chinh-chu-can-ban-do-khong-du-tai-chinh-xay-dung-nen-can-ban-dat-pr41294393: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:09:54,034 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-pham-van-dong-phuong-linh-tay/chinh-chu-can-ban-do-khong-du-tai-chinh-xay-dung-nen-can-ban-dat-pr41294393
+2024-10-27 21:09:56,930 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-duong-pham-van-dong-phuong-linh-tay/chinh-chu-can-ban-do-khong-du-tai-chinh-xay-dung-nen-can-ban-dat-pr41294393: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:10:04,489 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-pham-van-dong-phuong-linh-tay/chinh-chu-can-ban-do-khong-du-tai-chinh-xay-dung-nen-can-ban-dat-pr41294393
+2024-10-27 21:10:12,254 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-xuan-tay/ban-lo-lo-ap-3-cam-my-dong-nai-chinh-chu-khong-qua-trung-gian-pr40957857
+2024-10-27 21:10:14,710 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-xuan-tay/ban-lo-lo-ap-3-cam-my-dong-nai-chinh-chu-khong-qua-trung-gian-pr40957857: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:10:22,511 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-xuan-tay/ban-lo-lo-ap-3-cam-my-dong-nai-chinh-chu-khong-qua-trung-gian-pr40957857
+2024-10-27 21:10:24,939 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-xuan-tay/ban-lo-lo-ap-3-cam-my-dong-nai-chinh-chu-khong-qua-trung-gian-pr40957857: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:10:32,531 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-xuan-tay/ban-lo-lo-ap-3-cam-my-dong-nai-chinh-chu-khong-qua-trung-gian-pr40957857
+2024-10-27 21:10:35,011 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-xuan-tay/ban-lo-lo-ap-3-cam-my-dong-nai-chinh-chu-khong-qua-trung-gian-pr40957857: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:10:35,013 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-xa-xuan-tay/ban-lo-lo-ap-3-cam-my-dong-nai-chinh-chu-khong-qua-trung-gian-pr40957857 - RetryError[<Future at 0x1e0856d1f50 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:10:36,925 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-dong-yen-2/chinh-chu-can-ban-lo-quoc-oai-ha-noi-vi-tri-dep-mat-ngo-rong-gia-tot-pr41314898
+2024-10-27 21:10:41,276 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-dong-yen-2/chinh-chu-can-ban-lo-quoc-oai-ha-noi-vi-tri-dep-mat-ngo-rong-gia-tot-pr41314898: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2024-10-27 21:10:46,772 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-dong-yen-2/chinh-chu-can-ban-lo-quoc-oai-ha-noi-vi-tri-dep-mat-ngo-rong-gia-tot-pr41314898
+2024-10-27 21:10:55,664 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-hong-van-2/chinh-chu-can-ban-gap-tai-thuong-tin-gia-dau-tu-pr41314426
+2024-10-27 21:10:58,565 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-hong-van-2/chinh-chu-can-ban-gap-tai-thuong-tin-gia-dau-tu-pr41314426: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:11:06,129 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-hong-van-2/chinh-chu-can-ban-gap-tai-thuong-tin-gia-dau-tu-pr41314426
+2024-10-27 21:11:08,950 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-hong-van-2/chinh-chu-can-ban-gap-tai-thuong-tin-gia-dau-tu-pr41314426: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:11:16,591 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-hong-van-2/chinh-chu-can-ban-gap-tai-thuong-tin-gia-dau-tu-pr41314426
+2024-10-27 21:11:19,460 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-xa-hong-van-2/chinh-chu-can-ban-gap-tai-thuong-tin-gia-dau-tu-pr41314426: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF611C83AB5+28005]
+	(No symbol) [0x00007FF611BE83B0]
+	(No symbol) [0x00007FF611A85639]
+	(No symbol) [0x00007FF611B263FC]
+	(No symbol) [0x00007FF611AFBA3A]
+	(No symbol) [0x00007FF611B1B8B3]
+	(No symbol) [0x00007FF611AFB7E3]
+	(No symbol) [0x00007FF611AC75C8]
+	(No symbol) [0x00007FF611AC8731]
+	GetHandleVerifier [0x00007FF611F7643D+3118829]
+	GetHandleVerifier [0x00007FF611FC6C90+3448640]
+	GetHandleVerifier [0x00007FF611FBCF0D+3408317]
+	GetHandleVerifier [0x00007FF611D4A40B+841403]
+	(No symbol) [0x00007FF611BF340F]
+	(No symbol) [0x00007FF611BEF484]
+	(No symbol) [0x00007FF611BEF61D]
+	(No symbol) [0x00007FF611BDEB79]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-27 21:11:19,463 - BDS_com_vn_Webcrawler - ERROR - Fail to extract: https://batdongsan.com.vn/ban-dat-xa-hong-van-2/chinh-chu-can-ban-gap-tai-thuong-tin-gia-dau-tu-pr41314426 - RetryError[<Future at 0x1e0856d3f90 state=finished raised MoveTargetOutOfBoundsException>]
+2024-10-27 21:11:21,127 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-xa-phuoc-an-1-prj-khu-do-thi-moi-long-tho/-shr-gia-sieu-re-tai-hud-xd-ha-noi-kenh-dau-tu-loi-nhu-hg-dau-tai-nhon-trach-pr41134985
+2024-10-27 21:11:30,918 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-10-27 21:11:37,114 - root - INFO - Completed scraping Đất nền of BDSWebCrawler
+2024-10-27 21:11:37,209 - root - INFO - Data saved to data/alonhadat_data.csv

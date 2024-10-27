@@ -33,7 +33,7 @@ BDSWebCrawler:
 
 AlonhadatWebCrawler:
   base_url: https://alonhadat.com.vn/nha-dat/can-ban.html
-  num_pages: 1
+  num_pages: 2
   final_columns:
     - Mã tin
     - Ngày
@@ -59,12 +59,21 @@ AlonhadatWebCrawler:
     - Chính chủ
 
 BDS_SoCrawler: 
-  property_types:
-    Nhà riêng: 
-      base_url: https://batdongsan.so/nha-dat-ban/nha-rieng#/
-      num_pages: 1
-    Căn hộ:
-      base_url: https://batdongsan.so/nha-dat-ban/can-ho-chung-cu#/
-      num_pages: 1
+  base_url: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+  num_pages: 1
   final_columns:
-
+    - Mã tin
+    - Ngày,
+    - Tháng
+    - Năm
+    - Giá 
+    - Phường
+    - Quận
+    - Thành phố
+    - Mức giá
+    - Diện tích
+    - Mặt tiền
+    - Lộ giới
+    - Số tầng 
+    - Số toilet
+    - Số phòng ngủ
