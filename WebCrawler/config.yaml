@@ -58,11 +58,13 @@ AlonhadatWebCrawler:
     - Số phòng ngủ
     - Chính chủ
 
-HomedyWebCrawler: 
+BDS_SoCrawler: 
   property_types:
     Nhà riêng: 
-      base_url: https://homedy.com/ban-nha-rieng
+      base_url: https://batdongsan.so/nha-dat-ban/nha-rieng#/
       num_pages: 1
     Căn hộ:
-      base_url: https://homedy.com/ban-can-ho-cao-cap
+      base_url: https://batdongsan.so/nha-dat-ban/can-ho-chung-cu#/
       num_pages: 1
+  final_columns:
+

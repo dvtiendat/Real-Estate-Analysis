@@ -17,14 +17,14 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-class HomedyWebCrawler(WebCrawler):
+class BDS_SoCrawler(WebCrawler):
     def __init__(self, base_url, num_pages= None) : 
         self.num_pages = num_pages
         self.base_url = base_url
         if self.num_pages:
-            logger.info(f"Initialized homedy.com with {num_pages} pages and base URL: {base_url}")
+            logger.info(f"Initialized batdongsan.so with {num_pages} pages and base URL: {base_url}")
         else :
-            logger.info(f"Initialized homedy.com base URL: {base_url}")
+            logger.info(f"Initialized batdongsan.so base URL: {base_url}")
   
     def init_driver(self):
         opt = Options()
@@ -45,10 +45,10 @@ class HomedyWebCrawler(WebCrawler):
                 if page == 1 :
                     url = self.base_url
                 else :
-                    url = self.base_url + '/p' + str(page)
+                    url = self.base_url[:-2] + '?page=' + str(page) + self.base_url[-2:]
                 driver.get(url)
                 driver.implicitly_wait(0.5) 
-                links =  driver.find_elements(By.XPATH , value="//a[@class='product-content']") 
+                links =  driver.find_elements(By.XPATH , value="//article[@class='float-re']//a") 
         
                 for link in links:
                     pages.append(link.get_attribute('href'))
@@ -72,10 +72,11 @@ class HomedyWebCrawler(WebCrawler):
 
         logger.info(f'Extracting from: {page}')
 
-        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Kinh độ', 'Vĩ độ','Phường','Quận','Thành phố','Mức giá','Diện tích','Mặt tiền' ,'Hướng nhà', 
-           'Số tầng','Số toilet','Đường vào', 'Hướng ban công','Số phòng ngủ',
-           'Pháp lý', 'Nội thất']
-        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm','Diện tích', 'Giá', 'Phường', 'Quân', 'Thành phố', ]
+        # columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Kinh độ', 'Vĩ độ','Phường','Quận','Thành phố','Mức giá','Diện tích','Mặt tiền' ,'Hướng nhà', 
+        #    'Số tầng','Số toilet','Đường vào', 'Hướng ban công','Số phòng ngủ',
+        #    'Pháp lý', 'Nội thất']
+        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Giá', 'Phường', 'Quân', 'Thành phố', 'Mức giá', 'Diện tích', 'Mặt tiền', 'Số tầng', 
+                   'Số toilet', 'Số phòng ngủ']
 
         house_data = {col: np.nan for col in columns}
 
@@ -86,22 +87,25 @@ class HomedyWebCrawler(WebCrawler):
         try:
                 driver.get(page)
                 
-                address = driver.find_element(By.XPATH, "//span[@class='re__pr-short-description js__pr-address']").text.split(',')
-                date, month, year = driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[1]").text.splitlines()[1].split("/")
-                num = int(driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[4]").text.splitlines()[1])
+                # address = driver.find_element(By.XPATH, "//div[@class='re-address']//i[@class='ion-ios-location']").text
+                address = driver.find_element(By.XPATH, "//div[@class='re-address']").text
+                date, month, year = driver.find_element(By.XPATH, "//ul[@class='short-detail-2 list2 clearfix']/li[1]/span[@class='sp3']").text.split("/")
+                num = int(driver.find_element(By.XPATH, "//ul[@class='short-detail-2 list2 clearfix']/li[3]/span[@class='sp3']")).text
+                
+                
+                # address = driver.find_element(By.XPATH, "//span[@class='re__pr-short-description js__pr-address']").text.split(',')
+                # date, month, year = driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[1]").text.splitlines()[1].split("/")
+                # num = int(driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[4]").text.splitlines()[1])
 
-                iframe = driver.find_elements(By.XPATH, '//iframe[@class="lazyload"]')[0]
-                scroll_shim(driver,iframe)
-                actions.move_to_element(iframe).perform()
-                driver.implicitly_wait(10)
-                iframe = driver.find_element(By.XPATH, '//iframe[@class=" lazyloaded"]')    
-                driver.switch_to.frame(frame_reference=iframe)
-                longitude , latitude = driver.find_element(By.XPATH , "//div[@class='place-name']").text.split(' ')
-                driver.switch_to.default_content()
-
-                    
-                house_data['Kinh độ'] = longitude
-                house_data['Vĩ độ'] = latitude
+                # iframe = driver.find_elements(By.XPATH, '//iframe[@class="lazyload"]')[0]
+                # scroll_shim(driver,iframe)
+                # actions.move_to_element(iframe).perform()
+                # driver.implicitly_wait(10)
+                # iframe = driver.find_element(By.XPATH, '//iframe[@class=" lazyloaded"]')    
+                # driver.switch_to.frame(frame_reference=iframe)
+                # longitude , latitude = driver.find_element(By.XPATH , "//div[@class='place-name']").text.split(' ')
+                # driver.switch_to.default_content()
+                
                 house_data['Ngày'] = date
                 house_data['Tháng'] = month
                 house_data['Năm'] = year
