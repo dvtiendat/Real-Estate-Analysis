@@ -171,11 +171,11 @@ class AlonhadatWebCrawler(WebCrawler):
             
     
     def transform(self,df):
-        df['Mã tin'] = [int(x) for x in (df['Mã tin'].to_list())]
-        df['Số lầu'] = [float(x) for x in (df['Số lầu'].to_list())]
-        df['Số phòng ngủ'] = [float(x) for x in (df['Số phòng ngủ'].to_list())]
-        df['Chiều ngang'] = [float(x[:-1]) for x in (df['Chiều ngang'].to_list())]
-        df['Chiều dài'] = [float(x[:-1]) for x in (df['Chiều dài'].to_list())]
+        
+        df['Mã tin'] = [int(x) for x in (df['Mã tin'].to_list()) ]
+        df['Số phòng ngủ'] = [float(x)  if  not isinstance(x,float) else np.nan for x in (df['Số phòng ngủ'].to_list()) ]
+        df['Chiều ngang'] = [float(x[:-1].replace(',','.'))  if  not isinstance(x,float) else np.nan for x in (df['Chiều ngang'].to_list())  ] 
+        df['Chiều dài'] = [float(x[:-1].replace(',','.'))  if  not isinstance(x,float) else np.nan for x in (df['Chiều dài'].to_list())   ] 
         df['Diện tích'] = [float(x.split()[0]) for x in (df['Diện tích'].to_list())]
         
     
@@ -220,3 +220,4 @@ class AlonhadatWebCrawler(WebCrawler):
     
     def load_to_csv(self,df, csv_path):
         df = df.to_csv(csv_path)
+    
