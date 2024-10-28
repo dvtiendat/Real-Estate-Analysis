@@ -6,6 +6,7 @@ import logging
 import pandas as pd
 import yaml
 import os
+import json
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
@@ -36,7 +37,7 @@ def run_crawler(config):
     Begin scraping procedure
     '''
     # crawler_names = ['BDS_SoCrawler'] # CHANGE THIS
-    crawler_names = ['BDSWebCrawler']
+    crawler_names = ['AlonhadatWebCrawler']
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler}')
 
@@ -48,7 +49,7 @@ def run_crawler(config):
                     df = scraper.multithread_extract(max_workers=1) # CHANGE MAX_WORKER
 
                     df['Loại'] = property_type
-                    df = scraper.transform(df)
+                    #df = scraper.transform(df)
                     final_df = pd.concat([final_df,df],ignore_index=True)
 
                     logger.info(f'Completed scraping {property_type} of {crawler}')
@@ -58,9 +59,10 @@ def run_crawler(config):
             final_df = pd.DataFrame(columns=config[crawler]['final_columns'])
             try:
                 scraper = AlonhadatWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
-                df = scraper.multithread_extract(max_workers=1)
-                df = scraper.transform(df)
-                final_df = pd.concat([final_df,df],ignore_index=True)
+                # df = scraper.multithread_extract(max_workers=1)
+                data = scraper.multithread_extract(max_workers=1)
+                # df = scraper.transform(df)
+                # final_df = pd.concat([final_df,df],ignore_index=True)
                 logger.info(f'Completed scraping {crawler}')
             except Exception as e:
                 logger.error(f"Error occurred while scraping: {str(e)}")
@@ -69,20 +71,24 @@ def run_crawler(config):
             try:
                 scraper = BDS_SoWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
                 df = scraper.multithread_extract(max_workers=1)
-                df = scraper.transform(df)
+                # df = scraper.transform(df)
                 final_df = pd.concat([final_df,df],ignore_index=True)
                 logger.info(f'Completed scraping {crawler}')
             except Exception as e:
                 logger.error(f"Error occurred while scraping: {str(e)}")
-    return final_df
+    # return final_df
+    return data
 
 def main():
     try:
         config = get_config('config.yaml')
-        final_df = run_crawler(config)
-            
-        output_path = f"data/alonhadat_data.csv" # CHANGE THIS 
-        final_df.to_csv(output_path, index=False)
+        #final_df = run_crawler(config)
+        data = run_crawler(config)
+        # output_path = f"data/alonhadat_data.csv" # CHANGE THIS 
+        output_path = f"data/alonhatdat.json"
+        with open(output_path, "w", encoding='utf8') as f:
+            json.dump(data, f, indent=2, ensure_ascii = False)
+        #final_df.to_csv(output_path, index=False)
         logger.info(f"Data saved to {output_path}")
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
