@@ -436,3 +436,28 @@ Stacktrace:
 2024-10-28 23:13:41,045 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/vo-no-ban-gap-2291m2-so-rieng-ngay-thi-xa-sat-cho-dan-dong-duong-18m-gia-290tr-14906534.html
 2024-10-28 23:14:01,534 - root - INFO - Completed scraping AlonhadatWebCrawler
 2024-10-28 23:14:01,540 - root - INFO - Data saved to data/alonhatdat.json
+2024-10-29 21:28:12,806 - root - INFO - Starting crawler AlonhadatWebCrawler
+2024-10-29 21:28:12,835 - Alonhadat_Webcrawler - INFO - Initialized alonhadat.com.vn with 1 pages and base URL: https://alonhadat.com.vn/nha-dat/can-ban.html
+2024-10-29 21:28:23,329 - Alonhadat_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-29 21:28:27,078 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-gap-nha-ngay-cho-binh-chanh-dang-cho-thue-7-5tr-th-120m2-630tr-15300231.html
+2024-10-29 21:28:37,259 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-mat-tien-dang-kinh-doanh-88-4m2-gia-900tr-ngay-sau-cho-so-hong-rieng-14143306.html
+2024-10-29 21:28:47,413 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-nha-binh-tan-sat-ben-ten-lua-nha-5x18m-90m2-canh-cong-vien-gia-chi-9-x-ty-15352635.html
+2024-10-29 21:28:57,639 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-san-van-phong-hang-a-quan-hai-ba-trung-dien-tich-tu-150m-15353263.html
+2024-10-29 21:29:07,698 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/biet-thu-3-tang-2-mat-tien-duong-au-co-kinh-doanh-sam-uat-14991803.html
+2024-10-29 21:29:17,696 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/doi-can-ban-nha-50m2-mat-ngo-via-he-o-to-tranh-thang-may-can-goc-gia-15-5-ty-15346234.html
+2024-10-29 21:29:27,726 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/dat-full-tho-cu-so-hong-rieng-mt-duong-10m-khu-dan-cu-giap-sai-gon-258m2-12x21-5-gia-4ty-15249228.html
+2024-10-29 21:29:37,890 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-ban-goc-2mt-1680m2-dat-duong-rong-18m-ngay-kcn-truong-hoc-cho-gia-240-trieu-so-15187892.html
+2024-10-29 21:29:47,810 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-von-ban-3-so-15x55-826-2m2-gia-260tr-nam-ngay-thi-xa-gan-2kcn-dan-cu-dong-3-15314285.html
+2024-10-29 21:29:57,935 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-binh-chanh-mat-tien-so-hong-rieng-gia-1-ty-1-15356103.html
+2024-10-29 21:30:08,039 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-lo-dat-mat-tien-duong-nhua-ke-lo-goc-147m2-thong-ra-khu-cho-dau-moi-td-13788248.html
+2024-10-29 21:30:18,031 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-dat-ngop-dau-tu-da-nganh-3-500m2-gia-105-trieu-sat-cho-ql-13-hay-goi-nhanh--14698153.html
+2024-10-29 21:30:28,185 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-4-tang-mt-duong-dien-bien-phu-chinh-gian-thanh-khe-dt-5m-x-20m-gia-13-5-ty-tl-15349576.html
+2024-10-29 21:30:38,422 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-sang-gap-2200m2-dat-duong-18m-rong-thang-vao-khu-cong-nghiep-cho-gia-190-tr-so-15307902.html
+2024-10-29 21:30:48,557 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/vip-cau-giay-toa-nha-van-phong-2-mat-thoang-dt-117m2x-10t-mt-9-6m-gia-70-ty-co-bot-15351778.html
+2024-10-29 21:30:58,817 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-dep-3-tang-cap-hong-tin-h-lo-10-kh-u-te-n-lu-a-4x15m--15129960.html
+2024-10-29 21:31:08,945 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/chi-880-trieu-la-anh-chi-da-so-huu-ngay-bds-duong-nhua-kcn-dat-do-ngang-10x30m-tho-cu-80-15354398.html
+2024-10-29 21:31:19,080 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-em-mat-pho-ngoc-lam-long-bien-gan-nga-tu-vip-60m2-x3t-xmt-8m-oto-kinh-doanh-13-8-15308102.html
+2024-10-29 21:31:29,205 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-moi-cung-thanh-xuan-sat-pho-lo-goc-o-to-do-cong-kd-vptot-45m2-x-6t-chi-12-5-ty-15283942.html
+2024-10-29 21:31:39,259 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-dat-tang-nha-ngo-279-doi-can-ba-dinh-gan-lang-bac-22-30m2-x-2t-lo-goc-ba-gac-3-6-ty-15248139.html
+2024-10-29 21:31:52,404 - root - INFO - Completed scraping AlonhadatWebCrawler
+2024-10-29 21:31:52,409 - root - INFO - Data saved to data/alonhatdat.json
