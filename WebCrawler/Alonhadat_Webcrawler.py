@@ -90,7 +90,7 @@ class AlonhadatWebCrawler(WebCrawler):
             return None
         
         try:
-                time.sleep(15)
+                time.sleep(5)
                 driver.get(page)
                 
                 address = driver.find_element(By.XPATH, "//div[@class='address']//span[@class='value']").text.split(',')
@@ -166,8 +166,8 @@ class AlonhadatWebCrawler(WebCrawler):
                 except Exception as e:
                     logger.error(f'Fail to extract: {url} - {e}')
         
-        # df = pd.DataFrame(final_data)
-        return final_data
+        df = pd.DataFrame(final_data)
+        return df
             
     
     def transform(self,df):

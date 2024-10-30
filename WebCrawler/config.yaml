@@ -33,7 +33,7 @@ BDSWebCrawler:
 
 AlonhadatWebCrawler:
   base_url: https://alonhadat.com.vn/nha-dat/can-ban.html
-  num_pages: 1
+  num_pages: 2
   final_columns:
     - Mã tin
     - Ngày

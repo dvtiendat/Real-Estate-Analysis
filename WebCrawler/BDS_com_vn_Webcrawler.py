@@ -28,7 +28,6 @@ class BDSWebCrawler(WebCrawler):
   
     def init_driver(self):
         opt = Options()
-        driver.set_window_size(1024, 768)
         # opt.add_argument("--headless")
         driver = webdriver.Chrome(opt)
         driver.implicitly_wait(10)
