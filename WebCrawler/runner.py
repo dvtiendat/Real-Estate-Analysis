@@ -85,7 +85,8 @@ def main():
         final_df = run_crawler(config)
         # data = run_crawler(config)
         data = final_df.to_dict('records')
-        output_path = f"../data/alonhadat.json" # CHANGE THIS
+        # output_path = f"data/alonhadat_data.csv" # CHANGE THIS 
+        output_path = f"data/alonhatdat.json"
         with open(output_path, "w", encoding='utf8') as f:
             json.dump(data, f, indent=2, ensure_ascii = False)
         #final_df.to_csv(output_path, index=False)
