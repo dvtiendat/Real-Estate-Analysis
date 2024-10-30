@@ -36,7 +36,7 @@ def run_crawler(config):
     Begin scraping procedure
     '''
     # crawler_names = ['BDS_SoCrawler'] # CHANGE THIS
-    crawler_names = ['BDSWebCrawler']
+    crawler_names = ['AlonhadatWebCrawler']
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler}')
 
@@ -59,7 +59,7 @@ def run_crawler(config):
             try:
                 scraper = AlonhadatWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
                 df = scraper.multithread_extract(max_workers=1)
-                df = scraper.transform(df)
+                #df = scraper.transform(df)
                 final_df = pd.concat([final_df,df],ignore_index=True)
                 logger.info(f'Completed scraping {crawler}')
             except Exception as e:
@@ -78,10 +78,10 @@ def run_crawler(config):
 
 def main():
     try:
-        config = get_config('config.yaml')
+        config = get_config('WebCrawler\config.yaml')
         final_df = run_crawler(config)
             
-        output_path = f"data/alonhadat_data.csv" # CHANGE THIS 
+        output_path = f"alonhadat_data.json" # CHANGE THIS 
         final_df.to_csv(output_path, index=False)
         logger.info(f"Data saved to {output_path}")
     except Exception as e:

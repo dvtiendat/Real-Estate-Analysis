@@ -68,6 +68,8 @@ class AlonhadatWebCrawler(WebCrawler):
                         break
         except Exception as e :
             logger.error(f'Process ended with total of {page} pages : {e}')
+        finally:
+            driver.quit()
         return pages
     
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
@@ -90,59 +92,60 @@ class AlonhadatWebCrawler(WebCrawler):
             return None
         
         try:
-                time.sleep(5)
-                driver.get(page)
+            time.sleep(5)
+            driver.get(page)
+            
+            address = driver.find_element(By.XPATH, "//div[@class='address']//span[@class='value']").text.split(',')
+            t  = driver.find_element(By.XPATH , "//span[@class='date']").text
+            
+            if 'Hôm nay' in t :
+                house_data['Ngày'] = cur_date
+                house_data['Tháng'] = cur_month
+                house_data['Năm'] = cur_year
+            else :
+                date , month , year  = t.split()[1].split("/")
+                house_data['Ngày'] = date
+                house_data['Tháng'] = month
+                house_data['Năm'] = year
+            
+            price = driver.find_element(By.XPATH, "//span[@class='price']//span[@class='value']").text
+            area = driver.find_element(By.XPATH, "//span[@class='square']//span[@class='value']").text
+            
+            house_data['Mức giá'] = price
+            house_data['Diện tích'] = area
                 
-                address = driver.find_element(By.XPATH, "//div[@class='address']//span[@class='value']").text.split(',')
-                t  = driver.find_element(By.XPATH , "//span[@class='date']").text
-                if 'Hôm nay' in t :
-                    house_data['Ngày'] = cur_date
-                    house_data['Tháng'] = cur_month
-                    house_data['Năm'] = cur_year
-                else :
-                    date , month , year  = t.split()[1].split("/")
-                    house_data['Ngày'] = date
-                    house_data['Tháng'] = month
-                    house_data['Năm'] = year
                 
-                price = driver.find_element(By.XPATH, "//span[@class='price']//span[@class='value']").text
-                area = driver.find_element(By.XPATH, "//span[@class='square']//span[@class='value']").text
+            p = address[-3].strip().split(' ')
+            if 'Phường' in p or 'Xã' in p or 'Thị trấn' in p :
+                p = ' '.join(p[1:])
+            else :
+                p = ' '.join(p)
                 
-                house_data['Mức giá'] = price
-                house_data['Diện tích'] = area
+            q = address[-2].strip().split(' ')
+            if 'Huyện' in q or 'Quận' in q :
+                q = ' '.join(q[1:])
+            else :
+                q = ' '.join(q)
                     
-                    
-                p = address[-3].strip().split(' ')
-                
-                if 'Phường' in p or 'Xã' in p or 'Thị trấn' in p :
-                    p = ' '.join(p[1:])
-                else :
-                    p = ' '.join(p)
-                    
-                q = address[-2].strip().split(' ')
-                if 'Huyện' in q or 'Quận' in q :
-                    q = ' '.join(q[1:])
-                else :
-                    q = ' '.join(q)
-                        
-                house_data['Phường'] = p
-                house_data['Quận'] = q
-                house_data['Thành phố'] = address[-1].strip()
+            house_data['Phường'] = p
+            house_data['Quận'] = q
+            house_data['Thành phố'] = address[-1].strip()
 
-                values = driver.find_elements(By.XPATH , "//td")
-                for i in range(0,len(values),2):
-                    if i == 6  :
-                        continue
-                    else : 
-                        if values[i+1] == '': 
-                            house_data[values[i].text] = 'Có'
-                        elif values[i+1] == '---':
-                            house_data[values[i].text] = np.nan
-                        else:
-                            house_data[values[i].text] = values[i+1].text
+            values = driver.find_elements(By.XPATH , "//td")
+            for i in range(0,len(values),2):
+                if i == 6  :
+                    continue
+                else : 
+                    if len(values[i+1].text) == 0  : 
+                        house_data[values[i].text] = 'Có'
+                    elif values[i+1].text == '---' or values[i+1].text == '_' :
+                        house_data[values[i].text] = np.nan
+                    else:
+                        house_data[values[i].text] = values[i+1].text
 
-                return house_data
-                
+            return house_data
+            
+            
         except Exception as e:
             logger.error(f'Error occurred while extracting data from page {page}: {e}') 
             raise
@@ -175,13 +178,14 @@ class AlonhadatWebCrawler(WebCrawler):
         df['Mã tin'] = [int(x) for x in (df['Mã tin'].to_list()) ]
         df['Số phòng ngủ'] = [float(x)  if  not isinstance(x,float) else np.nan for x in (df['Số phòng ngủ'].to_list()) ]
         df['Chiều ngang'] = [float(x[:-1].replace(',','.'))  if  not isinstance(x,float) else np.nan for x in (df['Chiều ngang'].to_list())  ] 
-        df['Chiều dài'] = [float(x[:-1].replace(',','.'))  if  not isinstance(x,float) else np.nan for x in (df['Chiều dài'].to_list())   ] 
+        df['Chiều dài'] = [float(x[:-1].replace(',','.'))  if  not isinstance(x,float) else np.nan for x in (df['Chiều dài'].to_list())   ]         
         df['Diện tích'] = [float(x.split()[0]) for x in (df['Diện tích'].to_list())]
-        
+        df['Đường trước nhà'] = [float(x[:-1].replace(',','.'))  if  not isinstance(x,float) else np.nan for x in (df['Đường trước nhà'].to_list())   ]
+
     
         flag = df['Mức giá'].to_list()
         new_attribute = [] 
-        for index,s in enumerate(flag) :           
+        for index,s in enumerate(flag) :        
             s = s.split()
             if 'thỏa' in s or 'Thỏa' in s :
                 new_attribute.append(np.nan)
@@ -193,7 +197,7 @@ class AlonhadatWebCrawler(WebCrawler):
             else :
                 new_attribute.append(float(s[0].replace(',','.')))
         df['Mức giá'] = new_attribute
-    
+        
         date_cols = ['Ngày', 'Tháng', 'Năm']
         for col in date_cols:
             flag = df[col].to_list()
@@ -218,6 +222,4 @@ class AlonhadatWebCrawler(WebCrawler):
         collection.insert_many(records)
         logger.info("Data loaded successfully")  
     
-    def load_to_csv(self,df, csv_path):
-        df = df.to_csv(csv_path)
     

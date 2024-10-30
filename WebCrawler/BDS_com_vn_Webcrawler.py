@@ -211,5 +211,3 @@ class BDSWebCrawler(WebCrawler):
         collection.insert_many(records)
         logger.info("Data loaded successfully")  
     
-    def load_to_csv(self,df, csv_path):
-        df = df.to_csv(csv_path)
