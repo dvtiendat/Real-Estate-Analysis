@@ -92,6 +92,46 @@ class AlonhadatWebCrawler(WebCrawler):
             return None
         
         try:
+<<<<<<< HEAD
+                time.sleep(15)
+                driver.get(page)
+                
+                address = driver.find_element(By.XPATH, "//div[@class='address']//span[@class='value']").text.split(',')
+                t  = driver.find_element(By.XPATH , "//span[@class='date']").text
+                if 'Hôm nay' in t :
+                    house_data['Ngày'] = cur_date
+                    house_data['Tháng'] = cur_month
+                    house_data['Năm'] = cur_year
+                else :
+                    date , month , year  = t.split()[1].split("/")
+                    house_data['Ngày'] = date
+                    house_data['Tháng'] = month
+                    house_data['Năm'] = year
+                
+                price = driver.find_element(By.XPATH, "//span[@class='price']//span[@class='value']").text
+                area = driver.find_element(By.XPATH, "//span[@class='square']//span[@class='value']").text
+                
+                house_data['Mức giá'] = price
+                house_data['Diện tích'] = area
+                    
+                    
+                p = address[-3].strip().split(' ')
+                
+                if 'Phường' in p or 'Xã' in p or 'Thị trấn' in p :
+                    p = ' '.join(p[1:])
+                else :
+                    p = ' '.join(p)
+                    
+                q = address[-2].strip().split(' ')
+                if 'Huyện' in q or 'Quận' in q :
+                    q = ' '.join(q[1:])
+                else :
+                    q = ' '.join(q)
+                        
+                house_data['Phường'] = p
+                house_data['Quận'] = q
+                house_data['Thành phố'] = address[-1].strip()
+=======
             time.sleep(5)
             driver.get(page)
             
@@ -106,6 +146,7 @@ class AlonhadatWebCrawler(WebCrawler):
                 house_data['Ngày'] = date
                 house_data['Tháng'] = month
                 house_data['Năm'] = year
+>>>>>>> 9a139b332935de2717588325a1a69bd89b489171
 
             price = driver.find_element(By.XPATH, "//span[@class='price']//span[@class='value']").text
             area = driver.find_element(By.XPATH, "//span[@class='square']//span[@class='value']").text
