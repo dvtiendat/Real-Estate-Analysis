@@ -164,8 +164,8 @@ class AlonhadatWebCrawler(WebCrawler):
                 except Exception as e:
                     logger.error(f'Fail to extract: {url} - {e}')
         
-        df = pd.DataFrame(final_data)
-        return df
+        # df = pd.DataFrame(final_data)
+        return final_data
             
     
     def transform(self,df):

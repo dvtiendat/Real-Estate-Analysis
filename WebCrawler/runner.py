@@ -59,10 +59,10 @@ def run_crawler(config):
             final_df = pd.DataFrame(columns=config[crawler]['final_columns'])
             try:
                 scraper = AlonhadatWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
-                df = scraper.multithread_extract(max_workers=1)
-                #data = scraper.multithread_extract(max_workers=1)
-                df = scraper.transform(df)
-                final_df = pd.concat([final_df,df],ignore_index=True)
+                # df = scraper.multithread_extract(max_workers=1)
+                data = scraper.multithread_extract(max_workers=1)
+                # df = scraper.transform(df)
+                # final_df = pd.concat([final_df,df],ignore_index=True)
                 logger.info(f'Completed scraping {crawler}')
             except Exception as e:
                 logger.error(f"Error occurred while scraping: {str(e)}")
@@ -76,15 +76,14 @@ def run_crawler(config):
                 logger.info(f'Completed scraping {crawler}')
             except Exception as e:
                 logger.error(f"Error occurred while scraping: {str(e)}")
-    return final_df
-    #return data
+    # return final_df
+    return data
 
 def main():
     try:
         config = get_config('config.yaml')
-        final_df = run_crawler(config)
-        # data = run_crawler(config)
-        data = final_df.to_dict('records')
+        #final_df = run_crawler(config)
+        data = run_crawler(config)
         # output_path = f"data/alonhadat_data.csv" # CHANGE THIS 
         output_path = f"data/alonhatdat.json"
         with open(output_path, "w", encoding='utf8') as f:
