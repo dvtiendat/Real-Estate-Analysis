@@ -34,16 +34,20 @@ def update_config(updated_config, path):
     '''
     Update the new config after scraping to config.yaml
     '''
-    with open(path, 'w', encoding='utf8') as f:
-        yaml.dump(updated_config, f, allow_unicode=True)
+    try:
+        with open(path, 'w', encoding='utf8') as f:
+            yaml.dump(updated_config, f, allow_unicode=True)
+        logging.info("config file updated successfully!")
+    except Exception as e:
+        logging.info(f"config file could not be updated, caught {e}")
 
 def run_crawler(config):
     '''
     Begin scraping procedure
     '''
     updated_config = config
-    # crawler_names = ['BDS_SoCrawler'] # CHANGE THIS
-    crawler_names = ['AlonhadatWebCrawler']
+    crawler_names = ['BDS_SoCrawler'] # CHANGE THIS
+    # crawler_names = ['AlonhadatWebCrawler']
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler}')
         if crawler == 'BDSWebCrawler':
@@ -83,14 +87,20 @@ def run_crawler(config):
                 logger.info(f'Completed scraping {crawler}')
             except Exception as e:
                 logger.error(f"Error occurred while scraping: {str(e)}")
-    return final_df
+    return updated_config, final_df
 
 def main():
     try:
-        config = get_config('WebCrawler\config.yaml')
-        final_df = run_crawler(config)
-
-        output_path = f"alonhadat_data.json" # CHANGE THIS 
+        # Get config
+        config_path = 'config.yaml'
+        config = get_config(config_path)
+        
+        # Run crawler
+        updated_config, final_df = run_crawler(config)
+        
+        # Update config and save file 
+        update_config(updated_config, config_path)
+        output_path = f"../data/bds_com_vn_data.json" # CHANGE THIS 
         final_df.to_csv(output_path, index=False)
         logger.info(f"Data saved to {output_path}")
     except Exception as e:

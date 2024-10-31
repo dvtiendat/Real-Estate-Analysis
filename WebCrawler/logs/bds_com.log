@@ -1889,3 +1889,214 @@ Stacktrace:
 2024-10-27 21:11:30,918 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
 2024-10-27 21:11:37,114 - root - INFO - Completed scraping Đất nền of BDSWebCrawler
 2024-10-27 21:11:37,209 - root - INFO - Data saved to data/alonhadat_data.csv
+2024-10-31 22:35:05,062 - root - ERROR - An error occurred: [Errno 2] No such file or directory: 'WebCrawler\\config.config.yaml'
+2024-10-31 22:35:18,251 - root - ERROR - An error occurred: [Errno 2] No such file or directory: 'WebCrawler\\config.yaml'
+2024-10-31 22:35:48,553 - root - ERROR - An error occurred: [Errno 2] No such file or directory: 'WebCrawler/config.yaml'
+2024-10-31 22:36:01,678 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-31 22:36:01,713 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so from page 1 to page 1 and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-31 22:37:24,090 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-31 22:37:27,634 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-6-met-tai-quan-thu-duc-2-tang-2-pn-1-wc-chua-den-10-7-tr-m2-230-m2-6-3-x-35-vua-o-vua-kd
+2024-10-31 22:37:38,237 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-phuong-liet-thanh-xuan-50m-3-gac-do-cua-ngo-thong-rong
+2024-10-31 22:37:48,653 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-phuong-binh-chieu-quan-thu-duc-2-tang-3-pn-2-wc-chi-48-tr-m2-50-m2-dat-shr
+2024-10-31 22:37:58,904 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-trung-tam-cau-giay-tran-thai-tong-duong-o-to-tranh-kinh-doanh-dt-91m2-4-tang-sdcc
+2024-10-31 22:38:09,262 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/khu-vip-quan-8-au-duong-lan-hem-xe-tai-ngang-lon-5-4-x-16-6pn-tien-o-va-kinh-doanh-spa-cty-chi-11-8-ty
+2024-10-31 22:38:19,765 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-hem-1-truc-duong-so-8-p11-go-vap-63m2-shr-4-65-ty-lh-0908900868
+2024-10-31 22:38:30,250 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-33-pho-doc-ngu-ba-dinh-phan-lo-o-to-kinh-doanh-dt-62m2-x5-tang-gia-chao-22-ty
+2024-10-31 22:38:40,529 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-tai-can-giuoc-long-an-36m2-shr-chi-1-2-ty-lh-0908679398
+2024-10-31 22:38:50,939 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-65m2x3t-dai-tao-oto-do-cua-ngay-dem-gan-truong-cho-ubnd
+2024-10-31 22:39:01,207 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat
+2024-10-31 22:39:13,265 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-price']//strong"}
+  (Session info: chrome=130.0.6723.71); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61C263AF5+28005]
+	(No symbol) [0x00007FF61C1C83F0]
+	(No symbol) [0x00007FF61C06580A]
+	(No symbol) [0x00007FF61C0B5A3E]
+	(No symbol) [0x00007FF61C0B5D2C]
+	(No symbol) [0x00007FF61C0FEA97]
+	(No symbol) [0x00007FF61C0DBA7F]
+	(No symbol) [0x00007FF61C0FB8B3]
+	(No symbol) [0x00007FF61C0DB7E3]
+	(No symbol) [0x00007FF61C0A75C8]
+	(No symbol) [0x00007FF61C0A8731]
+	GetHandleVerifier [0x00007FF61C55646D+3118813]
+	GetHandleVerifier [0x00007FF61C5A6CC0+3448624]
+	GetHandleVerifier [0x00007FF61C59CF3D+3408301]
+	GetHandleVerifier [0x00007FF61C32A44B+841403]
+	(No symbol) [0x00007FF61C1D344F]
+	(No symbol) [0x00007FF61C1CF4C4]
+	(No symbol) [0x00007FF61C1CF65D]
+	(No symbol) [0x00007FF61C1BEBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-31 22:39:25,032 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat
+2024-10-31 22:39:37,665 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-price']//strong"}
+  (Session info: chrome=130.0.6723.71); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61C263AF5+28005]
+	(No symbol) [0x00007FF61C1C83F0]
+	(No symbol) [0x00007FF61C06580A]
+	(No symbol) [0x00007FF61C0B5A3E]
+	(No symbol) [0x00007FF61C0B5D2C]
+	(No symbol) [0x00007FF61C0FEA97]
+	(No symbol) [0x00007FF61C0DBA7F]
+	(No symbol) [0x00007FF61C0FB8B3]
+	(No symbol) [0x00007FF61C0DB7E3]
+	(No symbol) [0x00007FF61C0A75C8]
+	(No symbol) [0x00007FF61C0A8731]
+	GetHandleVerifier [0x00007FF61C55646D+3118813]
+	GetHandleVerifier [0x00007FF61C5A6CC0+3448624]
+	GetHandleVerifier [0x00007FF61C59CF3D+3408301]
+	GetHandleVerifier [0x00007FF61C32A44B+841403]
+	(No symbol) [0x00007FF61C1D344F]
+	(No symbol) [0x00007FF61C1CF4C4]
+	(No symbol) [0x00007FF61C1CF65D]
+	(No symbol) [0x00007FF61C1BEBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-31 22:39:49,403 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat
+2024-10-31 22:40:01,905 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-price']//strong"}
+  (Session info: chrome=130.0.6723.71); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61C263AF5+28005]
+	(No symbol) [0x00007FF61C1C83F0]
+	(No symbol) [0x00007FF61C06580A]
+	(No symbol) [0x00007FF61C0B5A3E]
+	(No symbol) [0x00007FF61C0B5D2C]
+	(No symbol) [0x00007FF61C0FEA97]
+	(No symbol) [0x00007FF61C0DBA7F]
+	(No symbol) [0x00007FF61C0FB8B3]
+	(No symbol) [0x00007FF61C0DB7E3]
+	(No symbol) [0x00007FF61C0A75C8]
+	(No symbol) [0x00007FF61C0A8731]
+	GetHandleVerifier [0x00007FF61C55646D+3118813]
+	GetHandleVerifier [0x00007FF61C5A6CC0+3448624]
+	GetHandleVerifier [0x00007FF61C59CF3D+3408301]
+	GetHandleVerifier [0x00007FF61C32A44B+841403]
+	(No symbol) [0x00007FF61C1D344F]
+	(No symbol) [0x00007FF61C1CF4C4]
+	(No symbol) [0x00007FF61C1CF65D]
+	(No symbol) [0x00007FF61C1BEBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-31 22:40:04,055 - BDS_So_Webcrawler - ERROR - Fail to extract: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat - RetryError[<Future at 0x1225b692f10 state=finished raised NoSuchElementException>]
+2024-10-31 22:40:05,562 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-6-met-tai-quan-thu-duc-duong-o-to-thong-2-tang-2-pn-2-wc-chi-1-ty-7999-48-m2-4-x-12-2
+2024-10-31 22:40:16,489 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-phu-hxh-canh-mat-tien-hon-70m2-2-tang-kien-co-3-phong-hoan-cong-du-chi-6-6-ty-tl-2
+2024-10-31 22:40:26,775 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-phu-hxh-canh-mat-tien-hon-70m2-2-tang-kien-co-3-phong-hoan-cong-du-chi-6-6-ty-tl-1
+2024-10-31 22:40:37,149 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-phu-hxh-canh-mat-tien-hon-70m2-2-tang-kien-co-3-phong-hoan-cong-du-chi-6-6-ty-tl
+2024-10-31 22:40:47,619 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-241-pho-mai-dich-vi-tri-dep-via-he-da-bong-kinh-doanh-dt-50m2-gia-chao-20-2-ty
+2024-10-31 22:40:57,953 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-trung-kinh-ngo-thong-o-to-kinh-doanh-56m2-5-tang-mat-tien-4m-gia-16-8-ty
+2024-10-31 22:41:08,202 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-dep-kham-thien-4tang-x3-ngu-x3-wc-thiet-ke-logo-chuyen-nghiep-dang-cap-thong-thoang-tien-ich
+2024-10-31 22:41:18,743 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/can-lo-goc-42m2x3t-oto-do-gan-cho-dong-la-7-phut-penika-to-huu
+2024-10-31 22:41:29,552 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-59m2-2tang-4-15-hiep-thanh-17-q12-sat-ben-xe-hiep-thanh-coopmart-hem-3m-4-ty-nhinh-0932030061
+2024-10-31 22:41:39,902 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-cap4-co-lung-86m2-4-26-hiep-thanh-26-q12-thu-nhap-7tr-th-xe-hoi-ngu-nha-3-ty-nhinh-0932030061
+2024-10-31 22:41:48,757 - root - ERROR - Error occurred while scraping: 'float' object has no attribute 'split'
+2024-10-31 22:41:48,770 - root - INFO - config file updated successfully!
+2024-10-31 22:41:48,807 - root - ERROR - An error occurred: Cannot save file into a non-existent directory: '..\data'
+2024-10-31 22:43:37,714 - root - INFO - Starting crawler BDS_SoCrawler
+2024-10-31 22:43:37,717 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so from page 1 to page 1 and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-10-31 22:44:08,408 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-10-31 22:44:12,070 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-6-met-tai-quan-thu-duc-2-tang-2-pn-1-wc-chua-den-10-7-tr-m2-230-m2-6-3-x-35-vua-o-vua-kd
+2024-10-31 22:44:22,795 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-phuong-liet-thanh-xuan-50m-3-gac-do-cua-ngo-thong-rong
+2024-10-31 22:44:33,129 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-phuong-binh-chieu-quan-thu-duc-2-tang-3-pn-2-wc-chi-48-tr-m2-50-m2-dat-shr
+2024-10-31 22:44:43,371 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-trung-tam-cau-giay-tran-thai-tong-duong-o-to-tranh-kinh-doanh-dt-91m2-4-tang-sdcc
+2024-10-31 22:44:53,661 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/khu-vip-quan-8-au-duong-lan-hem-xe-tai-ngang-lon-5-4-x-16-6pn-tien-o-va-kinh-doanh-spa-cty-chi-11-8-ty
+2024-10-31 22:45:04,115 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-hem-1-truc-duong-so-8-p11-go-vap-63m2-shr-4-65-ty-lh-0908900868
+2024-10-31 22:45:14,786 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-33-pho-doc-ngu-ba-dinh-phan-lo-o-to-kinh-doanh-dt-62m2-x5-tang-gia-chao-22-ty
+2024-10-31 22:45:25,088 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-tai-can-giuoc-long-an-36m2-shr-chi-1-2-ty-lh-0908679398
+2024-10-31 22:45:35,410 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-65m2x3t-dai-tao-oto-do-cua-ngay-dem-gan-truong-cho-ubnd
+2024-10-31 22:45:46,489 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat
+2024-10-31 22:45:59,153 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-price']//strong"}
+  (Session info: chrome=130.0.6723.71); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61C263AF5+28005]
+	(No symbol) [0x00007FF61C1C83F0]
+	(No symbol) [0x00007FF61C06580A]
+	(No symbol) [0x00007FF61C0B5A3E]
+	(No symbol) [0x00007FF61C0B5D2C]
+	(No symbol) [0x00007FF61C0FEA97]
+	(No symbol) [0x00007FF61C0DBA7F]
+	(No symbol) [0x00007FF61C0FB8B3]
+	(No symbol) [0x00007FF61C0DB7E3]
+	(No symbol) [0x00007FF61C0A75C8]
+	(No symbol) [0x00007FF61C0A8731]
+	GetHandleVerifier [0x00007FF61C55646D+3118813]
+	GetHandleVerifier [0x00007FF61C5A6CC0+3448624]
+	GetHandleVerifier [0x00007FF61C59CF3D+3408301]
+	GetHandleVerifier [0x00007FF61C32A44B+841403]
+	(No symbol) [0x00007FF61C1D344F]
+	(No symbol) [0x00007FF61C1CF4C4]
+	(No symbol) [0x00007FF61C1CF65D]
+	(No symbol) [0x00007FF61C1BEBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-31 22:46:12,477 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat
+2024-10-31 22:46:25,212 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-price']//strong"}
+  (Session info: chrome=130.0.6723.71); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61C263AF5+28005]
+	(No symbol) [0x00007FF61C1C83F0]
+	(No symbol) [0x00007FF61C06580A]
+	(No symbol) [0x00007FF61C0B5A3E]
+	(No symbol) [0x00007FF61C0B5D2C]
+	(No symbol) [0x00007FF61C0FEA97]
+	(No symbol) [0x00007FF61C0DBA7F]
+	(No symbol) [0x00007FF61C0FB8B3]
+	(No symbol) [0x00007FF61C0DB7E3]
+	(No symbol) [0x00007FF61C0A75C8]
+	(No symbol) [0x00007FF61C0A8731]
+	GetHandleVerifier [0x00007FF61C55646D+3118813]
+	GetHandleVerifier [0x00007FF61C5A6CC0+3448624]
+	GetHandleVerifier [0x00007FF61C59CF3D+3408301]
+	GetHandleVerifier [0x00007FF61C32A44B+841403]
+	(No symbol) [0x00007FF61C1D344F]
+	(No symbol) [0x00007FF61C1CF4C4]
+	(No symbol) [0x00007FF61C1CF65D]
+	(No symbol) [0x00007FF61C1BEBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-31 22:46:37,022 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat
+2024-10-31 22:46:49,862 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-price']//strong"}
+  (Session info: chrome=130.0.6723.71); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61C263AF5+28005]
+	(No symbol) [0x00007FF61C1C83F0]
+	(No symbol) [0x00007FF61C06580A]
+	(No symbol) [0x00007FF61C0B5A3E]
+	(No symbol) [0x00007FF61C0B5D2C]
+	(No symbol) [0x00007FF61C0FEA97]
+	(No symbol) [0x00007FF61C0DBA7F]
+	(No symbol) [0x00007FF61C0FB8B3]
+	(No symbol) [0x00007FF61C0DB7E3]
+	(No symbol) [0x00007FF61C0A75C8]
+	(No symbol) [0x00007FF61C0A8731]
+	GetHandleVerifier [0x00007FF61C55646D+3118813]
+	GetHandleVerifier [0x00007FF61C5A6CC0+3448624]
+	GetHandleVerifier [0x00007FF61C59CF3D+3408301]
+	GetHandleVerifier [0x00007FF61C32A44B+841403]
+	(No symbol) [0x00007FF61C1D344F]
+	(No symbol) [0x00007FF61C1CF4C4]
+	(No symbol) [0x00007FF61C1CF65D]
+	(No symbol) [0x00007FF61C1BEBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-10-31 22:46:52,065 - BDS_So_Webcrawler - ERROR - Fail to extract: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat - RetryError[<Future at 0x250b3a6a390 state=finished raised NoSuchElementException>]
+2024-10-31 22:46:53,508 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-6-met-tai-quan-thu-duc-duong-o-to-thong-2-tang-2-pn-2-wc-chi-1-ty-7999-48-m2-4-x-12-2
+2024-10-31 22:47:03,781 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-phu-hxh-canh-mat-tien-hon-70m2-2-tang-kien-co-3-phong-hoan-cong-du-chi-6-6-ty-tl-2
+2024-10-31 22:47:14,572 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-phu-hxh-canh-mat-tien-hon-70m2-2-tang-kien-co-3-phong-hoan-cong-du-chi-6-6-ty-tl-1
+2024-10-31 22:47:24,884 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-phu-hxh-canh-mat-tien-hon-70m2-2-tang-kien-co-3-phong-hoan-cong-du-chi-6-6-ty-tl
+2024-10-31 22:47:35,583 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-241-pho-mai-dich-vi-tri-dep-via-he-da-bong-kinh-doanh-dt-50m2-gia-chao-20-2-ty
+2024-10-31 22:47:46,995 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-trung-kinh-ngo-thong-o-to-kinh-doanh-56m2-5-tang-mat-tien-4m-gia-16-8-ty
+2024-10-31 22:47:57,195 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-dep-kham-thien-4tang-x3-ngu-x3-wc-thiet-ke-logo-chuyen-nghiep-dang-cap-thong-thoang-tien-ich
+2024-10-31 22:48:07,367 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/can-lo-goc-42m2x3t-oto-do-gan-cho-dong-la-7-phut-penika-to-huu
+2024-10-31 22:48:18,359 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-59m2-2tang-4-15-hiep-thanh-17-q12-sat-ben-xe-hiep-thanh-coopmart-hem-3m-4-ty-nhinh-0932030061
+2024-10-31 22:48:28,571 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-cap4-co-lung-86m2-4-26-hiep-thanh-26-q12-thu-nhap-7tr-th-xe-hoi-ngu-nha-3-ty-nhinh-0932030061
+2024-10-31 22:48:37,316 - root - ERROR - Error occurred while scraping: 'float' object has no attribute 'split'
+2024-10-31 22:48:37,319 - root - INFO - config file updated successfully!
+2024-10-31 22:48:37,322 - root - INFO - Data saved to ../data/bds_com_vn_data.json
