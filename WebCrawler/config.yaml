@@ -3,12 +3,15 @@ BDSWebCrawler:
       Chung cư:
         base_url: https://batdongsan.com.vn/ban-can-ho-chung-cu
         num_pages: 1
+        start_page: 1
       Nhà đất:
         base_url: https://batdongsan.com.vn/ban-nha-dat
         num_pages: 1
+        start_page: 1
       Đất nền:
         base_url: https://batdongsan.com.vn/ban-dat-dat-nen
         num_pages: 1
+        start_page: 1
     final_columns:
     - Mã tin
     - Ngày
@@ -33,7 +36,8 @@ BDSWebCrawler:
 
 AlonhadatWebCrawler:
   base_url: https://alonhadat.com.vn/nha-dat/can-ban.html
-  num_pages: 2
+  num_pages: 1
+  start_page: 1
   final_columns:
     - Mã tin
     - Ngày
@@ -61,6 +65,7 @@ AlonhadatWebCrawler:
 BDS_SoCrawler: 
   base_url: https://batdongsan.so/nha-dat-ban/nha-rieng#/
   num_pages: 1
+  start_page: 1
   final_columns:
     - Mã tin
     - Ngày,
