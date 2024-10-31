@@ -59,7 +59,7 @@ def run_crawler(config):
             try:
                 scraper = AlonhadatWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
                 df = scraper.multithread_extract(max_workers=1)
-                #df = scraper.transform(df)
+                df = scraper.transform(df)
                 final_df = pd.concat([final_df,df],ignore_index=True)
                 logger.info(f'Completed scraping {crawler}')
             except Exception as e:
@@ -80,7 +80,7 @@ def main():
     try:
         config = get_config('WebCrawler\config.yaml')
         final_df = run_crawler(config)
-            
+
         output_path = f"alonhadat_data.json" # CHANGE THIS 
         final_df.to_csv(output_path, index=False)
         logger.info(f"Data saved to {output_path}")
