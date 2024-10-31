@@ -30,16 +30,22 @@ def get_config(path):
     with open(path, 'r', encoding='utf8') as f:
         return yaml.safe_load(f)
     
+def update_config(updated_config, path):
+    '''
+    Update the new config after scraping to config.yaml
+    '''
+    with open(path, 'w', encoding='utf8') as f:
+        yaml.dump(updated_config, f, allow_unicode=True)
 
 def run_crawler(config):
     '''
     Begin scraping procedure
     '''
+    updated_config = config
     # crawler_names = ['BDS_SoCrawler'] # CHANGE THIS
     crawler_names = ['AlonhadatWebCrawler']
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler}')
-
         if crawler == 'BDSWebCrawler':
             final_df = pd.DataFrame(columns=config[crawler]['final_columns'])
             for property_type, settings in config[crawler]['property_types'].items():
@@ -52,6 +58,7 @@ def run_crawler(config):
                     final_df = pd.concat([final_df,df],ignore_index=True)
 
                     logger.info(f'Completed scraping {property_type} of {crawler}')
+                    updated_config[crawler][property_type]['start_page'] += updated_config[crawler][property_type]['num_pages']
                 except Exception as e:
                     logger.error(f"Error occurred while scraping {property_type}: {str(e)}")
         elif crawler == 'AlonhadatWebCrawler':
@@ -61,6 +68,7 @@ def run_crawler(config):
                 df = scraper.multithread_extract(max_workers=1)
                 df = scraper.transform(df)
                 final_df = pd.concat([final_df,df],ignore_index=True)
+                updated_config[crawler]['start_page'] += updated_config[crawler]['num_pages']
                 logger.info(f'Completed scraping {crawler}')
             except Exception as e:
                 logger.error(f"Error occurred while scraping: {str(e)}")
@@ -71,6 +79,7 @@ def run_crawler(config):
                 df = scraper.multithread_extract(max_workers=1)
                 df = scraper.transform(df)
                 final_df = pd.concat([final_df,df],ignore_index=True)
+                updated_config[crawler]['start_page'] += updated_config[crawler]['num_pages']
                 logger.info(f'Completed scraping {crawler}')
             except Exception as e:
                 logger.error(f"Error occurred while scraping: {str(e)}")
