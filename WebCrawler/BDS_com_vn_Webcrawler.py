@@ -18,13 +18,14 @@ import logging
 logger = logging.getLogger(__name__)
 
 class BDSWebCrawler(WebCrawler):
-    def __init__(self, base_url, num_pages= None) : 
+    def __init__(self, base_url, num_pages = None, start_page = 1) : 
         self.num_pages = num_pages
         self.base_url = base_url
+        self.start_page = start_page
         if self.num_pages:
-            logger.info(f"Initialized batdongsan.com.vn with {num_pages} pages and base URL: {base_url}")
+            logger.info(f"Initialized batdongsan.com.vn from page {start_page} to page {start_page + num_pages -1 } and base URL: {base_url}")
         else :
-            logger.info(f"Initialized batdongsan.com.vn base URL: {base_url}")
+            logger.info(f"Initialized batdongsan.com.vn from page {start_page} with base URL: {base_url}")
   
     def init_driver(self):
         opt = Options()
@@ -39,7 +40,7 @@ class BDSWebCrawler(WebCrawler):
     def get_pages(self,driver):
         
         pages = []
-        page = 1 
+        page = self.start_page
         try :
             while True : 
                 if page == 1 :
@@ -54,8 +55,8 @@ class BDSWebCrawler(WebCrawler):
                     pages.append(link.get_attribute('href'))
                 page += 1 
                 if self.num_pages:
-                    if page >= self.num_pages:
-                        logger.info(f'Process ended with total of {self.num_pages} pages')
+                    if page >= self.start_page + self.num_pages:
+                        logger.info(f'Process ended with total of {page - self.start_page} pages')
                         break
         except Exception as e :
             logger.error(f'Get total of {page} pages : {e}')
