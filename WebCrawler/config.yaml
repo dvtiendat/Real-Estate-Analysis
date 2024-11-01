@@ -24,7 +24,7 @@ AlonhadatWebCrawler:
   - Số phòng ngủ
   - Chính chủ
   num_pages: 1
-  start_page: 1
+  start_page: 2
 BDSWebCrawler:
   final_columns:
   - Mã tin

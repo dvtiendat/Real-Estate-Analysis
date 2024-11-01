@@ -5,6 +5,7 @@ from BDS_So_Webcrawler import BDS_SoWebCrawler
 import logging
 import pandas as pd
 import yaml
+import json
 import os
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
@@ -46,7 +47,8 @@ def run_crawler(config):
     Begin scraping procedure
     '''
     updated_config = config
-    crawler_names = ['BDS_SoCrawler'] # CHANGE THIS
+    # crawler_names = ['BDS_SoCrawler'] # CHANGE THIS
+    crawler_names = ['BDSWebCrawler']
     # crawler_names = ['AlonhadatWebCrawler']
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler}')
@@ -101,7 +103,10 @@ def main():
         # Update config and save file 
         update_config(updated_config, config_path)
         output_path = f"../data/bds_com_vn_data.json" # CHANGE THIS 
-        final_df.to_csv(output_path, index=False)
+        tmp = final_df.to_dict(orient="records")
+        with open(output_path, 'w', encoding='utf8') as f:
+            json.dump(tmp, f, indent = 2, ensure_ascii= False)
+        # final_df.to_csv(output_path, index=False)
         logger.info(f"Data saved to {output_path}")
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")

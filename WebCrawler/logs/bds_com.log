@@ -2100,3 +2100,462 @@ Stacktrace:
 2024-10-31 22:48:37,316 - root - ERROR - Error occurred while scraping: 'float' object has no attribute 'split'
 2024-10-31 22:48:37,319 - root - INFO - config file updated successfully!
 2024-10-31 22:48:37,322 - root - INFO - Data saved to ../data/bds_com_vn_data.json
+2024-11-01 13:40:25,591 - root - INFO - Starting crawler BDSWebCrawler
+2024-11-01 13:40:25,607 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-11-01 13:40:25,607 - root - ERROR - Error occurred while scraping Chung cư: cannot access local variable 'driver' where it is not associated with a value
+2024-11-01 13:40:25,607 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-nha-dat
+2024-11-01 13:40:25,607 - root - ERROR - Error occurred while scraping Nhà đất: cannot access local variable 'driver' where it is not associated with a value
+2024-11-01 13:40:25,607 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-dat-dat-nen
+2024-11-01 13:40:25,607 - root - ERROR - Error occurred while scraping Đất nền: cannot access local variable 'driver' where it is not associated with a value
+2024-11-01 13:40:25,607 - root - INFO - config file updated successfully!
+2024-11-01 13:40:25,622 - root - INFO - Data saved to ../data/bds_com_vn_data.json
+2024-11-01 13:42:11,714 - root - INFO - Starting crawler BDSWebCrawler
+2024-11-01 13:42:11,729 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-11-01 13:42:11,729 - root - ERROR - Error occurred while scraping Chung cư: cannot access local variable 'driver' where it is not associated with a value
+2024-11-01 13:42:11,729 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-nha-dat
+2024-11-01 13:42:11,729 - root - ERROR - Error occurred while scraping Nhà đất: cannot access local variable 'driver' where it is not associated with a value
+2024-11-01 13:42:11,729 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-dat-dat-nen
+2024-11-01 13:42:11,729 - root - ERROR - Error occurred while scraping Đất nền: cannot access local variable 'driver' where it is not associated with a value
+2024-11-01 13:42:11,729 - root - INFO - config file updated successfully!
+2024-11-01 13:42:11,745 - root - INFO - Data saved to ../data/bds_com_vn_data.json
+2024-11-01 13:42:40,018 - root - INFO - Starting crawler BDS_SoCrawler
+2024-11-01 13:42:40,018 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so from page 1 to page 1 and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-11-01 13:43:46,320 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 13:43:50,530 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/bui-minh-truc-p5-q8-hem-xe-may-ngang-lon-4-5m-x-9m-2-tang-2-phong-ngu-chi-4-3-ty-tl-1
+2024-11-01 13:44:14,097 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/bui-minh-truc-p5-q8-hem-xe-may-ngang-lon-4-5m-x-9m-2-tang-2-phong-ngu-chi-4-3-ty-tl
+2024-11-01 13:44:32,336 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-2-mat-tien-duong-phan-huy-ich-dai-lao-bao-loc-gia-2-750-ty
+2024-11-01 13:44:52,361 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-vi-tri-dep-tai-ngo-95-52-6c-nam-du-hoang-mai-5-25ty-0983659888
+2024-11-01 13:45:08,913 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-42m2x3t-tinh-lam-50m-cau-dai-thanh-7-phut-ra-penika
+2024-11-01 13:45:21,240 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-3-tang-kiet-le-duan-thanh-khe-da-nang
+2024-11-01 13:45:37,021 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-6-met-tai-quan-thu-duc-2-tang-2-pn-1-wc-chua-den-10-7-tr-m2-230-m2-6-3-x-35-vua-o-vua-kd
+2024-11-01 13:45:48,869 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-phuong-liet-thanh-xuan-50m-3-gac-do-cua-ngo-thong-rong
+2024-11-01 13:46:01,010 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-phuong-binh-chieu-quan-thu-duc-2-tang-3-pn-2-wc-chi-48-tr-m2-50-m2-dat-shr
+2024-11-01 13:46:13,710 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-trung-tam-cau-giay-tran-thai-tong-duong-o-to-tranh-kinh-doanh-dt-91m2-4-tang-sdcc
+2024-11-01 13:46:25,270 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/khu-vip-quan-8-au-duong-lan-hem-xe-tai-ngang-lon-5-4-x-16-6pn-tien-o-va-kinh-doanh-spa-cty-chi-11-8-ty
+2024-11-01 13:46:37,036 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-hem-1-truc-duong-so-8-p11-go-vap-63m2-shr-4-65-ty-lh-0908900868
+2024-11-01 13:46:50,799 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-33-pho-doc-ngu-ba-dinh-phan-lo-o-to-kinh-doanh-dt-62m2-x5-tang-gia-chao-22-ty
+2024-11-01 13:47:02,788 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-tai-can-giuoc-long-an-36m2-shr-chi-1-2-ty-lh-0908679398
+2024-11-01 13:47:17,407 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-65m2x3t-dai-tao-oto-do-cua-ngay-dem-gan-truong-cho-ubnd
+2024-11-01 13:47:30,626 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat
+2024-11-01 13:47:46,343 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-price']//strong"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FC4D3AF5+28005]
+	(No symbol) [0x00007FF7FC4383F0]
+	(No symbol) [0x00007FF7FC2D580A]
+	(No symbol) [0x00007FF7FC325A3E]
+	(No symbol) [0x00007FF7FC325D2C]
+	(No symbol) [0x00007FF7FC36EA97]
+	(No symbol) [0x00007FF7FC34BA7F]
+	(No symbol) [0x00007FF7FC36B8B3]
+	(No symbol) [0x00007FF7FC34B7E3]
+	(No symbol) [0x00007FF7FC3175C8]
+	(No symbol) [0x00007FF7FC318731]
+	GetHandleVerifier [0x00007FF7FC7C646D+3118813]
+	GetHandleVerifier [0x00007FF7FC816CC0+3448624]
+	GetHandleVerifier [0x00007FF7FC80CF3D+3408301]
+	GetHandleVerifier [0x00007FF7FC59A44B+841403]
+	(No symbol) [0x00007FF7FC44344F]
+	(No symbol) [0x00007FF7FC43F4C4]
+	(No symbol) [0x00007FF7FC43F65D]
+	(No symbol) [0x00007FF7FC42EBB9]
+	BaseThreadInitThunk [0x00007FFAC5017374+20]
+	RtlUserThreadStart [0x00007FFAC5A1CC91+33]
+
+2024-11-01 13:47:58,618 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat
+2024-11-01 13:48:11,808 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-price']//strong"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FC4D3AF5+28005]
+	(No symbol) [0x00007FF7FC4383F0]
+	(No symbol) [0x00007FF7FC2D580A]
+	(No symbol) [0x00007FF7FC325A3E]
+	(No symbol) [0x00007FF7FC325D2C]
+	(No symbol) [0x00007FF7FC36EA97]
+	(No symbol) [0x00007FF7FC34BA7F]
+	(No symbol) [0x00007FF7FC36B8B3]
+	(No symbol) [0x00007FF7FC34B7E3]
+	(No symbol) [0x00007FF7FC3175C8]
+	(No symbol) [0x00007FF7FC318731]
+	GetHandleVerifier [0x00007FF7FC7C646D+3118813]
+	GetHandleVerifier [0x00007FF7FC816CC0+3448624]
+	GetHandleVerifier [0x00007FF7FC80CF3D+3408301]
+	GetHandleVerifier [0x00007FF7FC59A44B+841403]
+	(No symbol) [0x00007FF7FC44344F]
+	(No symbol) [0x00007FF7FC43F4C4]
+	(No symbol) [0x00007FF7FC43F65D]
+	(No symbol) [0x00007FF7FC42EBB9]
+	BaseThreadInitThunk [0x00007FFAC5017374+20]
+	RtlUserThreadStart [0x00007FFAC5A1CC91+33]
+
+2024-11-01 13:48:24,000 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat
+2024-11-01 13:48:41,278 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='re-price']//strong"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FC4D3AF5+28005]
+	(No symbol) [0x00007FF7FC4383F0]
+	(No symbol) [0x00007FF7FC2D580A]
+	(No symbol) [0x00007FF7FC325A3E]
+	(No symbol) [0x00007FF7FC325D2C]
+	(No symbol) [0x00007FF7FC36EA97]
+	(No symbol) [0x00007FF7FC34BA7F]
+	(No symbol) [0x00007FF7FC36B8B3]
+	(No symbol) [0x00007FF7FC34B7E3]
+	(No symbol) [0x00007FF7FC3175C8]
+	(No symbol) [0x00007FF7FC318731]
+	GetHandleVerifier [0x00007FF7FC7C646D+3118813]
+	GetHandleVerifier [0x00007FF7FC816CC0+3448624]
+	GetHandleVerifier [0x00007FF7FC80CF3D+3408301]
+	GetHandleVerifier [0x00007FF7FC59A44B+841403]
+	(No symbol) [0x00007FF7FC44344F]
+	(No symbol) [0x00007FF7FC43F4C4]
+	(No symbol) [0x00007FF7FC43F65D]
+	(No symbol) [0x00007FF7FC42EBB9]
+	BaseThreadInitThunk [0x00007FFAC5017374+20]
+	RtlUserThreadStart [0x00007FFAC5A1CC91+33]
+
+2024-11-01 13:48:43,486 - BDS_So_Webcrawler - ERROR - Fail to extract: https://batdongsan.so/nha-dat/ban-nha-rieng-tai-tl-43-quan-thu-duc-duong-truoc-nha-10-met-2-tang-3-pn-2-wc-chi-52-tr-m2-50-m2-dat - RetryError[<Future at 0x18afc8f3850 state=finished raised NoSuchElementException>]
+2024-11-01 13:48:45,455 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-rieng-hxt-6-met-tai-quan-thu-duc-duong-o-to-thong-2-tang-2-pn-2-wc-chi-1-ty-7999-48-m2-4-x-12-2
+2024-11-01 13:49:01,271 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-phu-hxh-canh-mat-tien-hon-70m2-2-tang-kien-co-3-phong-hoan-cong-du-chi-6-6-ty-tl-2
+2024-11-01 13:49:16,078 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-phu-hxh-canh-mat-tien-hon-70m2-2-tang-kien-co-3-phong-hoan-cong-du-chi-6-6-ty-tl-1
+2024-11-01 13:49:28,084 - root - INFO - Completed scraping BDS_SoCrawler
+2024-11-01 13:49:28,084 - root - INFO - config file updated successfully!
+2024-11-01 13:49:28,100 - root - INFO - Data saved to ../data/bds_com_vn_data.json
+2024-11-01 13:56:17,478 - root - INFO - Starting crawler BDSWebCrawler
+2024-11-01 13:56:17,493 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-11-01 13:56:27,605 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 13:56:32,020 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/200-mua-truc-tiep-cdt-nhan-nha-o-ngay-gia-1-8-ty-tro-lai-suat-0-pr40660755
+2024-11-01 13:56:46,332 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-quang-dao-phuong-me-tri-prj-the-matrix-one/quy-f0-truc-tiep-cdt-khong-qua-trung-gian-giai-doan-2-tu-1pn-4-pn-pr41249131
+2024-11-01 13:57:17,332 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/ban-nhanh-nhieu-ch-t2-2024-stu-1-2-ty-1pn-1-65-ty-2pn-1-9-ty-3pn-2-8-ty-lh-pr39141708
+2024-11-01 13:57:31,900 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-an-binh-phuong-an-binh-prj-phu-dong-sky-garden/mo-ban-sap-ban-giao-gia-tu-2-ty-6-chiet-khau-15-pr41003332
+2024-11-01 13:57:47,311 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-vung-thien-phuong-tan-dong-hiep-prj-phu-dong-skyone/-gia-tu-1-5-ty-thanh-toan-9tr-thang-cam-ket-thue-lai-8-10tr-thang-o-trung-tam-tp-di-an-pr41005124
+2024-11-01 13:58:03,568 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nhu-nguyet-phuong-thuan-phuoc-prj-sam-towers/-da-nang-mat-song-han-ngay-trung-tam-tp-ttoan-30-nhan-nha-c-thue-lien-pr41225582
+2024-11-01 13:58:16,402 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/mua-truc-tiep-cdt-view-song-ngay-phu-my-hung-dh-rmit-o-lien-vay-75-lai-0-pr41196123
+2024-11-01 13:58:29,242 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-pham-van-nghi-phuong-tan-phong-9-prj-sky-garden-3/-tien-ban-gap-3-pmh-q7-dien-tich-100m2-lot-long-day-du-noi-that-gia-dau-tu-pr39678860
+2024-11-01 13:58:40,862 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/-ban-gap-quy-canstudio-1pn-2pn-chinh-chu-view-dep-phap-ly-chuan-tot-nhat-oceanpark-pr41384895
+2024-11-01 13:58:52,387 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-3n-4n-brg-moi-nhat-thang-11-2024-sach-dac-biet-chua-tung-co-pr41366397
+2024-11-01 13:59:03,487 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-ngoai-giao-2pn-3pn-4pn-gia-tot-nhat-thang-10-2024-tu-pkd-cdt-tai-brg-25-luong-pr41324543
+2024-11-01 13:59:16,655 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-tat-thanh-phuong-hoa-hiep-nam-prj-nam-o-discovery/-truc-dien-bien-da-nang-ngay-resrt-mikazuki-gia-chi-tu-4-5-ty-s-huu-lau-dai-pr41317618
+2024-11-01 13:59:29,455 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-pho-lang-ha-phuong-lang-ha-prj-green-diamond-93-lang-ha/binh-minh-land-tong-hop-quy-1pn-2pn-3pn-gia-tot-vi-tri-dep-tai-cc-93-ha-pr41311409
+2024-11-01 13:59:41,590 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/xem-nha-24-7-binh-minh-land-ban-25-gia-tot-nhat-thi-truong-co-slot-gui-o-to-pr41229797
+2024-11-01 13:59:52,756 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-hang-ngoai-giao-va-chuyen-nhuong-gia-tot-nhat-tai-brg-luong-pr41387181
+2024-11-01 14:00:03,608 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-ho-tung-mau-phuong-phu-dien-prj-goldmark-city/chuyen-cho-thue-ch-gold-mark-2-3-4-ngu-gia-chi-tu-9-trieu-14tr-tu-co-ban-va-full-lh-0846692222-pr32604697
+2024-11-01 14:00:15,385 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/chu-nha-gui-ban-lo-3pn-vinmes-gia-chi-2-85-ty-con-thuong-luong-pr40941420
+2024-11-01 14:00:27,051 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/mo-ban-mik-imperia-stu-1n-2n-65m2-gia-3xty-htls-70-0-18-24-thang-pr41361165
+2024-11-01 14:00:38,801 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-dai-lo-thang-long-phuong-tay-mo-prj-lumi-hanoi/booking-giai-doan-3-elite-gia-chi-tu-79tr-m2-chiet-khau-len-toi-11-qua-tang-200-trieu-pr40503394
+2024-11-01 14:00:50,540 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-handico-complex/mo-ban-33-3-ham-do-xe-ban-giao-i-2025-gia-chi-tu-83-tr-m2-pr41037615
+2024-11-01 14:01:09,668 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 14:01:19,891 - root - INFO - Completed scraping Chung cư of BDSWebCrawler
+2024-11-01 14:01:19,891 - root - ERROR - Error occurred while scraping Chung cư: 'Chung cư'
+2024-11-01 14:01:19,891 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-nha-dat
+2024-11-01 14:01:28,159 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 14:01:32,380 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-cong-thanh-phuong-lam-ha_1-prj-sun-urban-city/mo-ban-dot-1-shophouse-ha-nam-gia-tu-5-8-ty-m-chinh-sach-uu-dai-pr41389455
+2024-11-01 14:01:44,980 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-mat-pho-duong-lac-long-quan-phuong-10-10/ha-kich-gia-toa-tm-can-ho-dv-tai-541-xay-moi-hoan-cong-2024-day-du-pccc-1-ham-6lau-pr41389245
+2024-11-01 14:01:57,247 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/ap-goc-view-ho-1-trong-nhung-can-dep-nhat-tot-tai-lh-pr40465470
+2024-11-01 14:02:08,920 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-trong-tan-phuong-duong-noi-prj-khu-do-thi-geleximco-le-trong-tan/top-can-giap-smart-city-gia-chi-tu-14-8-ty-can-lh-e-mai-pr41311000
+2024-11-01 14:02:24,824 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/duy-nhat-5-can-dao-dua-huong-chinh-sach-t10-ck-25-tang-16-chi-vang-voucher-khung-200tr-pr41330514
+2024-11-01 14:02:36,802 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-phuong-tay-mo-prj-vinhomes-smart-city/ban-sieu-hoi-tai-gia-cuc-chat-11-ty-vnd-67m2-pr41355134
+2024-11-01 14:02:49,108 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-pham-van-chieu-phuong-14-8/-pho-dep-p-14-q-go-vapgia-5-ty-dt-4-x-16-tret-lau-3-phong-ngu-pr41387389
+2024-11-01 14:03:01,907 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/cap-nhat-quy-can-chuyen-nhuong-gia-tot-nhat-tai-vhocp-2-3-lh-pr40153983
+2024-11-01 14:03:12,760 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-trung-yen-phuong-trung-hoa-4/chinh-chu-can-ban-khu-cau-giay-dt-98m2-7t-thang-may-kd-gia-47-9-ty-pr41384104
+2024-11-01 14:03:24,098 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/-2-mat-tien-bien-3-view-thang-cong-vien-nuoc-so-huu-lau-dai-pr41166036
+2024-11-01 14:03:37,829 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/tong-hop-cac-can-re-dep-nhat-du-an-global-gate-loa-pr41372413
+2024-11-01 14:03:51,272 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/ban-can-re-t-vin-oceanparrk-2-n-tet-o-luon-pr41011293
+2024-11-01 14:04:03,410 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/doc-quyen-quy-can-de-o-vinhome-hang-chinh-chu-thap-nhat-thi-truong-pr40813376
+2024-11-01 14:04:15,282 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-nguyen-chi-thanh-phuong-lang-thuong/nh-chu-ban-56m-cho-thue-doanh-thu-65-trieu-thang-gia-re-12-9-ty-pr41384203
+2024-11-01 14:04:26,660 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/can-goc-don-lap-dao-dua-24-3-ty-chiet-khau-20-tang-ngay-5-cay-vang-tri-gia-375-trieu-pr39234897
+2024-11-01 14:04:39,228 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-duong-nguyen-xien-phuong-dai-kim-prj-the-manor-central-park/quy-can-doc-quyen-aristo-uu-len-toi-14-va-tang-m-kh-booking-som-lh-pr41382881
+2024-11-01 14:04:51,253 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/can-ban-nhanh-song-lap-gan-ho-phan-khu-san-ho-chi-29-ty-duy-nhat-tai-vin-lam-pr41377089
+2024-11-01 14:05:03,440 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/chi-voi-7-6-ty-so-huu-ngay-1-can-anh-duong-tai-3-pr41384925
+2024-11-01 14:05:14,142 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-quoc-lo-32-xa-di-trach-prj-hinode-royal-park/hang-hiem-tai-13-5-ty-vnd-94m2-8-pn-5-wc-5-tang-pr41384411
+2024-11-01 14:05:25,596 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-le-van-tho-phuong-16-3/chinh-can-ban-gap-532-40-p16-go-vap-lien-he-chi-lien-xem-pr41384003
+2024-11-01 14:05:36,045 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 14:05:46,241 - root - INFO - Completed scraping Nhà đất of BDSWebCrawler
+2024-11-01 14:05:46,241 - root - ERROR - Error occurred while scraping Nhà đất: 'Nhà đất'
+2024-11-01 14:05:46,241 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-dat-dat-nen
+2024-11-01 14:05:54,192 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 14:05:58,378 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-duong-b-lao-xe-re-xa-loc-chau/-bao-aman-blao-1000-m2-co-suoi-ho-tu-nhien-bao-quanh-thich-hop-lam-nha-vuon-nghi-duong-pr41389028
+2024-11-01 14:06:09,728 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-nguyen-thi-ton-phuong-buu-hoa/chu-gui-ban-lo-tp-bien-boa-dt-6x17-6-105-6-m2-gia-3ty-2-tl-pr41387293
+2024-11-01 14:06:21,824 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-duong-noi/chinh-chu-ban-dich-vu-ha-dong-doi-dien-aeon-ha-dong-kinh-doanh-tot-pr40717070
+2024-11-01 14:07:11,544 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-vanh-dai-4-phuong-thoi-hoa/-binh-gia-re-gan-truong-hoc-quoc-te-viet-duc-pr41381724
+2024-11-01 14:07:58,644 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-420-xa-binh-yen-1/nhinh-1ty-re-nhat-sat-tinh-lo-420-cnc-fpt-thach-that-hoa-lac-thong-o-to-tranh-pr41380783
+2024-11-01 14:08:46,428 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-hung-loc-1/sieu-re-chinh-chu-ban-gap-vi-tri-dac-dia-2mt-dt-241-9m2-gia-chi-2-x-ty-pr39802594
+2024-11-01 14:08:59,000 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-le-quang-chi-phuong-hoa-xuan/nh-chu-can-ban-2-lo-mat-tien-va-nguyen-mau-tai-gia-uu-dai-nhat-khu-vuc-pr41373839
+2024-11-01 14:09:10,200 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dai-lo-thang-long-xa-dong-truc/ban-nhanh-87-2m2-tai-khoang-mai-gan-ng-va-du-an-300ha-vingroup-pr41372403
+2024-11-01 14:09:21,790 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-quoc-lo-13-phuong-hung-long/ban-gap-mt-24m-hon-3-sao-3-100m2-so-rieng-gia-280tr-bao-so-canh-kcn-lon-truong-cho-dan-cu-dong-pr41371089
+2024-11-01 14:09:33,875 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-phuoc-lam/gia-chinh-chu-ban-4-lo-mat-tien-duong-4m-co-so-rieng-gia-chi-tu-750tr-nen-lh-pr41370419
+2024-11-01 14:09:45,626 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dang-thanh-hieu-phuong-phu-huu-2/can-ban-tai-quan-9-doi-dien-cang-jtc-pr21349450
+2024-11-01 14:09:58,753 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dai-lo-thang-long-xa-dong-truc/86-3m-khoang-mai-canh-ng-gan-cong-nghe-cao-hoa-lac-ke-ben-kdt-vin-group-pr41347116
+2024-11-01 14:10:11,785 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-van-canh-1/chinh-chu-ban-51-6m2-co-vi-tri-cuc-dep-cach-duong-trinh-bo-my-dinh-chi-50m-t7-2025-pr40250894
+2024-11-01 14:10:26,635 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-16-1/ban-gap-lo-mat-tien-vuong-vuc-p16-nhieu-tien-ich-xung-quanh-gia-chi-tuong-duong-hem-pr41361983
+2024-11-01 14:10:39,235 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-duong-31c-phuong-an-phu-prj-an-phu-an-khanh/ban-lo-mt-re-nhat-khu-do-thi-apak-quan-2-400m2-no-hau-dep-gia-cuc-tot-chi-180tr-m2-72-ty-pr41361499
+2024-11-01 14:10:51,202 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-420-xa-tan-xa/950tr-70m2-view-ho-hoa-lac-gan-dh-quoc-gia-va-khu-cong-nghe-cao-pr32663896
+2024-11-01 14:11:03,386 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-21a-xa-binh-yen-1/hang-sieu-pham-nen-hoa-lac-chi-tu-4-5-ty-so-do-trao-tay-htls-0-18t-cuc-hiem-lh-pr41358759
+2024-11-01 14:11:15,735 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-vo-van-bich-xa-tan-thanh-dong/1800m2-mat-tien-21m-dai-phu-hop-lam-nha-xuong-biet-thu-vuon-pr41354922
+2024-11-01 14:11:27,636 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234
+2024-11-01 14:11:39,436 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-415-xa-minh-quang/chinh-chu-ban-manh-mat-415-view-song-da-pr40099699
+2024-11-01 14:11:51,870 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 14:12:02,101 - root - INFO - Completed scraping Đất nền of BDSWebCrawler
+2024-11-01 14:12:02,101 - root - ERROR - Error occurred while scraping Đất nền: 'Đất nền'
+2024-11-01 14:12:02,111 - root - INFO - config file updated successfully!
+2024-11-01 14:12:02,111 - root - INFO - Data saved to ../data/bds_com_vn_data.json
+2024-11-01 14:19:01,939 - root - INFO - Starting crawler BDSWebCrawler
+2024-11-01 14:19:01,955 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-11-01 14:19:28,381 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 14:19:32,578 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-an-phu-prj-the-global-city/chu-dau-tu-nhan-booking-mo-ban-giai-doan-1-thap-doi-dep-nhat-q2-uu-dai-lon-pr41368956
+2024-11-01 14:20:19,108 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-dien-bien-phu-phuong-22-prj-vinhomes-central-park/3pn-dep-nhat-140m2-view-song-cong-vien-chi-9-ty-call-0901692239-pr23948214
+2024-11-01 14:20:31,348 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/200-mua-truc-tiep-cdt-nhan-nha-o-ngay-gia-1-8-ty-tro-lai-suat-0-pr40660755
+2024-11-01 14:21:00,434 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-quang-dao-phuong-me-tri-prj-the-matrix-one/quy-f0-truc-tiep-cdt-khong-qua-trung-gian-giai-doan-2-tu-1pn-4-pn-pr41249131
+2024-11-01 14:21:49,232 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/ban-nhanh-nhieu-ch-t2-2024-stu-1-2-ty-1pn-1-65-ty-2pn-1-9-ty-3pn-2-8-ty-lh-pr39141708
+2024-11-01 14:22:17,994 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-an-binh-phuong-an-binh-prj-phu-dong-sky-garden/mo-ban-sap-ban-giao-gia-tu-2-ty-6-chiet-khau-15-pr41003332
+2024-11-01 14:22:51,237 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-vung-thien-phuong-tan-dong-hiep-prj-phu-dong-skyone/-gia-tu-1-5-ty-thanh-toan-9tr-thang-cam-ket-thue-lai-8-10tr-thang-o-trung-tam-tp-di-an-pr41005124
+2024-11-01 14:23:05,974 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nhu-nguyet-phuong-thuan-phuoc-prj-sam-towers/-da-nang-mat-song-han-ngay-trung-tam-tp-ttoan-30-nhan-nha-c-thue-lien-pr41225582
+2024-11-01 14:23:18,663 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/mua-truc-tiep-cdt-view-song-ngay-phu-my-hung-dh-rmit-o-lien-vay-75-lai-0-pr41196123
+2024-11-01 14:23:32,058 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-pham-van-nghi-phuong-tan-phong-9-prj-sky-garden-3/-tien-ban-gap-3-pmh-q7-dien-tich-100m2-lot-long-day-du-noi-that-gia-dau-tu-pr39678860
+2024-11-01 14:23:45,852 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/-ban-gap-quy-canstudio-1pn-2pn-chinh-chu-view-dep-phap-ly-chuan-tot-nhat-oceanpark-pr41384895
+2024-11-01 14:23:57,736 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-3n-4n-brg-moi-nhat-thang-11-2024-sach-dac-biet-chua-tung-co-pr41366397
+2024-11-01 14:24:08,988 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-ngoai-giao-2pn-3pn-4pn-gia-tot-nhat-thang-10-2024-tu-pkd-cdt-tai-brg-25-luong-pr41324543
+2024-11-01 14:24:21,172 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-tat-thanh-phuong-hoa-hiep-nam-prj-nam-o-discovery/-truc-dien-bien-da-nang-ngay-resrt-mikazuki-gia-chi-tu-4-5-ty-s-huu-lau-dai-pr41317618
+2024-11-01 14:24:36,860 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-pho-lang-ha-phuong-lang-ha-prj-green-diamond-93-lang-ha/binh-minh-land-tong-hop-quy-1pn-2pn-3pn-gia-tot-vi-tri-dep-tai-cc-93-ha-pr41311409
+2024-11-01 14:24:48,494 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/xem-nha-24-7-binh-minh-land-ban-25-gia-tot-nhat-thi-truong-co-slot-gui-o-to-pr41229797
+2024-11-01 14:25:01,161 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-hang-ngoai-giao-va-chuyen-nhuong-gia-tot-nhat-tai-brg-luong-pr41387181
+2024-11-01 14:25:13,748 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-ho-tung-mau-phuong-phu-dien-prj-goldmark-city/chuyen-cho-thue-ch-gold-mark-2-3-4-ngu-gia-chi-tu-9-trieu-14tr-tu-co-ban-va-full-lh-0846692222-pr32604697
+2024-11-01 14:25:25,181 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/chu-nha-gui-ban-lo-3pn-vinmes-gia-chi-2-85-ty-con-thuong-luong-pr40941420
+2024-11-01 14:25:37,815 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/mo-ban-mik-imperia-stu-1n-2n-65m2-gia-3xty-htls-70-0-18-24-thang-pr41361165
+2024-11-01 14:25:51,335 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 14:26:01,575 - root - INFO - Completed scraping Chung cư of BDSWebCrawler
+2024-11-01 14:26:01,575 - root - ERROR - An error occurred: 'Chung cư'
+2024-11-01 14:27:24,054 - root - INFO - Starting crawler BDSWebCrawler
+2024-11-01 14:27:24,054 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-11-01 14:27:32,894 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 14:27:37,116 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-an-phu-prj-the-global-city/chu-dau-tu-nhan-booking-mo-ban-giai-doan-1-thap-doi-dep-nhat-q2-uu-dai-lon-pr41368956
+2024-11-01 14:28:06,690 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-dien-bien-phu-phuong-22-prj-vinhomes-central-park/3pn-dep-nhat-140m2-view-song-cong-vien-chi-9-ty-call-0901692239-pr23948214
+2024-11-01 14:28:18,951 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/200-mua-truc-tiep-cdt-nhan-nha-o-ngay-gia-1-8-ty-tro-lai-suat-0-pr40660755
+2024-11-01 14:28:30,152 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-quang-dao-phuong-me-tri-prj-the-matrix-one/quy-f0-truc-tiep-cdt-khong-qua-trung-gian-giai-doan-2-tu-1pn-4-pn-pr41249131
+2024-11-01 14:28:42,168 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/ban-nhanh-nhieu-ch-t2-2024-stu-1-2-ty-1pn-1-65-ty-2pn-1-9-ty-3pn-2-8-ty-lh-pr39141708
+2024-11-01 14:28:54,830 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-an-binh-phuong-an-binh-prj-phu-dong-sky-garden/mo-ban-sap-ban-giao-gia-tu-2-ty-6-chiet-khau-15-pr41003332
+2024-11-01 14:29:10,359 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-vung-thien-phuong-tan-dong-hiep-prj-phu-dong-skyone/-gia-tu-1-5-ty-thanh-toan-9tr-thang-cam-ket-thue-lai-8-10tr-thang-o-trung-tam-tp-di-an-pr41005124
+2024-11-01 14:29:25,614 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nhu-nguyet-phuong-thuan-phuoc-prj-sam-towers/-da-nang-mat-song-han-ngay-trung-tam-tp-ttoan-30-nhan-nha-c-thue-lien-pr41225582
+2024-11-01 14:30:13,268 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/mua-truc-tiep-cdt-view-song-ngay-phu-my-hung-dh-rmit-o-lien-vay-75-lai-0-pr41196123
+2024-11-01 14:30:25,551 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-pham-van-nghi-phuong-tan-phong-9-prj-sky-garden-3/-tien-ban-gap-3-pmh-q7-dien-tich-100m2-lot-long-day-du-noi-that-gia-dau-tu-pr39678860
+2024-11-01 14:30:37,401 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/-ban-gap-quy-canstudio-1pn-2pn-chinh-chu-view-dep-phap-ly-chuan-tot-nhat-oceanpark-pr41384895
+2024-11-01 14:30:49,152 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-3n-4n-brg-moi-nhat-thang-11-2024-sach-dac-biet-chua-tung-co-pr41366397
+2024-11-01 14:31:00,707 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-ngoai-giao-2pn-3pn-4pn-gia-tot-nhat-thang-10-2024-tu-pkd-cdt-tai-brg-25-luong-pr41324543
+2024-11-01 14:31:13,519 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-tat-thanh-phuong-hoa-hiep-nam-prj-nam-o-discovery/-truc-dien-bien-da-nang-ngay-resrt-mikazuki-gia-chi-tu-4-5-ty-s-huu-lau-dai-pr41317618
+2024-11-01 14:31:25,428 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-pho-lang-ha-phuong-lang-ha-prj-green-diamond-93-lang-ha/binh-minh-land-tong-hop-quy-1pn-2pn-3pn-gia-tot-vi-tri-dep-tai-cc-93-ha-pr41311409
+2024-11-01 14:31:38,310 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/xem-nha-24-7-binh-minh-land-ban-25-gia-tot-nhat-thi-truong-co-slot-gui-o-to-pr41229797
+2024-11-01 14:31:49,701 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-hang-ngoai-giao-va-chuyen-nhuong-gia-tot-nhat-tai-brg-luong-pr41387181
+2024-11-01 14:32:04,161 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-ho-tung-mau-phuong-phu-dien-prj-goldmark-city/chuyen-cho-thue-ch-gold-mark-2-3-4-ngu-gia-chi-tu-9-trieu-14tr-tu-co-ban-va-full-lh-0846692222-pr32604697
+2024-11-01 14:32:15,378 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/chu-nha-gui-ban-lo-3pn-vinmes-gia-chi-2-85-ty-con-thuong-luong-pr40941420
+2024-11-01 14:32:26,578 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/mo-ban-mik-imperia-stu-1n-2n-65m2-gia-3xty-htls-70-0-18-24-thang-pr41361165
+2024-11-01 14:32:38,933 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 14:32:49,158 - root - INFO - Completed scraping Chung cư of BDSWebCrawler
+2024-11-01 14:32:49,158 - root - ERROR - An error occurred: 'Chung cư'
+2024-11-01 14:34:35,247 - root - INFO - Starting crawler BDSWebCrawler
+2024-11-01 14:34:35,247 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-11-01 14:34:59,671 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 14:35:03,894 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/chinh-chu-ban-10-o-3-toa-s2-02-s2-03-s2-05-dt-tu-studio-3pn-tang-18-pr41183148
+2024-11-01 14:35:14,577 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-an-phu-prj-the-global-city/chu-dau-tu-nhan-booking-mo-ban-giai-doan-1-thap-doi-dep-nhat-q2-uu-dai-lon-pr41368956
+2024-11-01 14:35:26,903 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-dien-bien-phu-phuong-22-prj-vinhomes-central-park/3pn-dep-nhat-140m2-view-song-cong-vien-chi-9-ty-call-0901692239-pr23948214
+2024-11-01 14:35:39,706 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/200-mua-truc-tiep-cdt-nhan-nha-o-ngay-gia-1-8-ty-tro-lai-suat-0-pr40660755
+2024-11-01 14:35:53,363 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-quang-dao-phuong-me-tri-prj-the-matrix-one/quy-f0-truc-tiep-cdt-khong-qua-trung-gian-giai-doan-2-tu-1pn-4-pn-pr41249131
+2024-11-01 14:36:05,313 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/ban-nhanh-nhieu-ch-t2-2024-stu-1-2-ty-1pn-1-65-ty-2pn-1-9-ty-3pn-2-8-ty-lh-pr39141708
+2024-11-01 14:36:18,284 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-an-binh-phuong-an-binh-prj-phu-dong-sky-garden/mo-ban-sap-ban-giao-gia-tu-2-ty-6-chiet-khau-15-pr41003332
+2024-11-01 14:36:51,099 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-vung-thien-phuong-tan-dong-hiep-prj-phu-dong-skyone/-gia-tu-1-5-ty-thanh-toan-9tr-thang-cam-ket-thue-lai-8-10tr-thang-o-trung-tam-tp-di-an-pr41005124
+2024-11-01 14:37:19,654 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nhu-nguyet-phuong-thuan-phuoc-prj-sam-towers/-da-nang-mat-song-han-ngay-trung-tam-tp-ttoan-30-nhan-nha-c-thue-lien-pr41225582
+2024-11-01 14:37:32,704 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/mua-truc-tiep-cdt-view-song-ngay-phu-my-hung-dh-rmit-o-lien-vay-75-lai-0-pr41196123
+2024-11-01 14:37:45,254 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-pham-van-nghi-phuong-tan-phong-9-prj-sky-garden-3/-tien-ban-gap-3-pmh-q7-dien-tich-100m2-lot-long-day-du-noi-that-gia-dau-tu-pr39678860
+2024-11-01 14:37:56,900 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/-ban-gap-quy-canstudio-1pn-2pn-chinh-chu-view-dep-phap-ly-chuan-tot-nhat-oceanpark-pr41384895
+2024-11-01 14:38:09,630 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-3n-4n-brg-moi-nhat-thang-11-2024-sach-dac-biet-chua-tung-co-pr41366397
+2024-11-01 14:38:20,927 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-ngoai-giao-2pn-3pn-4pn-gia-tot-nhat-thang-10-2024-tu-pkd-cdt-tai-brg-25-luong-pr41324543
+2024-11-01 14:38:34,541 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-tat-thanh-phuong-hoa-hiep-nam-prj-nam-o-discovery/-truc-dien-bien-da-nang-ngay-resrt-mikazuki-gia-chi-tu-4-5-ty-s-huu-lau-dai-pr41317618
+2024-11-01 14:38:46,467 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-pho-lang-ha-phuong-lang-ha-prj-green-diamond-93-lang-ha/binh-minh-land-tong-hop-quy-1pn-2pn-3pn-gia-tot-vi-tri-dep-tai-cc-93-ha-pr41311409
+2024-11-01 14:38:57,871 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/xem-nha-24-7-binh-minh-land-ban-25-gia-tot-nhat-thi-truong-co-slot-gui-o-to-pr41229797
+2024-11-01 14:39:08,401 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-hang-ngoai-giao-va-chuyen-nhuong-gia-tot-nhat-tai-brg-luong-pr41387181
+2024-11-01 14:39:21,176 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-ho-tung-mau-phuong-phu-dien-prj-goldmark-city/chuyen-cho-thue-ch-gold-mark-2-3-4-ngu-gia-chi-tu-9-trieu-14tr-tu-co-ban-va-full-lh-0846692222-pr32604697
+2024-11-01 14:39:33,125 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/chu-nha-gui-ban-lo-3pn-vinmes-gia-chi-2-85-ty-con-thuong-luong-pr40941420
+2024-11-01 14:39:44,233 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 14:39:54,452 - root - INFO - Completed scraping Chung cư of BDSWebCrawler
+2024-11-01 14:39:54,452 - root - ERROR - Error occurred while scraping Chung cư: 'Chung cư'
+2024-11-01 14:39:54,452 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-nha-dat
+2024-11-01 14:40:02,685 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 14:40:06,905 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-bang-lang-3-phuong-phuc-loi-prj-vinhomes-riverside/co-cua-em-can-ban-song-lap-khu-3-dt-226m2-pr41220691
+2024-11-01 14:40:18,689 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-lac-long-quan-phuong-phu-thuong-1-prj-khu-do-thi-nam-thang-long-ciputra/co-cua-em-can-ban-can-lo-c1-kdt-lo-goc-dt-245m2-pr41220807
+2024-11-01 14:40:47,330 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/ban-anh-duong-ko-so-80m2-gia-tot-nhat-vin3-duong-thong-17m-gan-bien-truong-hoc-pr41315999
+2024-11-01 14:41:00,546 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-cong-thanh-phuong-lam-ha_1-prj-sun-urban-city/mo-ban-dot-1-shophouse-ha-nam-gia-tu-5-8-ty-m-chinh-sach-uu-dai-pr41389455
+2024-11-01 14:41:13,709 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-mat-pho-duong-lac-long-quan-phuong-10-10/ha-kich-gia-toa-tm-can-ho-dv-tai-541-xay-moi-hoan-cong-2024-day-du-pccc-1-ham-6lau-pr41389245
+2024-11-01 14:41:26,759 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/ap-goc-view-ho-1-trong-nhung-can-dep-nhat-tot-tai-lh-pr40465470
+2024-11-01 14:41:38,893 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-trong-tan-phuong-duong-noi-prj-khu-do-thi-geleximco-le-trong-tan/top-can-giap-smart-city-gia-chi-tu-14-8-ty-can-lh-e-mai-pr41311000
+2024-11-01 14:41:56,777 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/duy-nhat-5-can-dao-dua-huong-chinh-sach-t10-ck-25-tang-16-chi-vang-voucher-khung-200tr-pr41330514
+2024-11-01 14:42:08,359 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-phuong-tay-mo-prj-vinhomes-smart-city/ban-sieu-hoi-tai-gia-cuc-chat-11-ty-vnd-67m2-pr41355134
+2024-11-01 14:42:21,031 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-pham-van-chieu-phuong-14-8/-pho-dep-p-14-q-go-vapgia-5-ty-dt-4-x-16-tret-lau-3-phong-ngu-pr41387389
+2024-11-01 14:42:53,621 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/cap-nhat-quy-can-chuyen-nhuong-gia-tot-nhat-tai-vhocp-2-3-lh-pr40153983
+2024-11-01 14:43:05,743 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-trung-yen-phuong-trung-hoa-4/chinh-chu-can-ban-khu-cau-giay-dt-98m2-7t-thang-may-kd-gia-47-9-ty-pr41384104
+2024-11-01 14:43:17,405 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/-2-mat-tien-bien-3-view-thang-cong-vien-nuoc-so-huu-lau-dai-pr41166036
+2024-11-01 14:43:30,838 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/tong-hop-cac-can-re-dep-nhat-du-an-global-gate-loa-pr41372413
+2024-11-01 14:43:43,583 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/ban-can-re-t-vin-oceanparrk-2-n-tet-o-luon-pr41011293
+2024-11-01 14:43:54,951 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/doc-quyen-quy-can-de-o-vinhome-hang-chinh-chu-thap-nhat-thi-truong-pr40813376
+2024-11-01 14:44:07,334 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-nguyen-chi-thanh-phuong-lang-thuong/nh-chu-ban-56m-cho-thue-doanh-thu-65-trieu-thang-gia-re-12-9-ty-pr41384203
+2024-11-01 14:44:18,484 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/can-goc-don-lap-dao-dua-24-3-ty-chiet-khau-20-tang-ngay-5-cay-vang-tri-gia-375-trieu-pr39234897
+2024-11-01 14:44:31,301 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-duong-nguyen-xien-phuong-dai-kim-prj-the-manor-central-park/quy-can-doc-quyen-aristo-uu-len-toi-14-va-tang-m-kh-booking-som-lh-pr41382881
+2024-11-01 14:44:43,394 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/can-ban-nhanh-song-lap-gan-ho-phan-khu-san-ho-chi-29-ty-duy-nhat-tai-vin-lam-pr41377089
+2024-11-01 14:44:54,891 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 14:45:05,100 - root - INFO - Completed scraping Nhà đất of BDSWebCrawler
+2024-11-01 14:45:05,100 - root - ERROR - Error occurred while scraping Nhà đất: 'Nhà đất'
+2024-11-01 14:45:05,100 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-dat-dat-nen
+2024-11-01 14:45:12,922 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 14:45:17,077 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-duong-b-lao-xe-re-xa-loc-chau/-bao-aman-blao-1000-m2-co-suoi-ho-tu-nhien-bao-quanh-thich-hop-lam-nha-vuon-nghi-duong-pr41389028
+2024-11-01 14:45:45,519 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-nguyen-thi-ton-phuong-buu-hoa/chu-gui-ban-lo-tp-bien-boa-dt-6x17-6-105-6-m2-gia-3ty-2-tl-pr41387293
+2024-11-01 14:45:57,069 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-duong-noi/chinh-chu-ban-dich-vu-ha-dong-doi-dien-aeon-ha-dong-kinh-doanh-tot-pr40717070
+2024-11-01 14:46:29,569 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-vanh-dai-4-phuong-thoi-hoa/-binh-gia-re-gan-truong-hoc-quoc-te-viet-duc-pr41381724
+2024-11-01 14:46:40,920 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-420-xa-binh-yen-1/nhinh-1ty-re-nhat-sat-tinh-lo-420-cnc-fpt-thach-that-hoa-lac-thong-o-to-tranh-pr41380783
+2024-11-01 14:46:51,947 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-hung-loc-1/sieu-re-chinh-chu-ban-gap-vi-tri-dac-dia-2mt-dt-241-9m2-gia-chi-2-x-ty-pr39802594
+2024-11-01 14:47:03,301 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-le-quang-chi-phuong-hoa-xuan/nh-chu-can-ban-2-lo-mat-tien-va-nguyen-mau-tai-gia-uu-dai-nhat-khu-vuc-pr41373839
+2024-11-01 14:47:14,701 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dai-lo-thang-long-xa-dong-truc/ban-nhanh-87-2m2-tai-khoang-mai-gan-ng-va-du-an-300ha-vingroup-pr41372403
+2024-11-01 14:47:43,468 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-quoc-lo-13-phuong-hung-long/ban-gap-mt-24m-hon-3-sao-3-100m2-so-rieng-gia-280tr-bao-so-canh-kcn-lon-truong-cho-dan-cu-dong-pr41371089
+2024-11-01 14:48:03,265 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-phuoc-lam/gia-chinh-chu-ban-4-lo-mat-tien-duong-4m-co-so-rieng-gia-chi-tu-750tr-nen-lh-pr41370419
+2024-11-01 14:48:13,738 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dang-thanh-hieu-phuong-phu-huu-2/can-ban-tai-quan-9-doi-dien-cang-jtc-pr21349450
+2024-11-01 14:48:26,130 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dai-lo-thang-long-xa-dong-truc/86-3m-khoang-mai-canh-ng-gan-cong-nghe-cao-hoa-lac-ke-ben-kdt-vin-group-pr41347116
+2024-11-01 14:48:39,284 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-van-canh-1/chinh-chu-ban-51-6m2-co-vi-tri-cuc-dep-cach-duong-trinh-bo-my-dinh-chi-50m-t7-2025-pr40250894
+2024-11-01 14:48:51,085 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-16-1/ban-gap-lo-mat-tien-vuong-vuc-p16-nhieu-tien-ich-xung-quanh-gia-chi-tuong-duong-hem-pr41361983
+2024-11-01 14:49:02,278 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-duong-31c-phuong-an-phu-prj-an-phu-an-khanh/ban-lo-mt-re-nhat-khu-do-thi-apak-quan-2-400m2-no-hau-dep-gia-cuc-tot-chi-180tr-m2-72-ty-pr41361499
+2024-11-01 14:49:13,251 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-420-xa-tan-xa/950tr-70m2-view-ho-hoa-lac-gan-dh-quoc-gia-va-khu-cong-nghe-cao-pr32663896
+2024-11-01 14:49:24,771 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-21a-xa-binh-yen-1/hang-sieu-pham-nen-hoa-lac-chi-tu-4-5-ty-so-do-trao-tay-htls-0-18t-cuc-hiem-lh-pr41358759
+2024-11-01 14:49:53,776 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-vo-van-bich-xa-tan-thanh-dong/1800m2-mat-tien-21m-dai-phu-hop-lam-nha-xuong-biet-thu-vuon-pr41354922
+2024-11-01 14:50:22,147 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234
+2024-11-01 14:50:34,371 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-415-xa-minh-quang/chinh-chu-ban-manh-mat-415-view-song-da-pr40099699
+2024-11-01 14:50:46,682 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 14:50:56,943 - root - INFO - Completed scraping Đất nền of BDSWebCrawler
+2024-11-01 14:50:56,943 - root - ERROR - Error occurred while scraping Đất nền: 'Đất nền'
+2024-11-01 14:50:56,954 - root - INFO - config file updated successfully!
+2024-11-01 14:50:56,954 - root - INFO - Data saved to ../data/bds_com_vn_data.json
+2024-11-01 15:40:50,351 - root - INFO - Starting crawler AlonhadatWebCrawler
+2024-11-01 15:40:50,351 - Alonhadat_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://alonhadat.com.vn/nha-dat/can-ban.html
+2024-11-01 15:41:00,809 - Alonhadat_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 15:41:04,970 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-dat-vuong-dep-xa-duc-tu-o-to-thong-gan-pho-dau-tu-51m-mt-5-1-chao-1-4-ty-13895637.html
+2024-11-01 15:41:16,972 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-gap-nha-ngay-cho-binh-chanh-dang-cho-thue-7-5tr-th-120m2-630tr-15300231.html
+2024-11-01 15:41:28,690 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/dat-full-tho-cu-so-hong-rieng-mt-duong-10m-khu-dan-cu-giap-sai-gon-258m2-12x21-5-gia-4ty-15249228.html
+2024-11-01 15:41:41,713 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/cat-lo-nen-dat-2800m2-tho-cu-shr-290-trieu-gia-bao-so-mt-duong-tinh-lo-canh-cho-uy-ban-14247377.html
+2024-11-01 15:41:53,322 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/gio-hang-thang-10-mua-truc-tiep-cdt-chuyen-nhuong-conic-boulevard-uu-dai-chiet-khau-10--15356293.html
+2024-11-01 15:42:08,705 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-1-480m2-dat-sao-co-tho-cu-san-lien-ke-gia-225-trieu-da-tach-lam-3-so-sat-nhua-gan-cho-15377296.html
+2024-11-01 15:42:20,522 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-ban-goc-2mt-1680m2-dat-duong-rong-18m-ngay-kcn-truong-hoc-cho-gia-240-trieu-so-15187892.html
+2024-11-01 15:42:32,175 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/chi-880-trieu-la-anh-chi-da-so-huu-ngay-bds-duong-nhua-kcn-dat-do-ngang-10x30m-tho-cu-80-15354398.html
+2024-11-01 15:42:44,750 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/vo-no-ban-gap-2291m2-so-rieng-ngay-thi-xa-sat-cho-dan-dong-duong-18m-gia-290tr-14906534.html
+2024-11-01 15:42:59,529 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ton-duc-thang-lien-chieu-tp-da-nang-nha-lo-goc-re-hon-nha-lo-ong-15358030.html
+2024-11-01 15:43:11,375 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-mat-tien-dang-kinh-doanh-88-4m2-gia-900tr-ngay-sau-cho-so-hong-rieng-14143306.html
+2024-11-01 15:43:27,102 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-gap-nha-tan-phu-hem-oto-162m2-4-phong-ngu-dep-chi-9-2-ty-tl--15377598.html
+2024-11-01 15:43:40,357 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-sang-gap-2200m2-dat-duong-18m-rong-thang-vao-khu-cong-nghiep-cho-gia-190-tr-so-15307902.html
+2024-11-01 15:43:52,272 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-toa-nha-ccmn-dep-nhat-nam-tu-liem-gia-19-5-ty--15319302.html
+2024-11-01 15:44:03,894 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/toa-van-phong-trung-kinh-102m2-thong-san-7-tang-gia-47ty-15372167.html
+2024-11-01 15:44:15,895 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/hem-xe-hoi-1-truc-sat-mat-tien-nha-4-tang-btct-70m2-ngang-5m-6pn-nhinh-8-ty-15366604.html
+2024-11-01 15:44:27,808 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/kd-thua-lo-ban-gap-manh-vuon-2002m2-vuong-vuc-gan-cho-nam-giua-3-kcn-gia-199-trieu-shr-14574888.html
+2024-11-01 15:44:41,188 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/chinh-chu-ban-nha-3-2-duong-8-p-linh-tay-tp-thu-duc-dia-chi-cu-15-4--15361342.html
+2024-11-01 15:44:53,206 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-dat-trung-tam-pho-co-khu-buon-ban-kinh-doanh-sam-uat-tai-nguyen-truong-to-tan-an-15256077.html
+2024-11-01 15:45:07,816 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-chinh-chu-ban-dat-phan-lo-gan-cho-xala-ha-dong-ha-noi-15195132.html
+2024-11-01 15:45:21,860 - root - INFO - Completed scraping AlonhadatWebCrawler
+2024-11-01 15:45:21,868 - root - INFO - config file updated successfully!
+2024-11-01 15:45:21,868 - root - INFO - Data saved to ../data/alonhadat_data.json
+2024-11-01 15:46:44,346 - root - INFO - Starting crawler AlonhadatWebCrawler
+2024-11-01 15:46:44,346 - Alonhadat_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://alonhadat.com.vn/nha-dat/can-ban.html
+2024-11-01 15:46:54,392 - Alonhadat_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 15:46:58,531 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-sang-gap-2200m2-dat-duong-18m-rong-thang-vao-khu-cong-nghiep-cho-gia-190-tr-so-15307902.html
+2024-11-01 15:47:11,662 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-gap-nha-ngay-cho-binh-chanh-dang-cho-thue-7-5tr-th-120m2-630tr-15300231.html
+2024-11-01 15:47:25,820 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-mat-tien-dang-kinh-doanh-88-4m2-gia-900tr-ngay-sau-cho-so-hong-rieng-14143306.html
+2024-11-01 15:47:37,304 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/vo-no-ban-gap-2291m2-so-rieng-ngay-thi-xa-sat-cho-dan-dong-duong-18m-gia-290tr-14906534.html
+2024-11-01 15:47:49,287 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-dat-vuong-dep-xa-duc-tu-o-to-thong-gan-pho-dau-tu-51m-mt-5-1-chao-1-4-ty-13895637.html
+2024-11-01 15:48:00,981 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/dat-full-tho-cu-so-hong-rieng-mt-duong-10m-khu-dan-cu-giap-sai-gon-258m2-12x21-5-gia-4ty-15249228.html
+2024-11-01 15:48:12,662 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/cat-lo-nen-dat-2800m2-tho-cu-shr-290-trieu-gia-bao-so-mt-duong-tinh-lo-canh-cho-uy-ban-14247377.html
+2024-11-01 15:48:27,865 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/gio-hang-thang-10-mua-truc-tiep-cdt-chuyen-nhuong-conic-boulevard-uu-dai-chiet-khau-10--15356293.html
+2024-11-01 15:48:39,681 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-1-480m2-dat-sao-co-tho-cu-san-lien-ke-gia-225-trieu-da-tach-lam-3-so-sat-nhua-gan-cho-15377296.html
+2024-11-01 15:48:51,199 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-ban-goc-2mt-1680m2-dat-duong-rong-18m-ngay-kcn-truong-hoc-cho-gia-240-trieu-so-15187892.html
+2024-11-01 15:49:02,833 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/chi-880-trieu-la-anh-chi-da-so-huu-ngay-bds-duong-nhua-kcn-dat-do-ngang-10x30m-tho-cu-80-15354398.html
+2024-11-01 15:49:14,638 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ton-duc-thang-lien-chieu-tp-da-nang-nha-lo-goc-re-hon-nha-lo-ong-15358030.html
+2024-11-01 15:49:26,513 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-gap-nha-tan-phu-hem-oto-162m2-4-phong-ngu-dep-chi-9-2-ty-tl--15377598.html
+2024-11-01 15:49:38,074 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-toa-nha-ccmn-dep-nhat-nam-tu-liem-gia-19-5-ty--15319302.html
+2024-11-01 15:49:50,945 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/toa-van-phong-trung-kinh-102m2-thong-san-7-tang-gia-47ty-15372167.html
+2024-11-01 15:50:03,250 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/hem-xe-hoi-1-truc-sat-mat-tien-nha-4-tang-btct-70m2-ngang-5m-6pn-nhinh-8-ty-15366604.html
+2024-11-01 15:50:14,874 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/kd-thua-lo-ban-gap-manh-vuon-2002m2-vuong-vuc-gan-cho-nam-giua-3-kcn-gia-199-trieu-shr-14574888.html
+2024-11-01 15:50:26,777 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-chinh-chu-ban-dat-phan-lo-gan-cho-xala-ha-dong-ha-noi-15195132.html
+2024-11-01 15:50:39,533 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/chinh-chu-ban-nha-3-2-duong-8-p-linh-tay-tp-thu-duc-dia-chi-cu-15-4--15361342.html
+2024-11-01 15:50:51,472 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-dat-trung-tam-pho-co-khu-buon-ban-kinh-doanh-sam-uat-tai-nguyen-truong-to-tan-an-15256077.html
+2024-11-01 15:51:07,783 - root - INFO - Completed scraping AlonhadatWebCrawler
+2024-11-01 15:51:07,799 - root - INFO - config file updated successfully!
+2024-11-01 15:51:07,813 - root - INFO - Data saved to ../data/alonhadat_data.json
+2024-11-01 16:22:03,726 - root - INFO - Starting crawler BDSWebCrawler
+2024-11-01 16:22:03,734 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-11-01 16:22:27,548 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 16:22:31,725 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/em-ban-nhanh-2pn-1vs-toa-s1-07-tang-12-ban-cong-dong-bac-view-thoang-2-6-ty-du-do-pr41392267
+2024-11-01 16:22:45,111 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/quy-view-dep-chinh-chu-ban-cat-lo-tu-300tr-so-do-chinh-chu-mien-phi-mg-tro-vay-toi-70-pr39114589
+2024-11-01 16:23:34,458 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-ho-tung-mau-phuong-phu-dien-prj-goldmark-city/tang-chi-vang-may-man-khi-mua-quy-2-3-4-pn-co-slot-o-to-gia-ngon-lh-pr39528178
+2024-11-01 16:23:46,701 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-phuc-dong-prj-sunshine-green-iconic/tong-hop-5-gia-tot-nhat-t9-2024-du-an-long-bien-lh-pr40870717
+2024-11-01 16:23:58,634 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/chinh-chu-ban-10-o-3-toa-s2-02-s2-03-s2-05-dt-tu-studio-3pn-tang-18-pr41183148
+2024-11-01 16:24:10,013 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-an-phu-prj-the-global-city/chu-dau-tu-nhan-booking-mo-ban-giai-doan-1-thap-doi-dep-nhat-q2-uu-dai-lon-pr41368956
+2024-11-01 16:24:23,328 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-dien-bien-phu-phuong-22-prj-vinhomes-central-park/3pn-dep-nhat-140m2-view-song-cong-vien-chi-9-ty-call-0901692239-pr23948214
+2024-11-01 16:24:37,668 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/200-mua-truc-tiep-cdt-nhan-nha-o-ngay-gia-1-8-ty-tro-lai-suat-0-pr40660755
+2024-11-01 16:24:49,873 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-quang-dao-phuong-me-tri-prj-the-matrix-one/quy-f0-truc-tiep-cdt-khong-qua-trung-gian-giai-doan-2-tu-1pn-4-pn-pr41249131
+2024-11-01 16:25:01,480 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/ban-nhanh-nhieu-ch-t2-2024-stu-1-2-ty-1pn-1-65-ty-2pn-1-9-ty-3pn-2-8-ty-lh-pr39141708
+2024-11-01 16:25:14,340 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-an-binh-phuong-an-binh-prj-phu-dong-sky-garden/mo-ban-sap-ban-giao-gia-tu-2-ty-6-chiet-khau-15-pr41003332
+2024-11-01 16:25:27,617 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-vung-thien-phuong-tan-dong-hiep-prj-phu-dong-skyone/-gia-tu-1-5-ty-thanh-toan-9tr-thang-cam-ket-thue-lai-8-10tr-thang-o-trung-tam-tp-di-an-pr41005124
+2024-11-01 16:25:43,714 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-van-linh-phuong-tan-phong-9-prj-lavida-plus/mua-truc-tiep-cdt-view-song-ngay-phu-my-hung-dh-rmit-o-lien-vay-75-lai-0-pr41196123
+2024-11-01 16:25:56,232 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-pham-van-nghi-phuong-tan-phong-9-prj-sky-garden-3/-tien-ban-gap-3-pmh-q7-dien-tich-100m2-lot-long-day-du-noi-that-gia-dau-tu-pr39678860
+2024-11-01 16:26:08,294 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/-ban-gap-quy-canstudio-1pn-2pn-chinh-chu-view-dep-phap-ly-chuan-tot-nhat-oceanpark-pr41384895
+2024-11-01 16:26:20,139 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-3n-4n-brg-moi-nhat-thang-11-2024-sach-dac-biet-chua-tung-co-pr41366397
+2024-11-01 16:26:31,491 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-ngoai-giao-2pn-3pn-4pn-gia-tot-nhat-thang-10-2024-tu-pkd-cdt-tai-brg-25-luong-pr41324543
+2024-11-01 16:26:53,795 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-tat-thanh-phuong-hoa-hiep-nam-prj-nam-o-discovery/-truc-dien-bien-da-nang-ngay-resrt-mikazuki-gia-chi-tu-4-5-ty-s-huu-lau-dai-pr41317618
+2024-11-01 16:27:07,588 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-pho-lang-ha-phuong-lang-ha-prj-green-diamond-93-lang-ha/binh-minh-land-tong-hop-quy-1pn-2pn-3pn-gia-tot-vi-tri-dep-tai-cc-93-ha-pr41311409
+2024-11-01 16:27:19,515 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/xem-nha-24-7-binh-minh-land-ban-25-gia-tot-nhat-thi-truong-co-slot-gui-o-to-pr41229797
+2024-11-01 16:27:30,870 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 16:27:41,138 - root - INFO - Completed scraping Chung cư of BDSWebCrawler
+2024-11-01 16:27:41,138 - root - ERROR - Error occurred while scraping Chung cư: 'Chung cư'
+2024-11-01 16:27:41,138 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-nha-dat
+2024-11-01 16:28:03,928 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 16:28:08,148 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-thanh-lam-3-prj-hud-me-linh-central/ban-nv-104-135m-gia-70-80tr-m-bt-250-300-m-gia-52-60-tr-m-299-6-gia-16-ty-pr41392387
+2024-11-01 16:28:19,418 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-trong-tan-phuong-duong-noi-prj-khu-do-thi-geleximco-le-trong-tan/chuyen-nhuong-geximco-ha-dong-quy-can-cap-nhat-moi-nhat-pr41306059
+2024-11-01 16:28:31,476 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-bang-lang-3-phuong-phuc-loi-prj-vinhomes-riverside/co-cua-em-can-ban-song-lap-khu-3-dt-226m2-pr41220691
+2024-11-01 16:28:42,622 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-lac-long-quan-phuong-phu-thuong-1-prj-khu-do-thi-nam-thang-long-ciputra/co-cua-em-can-ban-can-lo-c1-kdt-lo-goc-dt-245m2-pr41220807
+2024-11-01 16:28:54,376 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/ban-anh-duong-ko-so-80m2-gia-tot-nhat-vin3-duong-thong-17m-gan-bien-truong-hoc-pr41315999
+2024-11-01 16:29:07,144 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-cong-thanh-phuong-lam-ha_1-prj-sun-urban-city/mo-ban-dot-1-shophouse-ha-nam-gia-tu-5-8-ty-m-chinh-sach-uu-dai-pr41389455
+2024-11-01 16:29:21,724 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-mat-pho-duong-lac-long-quan-phuong-10-10/ha-kich-gia-toa-tm-can-ho-dv-tai-541-xay-moi-hoan-cong-2024-day-du-pccc-1-ham-6lau-pr41389245
+2024-11-01 16:29:34,935 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/ap-goc-view-ho-1-trong-nhung-can-dep-nhat-tot-tai-lh-pr40465470
+2024-11-01 16:29:48,050 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-trong-tan-phuong-duong-noi-prj-khu-do-thi-geleximco-le-trong-tan/top-can-giap-smart-city-gia-chi-tu-14-8-ty-can-lh-e-mai-pr41311000
+2024-11-01 16:30:03,360 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/duy-nhat-5-can-dao-dua-huong-chinh-sach-t10-ck-25-tang-16-chi-vang-voucher-khung-200tr-pr41330514
+2024-11-01 16:30:15,701 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-phuong-tay-mo-prj-vinhomes-smart-city/ban-sieu-hoi-tai-gia-cuc-chat-11-ty-vnd-67m2-pr41355134
+2024-11-01 16:30:27,827 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-pham-van-chieu-phuong-14-8/-pho-dep-p-14-q-go-vapgia-5-ty-dt-4-x-16-tret-lau-3-phong-ngu-pr41387389
+2024-11-01 16:30:45,045 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/cap-nhat-quy-can-chuyen-nhuong-gia-tot-nhat-tai-vhocp-2-3-lh-pr40153983
+2024-11-01 16:30:56,769 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-trung-yen-phuong-trung-hoa-4/chinh-chu-can-ban-khu-cau-giay-dt-98m2-7t-thang-may-kd-gia-47-9-ty-pr41384104
+2024-11-01 16:31:15,069 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/-2-mat-tien-bien-3-view-thang-cong-vien-nuoc-so-huu-lau-dai-pr41166036
+2024-11-01 16:31:28,556 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/tong-hop-cac-can-re-dep-nhat-du-an-global-gate-loa-pr41372413
+2024-11-01 16:31:39,578 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/ban-can-re-t-vin-oceanparrk-2-n-tet-o-luon-pr41011293
+2024-11-01 16:31:50,780 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/doc-quyen-quy-can-de-o-vinhome-hang-chinh-chu-thap-nhat-thi-truong-pr40813376
+2024-11-01 16:32:13,017 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-rieng-duong-nguyen-chi-thanh-phuong-lang-thuong/nh-chu-ban-56m-cho-thue-doanh-thu-65-trieu-thang-gia-re-12-9-ty-pr41384203
+2024-11-01 16:32:23,616 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/can-goc-don-lap-dao-dua-24-3-ty-chiet-khau-20-tang-ngay-5-cay-vang-tri-gia-375-trieu-pr39234897
+2024-11-01 16:32:36,579 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 16:32:46,869 - root - INFO - Completed scraping Nhà đất of BDSWebCrawler
+2024-11-01 16:32:46,874 - root - ERROR - Error occurred while scraping Nhà đất: 'Nhà đất'
+2024-11-01 16:32:46,874 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-dat-dat-nen
+2024-11-01 16:33:12,720 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-01 16:33:16,854 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-tan-xa/ban-lo-trung-tam-phu-hop-y-o-cho-thue-hoac-dau-tu-gia-re-so-voi-xung-quanh-pr41392119
+2024-11-01 16:34:34,974 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-duong-b-lao-xe-re-xa-loc-chau/-bao-aman-blao-1000-m2-co-suoi-ho-tu-nhien-bao-quanh-thich-hop-lam-nha-vuon-nghi-duong-pr41389028
+2024-11-01 16:35:24,695 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-nguyen-thi-ton-phuong-buu-hoa/chu-gui-ban-lo-tp-bien-boa-dt-6x17-6-105-6-m2-gia-3ty-2-tl-pr41387293
+2024-11-01 16:36:12,830 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-duong-noi/chinh-chu-ban-dich-vu-ha-dong-doi-dien-aeon-ha-dong-kinh-doanh-tot-pr40717070
+2024-11-01 16:36:24,271 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-vanh-dai-4-phuong-thoi-hoa/-binh-gia-re-gan-truong-hoc-quoc-te-viet-duc-pr41381724
+2024-11-01 16:36:53,227 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-420-xa-binh-yen-1/nhinh-1ty-re-nhat-sat-tinh-lo-420-cnc-fpt-thach-that-hoa-lac-thong-o-to-tranh-pr41380783
+2024-11-01 16:37:06,726 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-hung-loc-1/sieu-re-chinh-chu-ban-gap-vi-tri-dac-dia-2mt-dt-241-9m2-gia-chi-2-x-ty-pr39802594
+2024-11-01 16:37:17,894 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-le-quang-chi-phuong-hoa-xuan/nh-chu-can-ban-2-lo-mat-tien-va-nguyen-mau-tai-gia-uu-dai-nhat-khu-vuc-pr41373839
+2024-11-01 16:37:29,067 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dai-lo-thang-long-xa-dong-truc/ban-nhanh-87-2m2-tai-khoang-mai-gan-ng-va-du-an-300ha-vingroup-pr41372403
+2024-11-01 16:37:40,808 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-quoc-lo-13-phuong-hung-long/ban-gap-mt-24m-hon-3-sao-3-100m2-so-rieng-gia-280tr-bao-so-canh-kcn-lon-truong-cho-dan-cu-dong-pr41371089
+2024-11-01 16:37:57,483 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-phuoc-lam/gia-chinh-chu-ban-4-lo-mat-tien-duong-4m-co-so-rieng-gia-chi-tu-750tr-nen-lh-pr41370419
+2024-11-01 16:38:08,767 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dang-thanh-hieu-phuong-phu-huu-2/can-ban-tai-quan-9-doi-dien-cang-jtc-pr21349450
+2024-11-01 16:38:20,225 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dai-lo-thang-long-xa-dong-truc/86-3m-khoang-mai-canh-ng-gan-cong-nghe-cao-hoa-lac-ke-ben-kdt-vin-group-pr41347116
+2024-11-01 16:38:32,458 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-van-canh-1/chinh-chu-ban-51-6m2-co-vi-tri-cuc-dep-cach-duong-trinh-bo-my-dinh-chi-50m-t7-2025-pr40250894
+2024-11-01 16:38:44,257 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-16-1/ban-gap-lo-mat-tien-vuong-vuc-p16-nhieu-tien-ich-xung-quanh-gia-chi-tuong-duong-hem-pr41361983
+2024-11-01 16:38:55,628 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-duong-31c-phuong-an-phu-prj-an-phu-an-khanh/ban-lo-mt-re-nhat-khu-do-thi-apak-quan-2-400m2-no-hau-dep-gia-cuc-tot-chi-180tr-m2-72-ty-pr41361499
+2024-11-01 16:39:25,459 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-420-xa-tan-xa/950tr-70m2-view-ho-hoa-lac-gan-dh-quoc-gia-va-khu-cong-nghe-cao-pr32663896
+2024-11-01 16:39:36,439 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-21a-xa-binh-yen-1/hang-sieu-pham-nen-hoa-lac-chi-tu-4-5-ty-so-do-trao-tay-htls-0-18t-cuc-hiem-lh-pr41358759
+2024-11-01 16:39:48,665 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-vo-van-bich-xa-tan-thanh-dong/1800m2-mat-tien-21m-dai-phu-hop-lam-nha-xuong-biet-thu-vuon-pr41354922
+2024-11-01 16:40:00,146 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dt-86-xa-ba-trai/chinh-chu-ban-mat-tinh-86-pr40716234
+2024-11-01 16:40:11,594 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-01 16:40:21,823 - root - INFO - Completed scraping Đất nền of BDSWebCrawler
+2024-11-01 16:40:21,823 - root - ERROR - Error occurred while scraping Đất nền: 'Đất nền'
+2024-11-01 16:40:21,831 - root - INFO - config file updated successfully!
+2024-11-01 16:40:21,847 - root - INFO - Data saved to ../data/bds_com_vn_data.json
