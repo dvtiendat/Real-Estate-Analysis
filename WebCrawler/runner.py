@@ -64,7 +64,7 @@ def run_crawler(config):
                     final_df = pd.concat([final_df,df],ignore_index=True)
 
                     logger.info(f'Completed scraping {property_type} of {crawler}')
-                    updated_config[crawler][property_type]['start_page'] += updated_config[crawler][property_type]['num_pages']
+                    updated_config[crawler]['property_types'][property_type]['start_page'] += updated_config[crawler]['property_types'][property_type]['num_pages']
                 except Exception as e:
                     logger.error(f"Error occurred while scraping {property_type}: {str(e)}")
         elif crawler == 'AlonhadatWebCrawler':
