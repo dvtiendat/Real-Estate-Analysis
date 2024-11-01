@@ -216,7 +216,7 @@ class AlonhadatWebCrawler(WebCrawler):
         
         return df
     
-    def load_to_mongo(self,df,client):
+    def load_to_mongo(self, df, client):
         db = client['VietNameseRealEstateData']
         collection = db['Alo_nha_dat']
         records = df.to_dict(orient='records')

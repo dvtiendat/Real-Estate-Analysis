@@ -206,7 +206,7 @@ class BDSWebCrawler(WebCrawler):
         
         
         return df
-    def load_to_mongo(self,df,client):
+    def load_to_mongo(self, df, client):
         db = client['VietNameseRealEstateData']
         collection = db['BDS_com_vn']
         records = df.to_dict(orient='records')
