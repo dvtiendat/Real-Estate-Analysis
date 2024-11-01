@@ -58,7 +58,7 @@ def run_crawler(config):
                     df = scraper.multithread_extract(max_workers=1) # CHANGE MAX_WORKER
 
                     df['Loại'] = property_type
-                    df = scraper.transform(df)
+                    # df = scraper.transform(df)
                     final_df = pd.concat([final_df,df],ignore_index=True)
 
                     logger.info(f'Completed scraping {property_type} of {crawler}')
@@ -70,7 +70,7 @@ def run_crawler(config):
             try:
                 scraper = AlonhadatWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
                 df = scraper.multithread_extract(max_workers=1)
-                df = scraper.transform(df)
+                # df = scraper.transform(df)
                 final_df = pd.concat([final_df,df],ignore_index=True)
                 updated_config[crawler]['start_page'] += updated_config[crawler]['num_pages']
                 logger.info(f'Completed scraping {crawler}')
@@ -81,7 +81,7 @@ def run_crawler(config):
             try:
                 scraper = BDS_SoWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
                 df = scraper.multithread_extract(max_workers=1)
-                df = scraper.transform(df)
+                # df = scraper.transform(df)
                 final_df = pd.concat([final_df,df],ignore_index=True)
                 updated_config[crawler]['start_page'] += updated_config[crawler]['num_pages']
                 logger.info(f'Completed scraping {crawler}')
