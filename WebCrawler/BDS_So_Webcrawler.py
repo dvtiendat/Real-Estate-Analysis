@@ -31,6 +31,7 @@ class BDS_SoWebCrawler(WebCrawler):
         opt = Options()
         # opt.add_argument("--headless")
         driver = webdriver.Chrome(opt)
+        driver.set_window_size(1920, 1080)
         driver.implicitly_wait(10)
         actions = ActionChains(driver)
         wait = WebDriverWait(driver, 10)
@@ -76,7 +77,7 @@ class BDS_SoWebCrawler(WebCrawler):
         # columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Kinh độ', 'Vĩ độ','Phường','Quận','Thành phố','Mức giá','Diện tích','Mặt tiền' ,'Hướng nhà', 
         #    'Số tầng','Số toilet','Đường vào', 'Hướng ban công','Số phòng ngủ',
         #    'Pháp lý', 'Nội thất']
-        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Giá', 'Phường', 'Quận', 'Thành phố', 'Mức giá', 'Diện tích', 'Mặt tiền', 'Lộ giới','Số tầng', 
+        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Giá', 'Địa chỉ', 'Mức giá', 'Diện tích', 'Mặt tiền', 'Lộ giới','Số tầng', 
                    'Số toilet', 'Số phòng ngủ']
 
         house_data = {col: np.nan for col in columns}
@@ -124,9 +125,10 @@ class BDS_SoWebCrawler(WebCrawler):
                 else :
                     q = ' '.join(q)
                         
-                house_data['Phường'] = p
-                house_data['Quận'] = q
-                house_data['Thành phố'] = address[-1].strip()
+                house_data['Địa chỉ'] = address
+                # house_data['Phường'] = address
+                # house_data['Quận'] = address
+                # house_data['Thành phố'] = address[-1].strip()
 
                 list_items = driver.find_elements(By.XPATH, '//ul[@class="re-property"]/li')
                 for item in list_items:
