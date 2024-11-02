@@ -24,7 +24,7 @@ AlonhadatWebCrawler:
   - Số phòng ngủ
   - Chính chủ
   num_pages: 1
-  start_page: 2
+  start_page: 1
 BDSWebCrawler:
   final_columns:
   - Mã tin
@@ -68,9 +68,7 @@ BDS_SoCrawler:
   - Tháng
   - Năm
   - Giá
-  - Phường
-  - Quận
-  - Thành phố
+  - Địa chỉ
   - Mức giá
   - Diện tích
   - Mặt tiền
@@ -79,4 +77,4 @@ BDS_SoCrawler:
   - Số toilet
   - Số phòng ngủ
   num_pages: 1
-  start_page: 1
+  start_page: 2
