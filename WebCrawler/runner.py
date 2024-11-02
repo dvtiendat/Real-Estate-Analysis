@@ -47,8 +47,8 @@ def run_crawler(config):
     Begin scraping procedure
     '''
     updated_config = config
-    # crawler_names = ['BDS_SoCrawler'] # CHANGE THIS
-    crawler_names = ['BDSWebCrawler']
+    crawler_names = ['BDS_SoCrawler'] # CHANGE THIS
+    #crawler_names = ['BDSWebCrawler']
     # crawler_names = ['AlonhadatWebCrawler']
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler}')
@@ -102,7 +102,7 @@ def main():
         
         # Update config and save file 
         update_config(updated_config, config_path)
-        output_path = f"../data/bds_com_vn_data.json" # CHANGE THIS 
+        output_path = f"../data/bds_so_data.json" # CHANGE THIS 
         tmp = final_df.to_dict(orient="records")
         with open(output_path, 'w', encoding='utf8') as f:
             json.dump(tmp, f, indent = 2, ensure_ascii= False)

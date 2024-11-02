@@ -2559,3 +2559,418 @@ Stacktrace:
 2024-11-01 16:40:21,823 - root - ERROR - Error occurred while scraping Đất nền: 'Đất nền'
 2024-11-01 16:40:21,831 - root - INFO - config file updated successfully!
 2024-11-01 16:40:21,847 - root - INFO - Data saved to ../data/bds_com_vn_data.json
+2024-11-02 11:34:49,670 - root - INFO - Starting crawler BDSWebCrawler
+2024-11-02 11:34:49,701 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-11-02 11:34:49,701 - root - ERROR - Error occurred while scraping Chung cư: cannot access local variable 'driver' where it is not associated with a value
+2024-11-02 11:34:49,702 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-nha-dat
+2024-11-02 11:34:49,703 - root - ERROR - Error occurred while scraping Nhà đất: cannot access local variable 'driver' where it is not associated with a value
+2024-11-02 11:34:49,703 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-dat-dat-nen
+2024-11-02 11:34:49,704 - root - ERROR - Error occurred while scraping Đất nền: cannot access local variable 'driver' where it is not associated with a value
+2024-11-02 11:34:49,708 - root - INFO - config file updated successfully!
+2024-11-02 11:34:49,737 - root - INFO - Data saved to ../data/bds_com_vn_data.json
+2024-11-02 11:35:15,797 - root - INFO - Starting crawler BDSWebCrawler
+2024-11-02 11:35:15,800 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-can-ho-chung-cu
+2024-11-02 11:35:22,831 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-02 11:35:26,518 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-huu-canh-phuong-22-prj-vinhomes-central-park/chuyen-ban-ch-1-2-3-4pn-penthouse-gia-tot-nhat-lh-thu-phuong-pr41403779
+2024-11-02 11:35:55,202 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/co-i-dau-tu-chi-voi-500tr-so-huu-ngay-1-png-ngu-1-tai-phan-khu-the-paris-tro-goc-lai-0-pr41404104
+2024-11-02 11:36:03,132 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-le-van-luong-phuong-nhan-chinh-prj-the-diamond-residence/quy-ngoai-giao-2pn-3pn-4pn-gia-tot-nhat-thang-10-2024-tu-pkd-cdt-tai-brg-25-luong-pr41324543
+2024-11-02 11:36:20,478 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-xa-duong-xa-prj-vinhomes-ocean-park-gia-lam/bighomes-f1-cdt-chinh-thuc-nhan-dat-cho-phan-khu-the-paris-goc-pr41403383
+2024-11-02 11:36:28,097 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-tran-phu-phuong-van-quan-prj-grand-sunlake/doc-quyen-quy-3n-nhinh-3ty-98m2-vao-truoc-700tr-ki-hop-dong-ban-cong-dn-view-ho-pr39736572
+2024-11-02 11:36:36,550 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-tran-hung-dao-phuong-nai-hien-dong-prj-sun-symphony-residence/-ven-song-han-sympny-da-nang-toa-s3-view-truc-dien-song-phao-a-gia-truc-tiep-cdt-pr41147590
+2024-11-02 11:36:46,574 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-be-van-dan-phuong-an-binh-prj-bcons-polygon/chinh-chu-ban-cat-lo-2pn-2wc-51m2-1ty830-2pn-2wc-60m2-1ty950-bao-het-thue-phi-pr40787884
+2024-11-02 11:36:54,391 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-tran-hung-dao-phuong-nai-hien-dong-prj-sun-symphony-residence/gio-hang-doc-quyen-f0-cac-du-an-sungroup-san-pham-townuse-spuse-biet-thu-ven-song-pr41403043
+2024-11-02 11:37:03,564 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-binh-trung-tay-prj-diamond-island/full-gio-hang-dao-kim-cuong-quan-2-tu-1-4pn-duplex-pentuse-pool-villa-garden-villa-pr40844248
+2024-11-02 11:37:12,667 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-long-thanh-my-prj-vinhomes-grand-park/chiet-khau-5-ty-cho-nha-pho-shophouse-lien-ke-tai-dong-tien-cho-thue-55-trieu-pr41402978
+2024-11-02 11:37:20,630 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-dong-ngac-prj-sunshine-city/quy-chuyen-nhuong-1pn-2pn-3pn-duplex-gia-tot-nhat-thang-06-2024-ciputra-pr40151117
+2024-11-02 11:37:29,916 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-nguyen-xien-phuong-long-binh-3-prj-glory-heights-vinhomes-grand-park/sieu-gio-hang-1pn-chi-1-943-2pn-chi-3-1-ty-3pn-chi-3-576-chiet-khau-10-pr39707439
+2024-11-02 11:37:47,525 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-tran-phu-phuong-van-quan-prj-grand-sunlake/ban-quy-lau-dai-91m-112m-dong-nam-view-dep-nhat-du-an-ck-5-10-pr40987282
+2024-11-02 11:37:56,621 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-dao-tri-phuong-phu-thuan-3-prj-q7-saigon-riverside/-hinh-minh-a-ban-dien-tich-lon-goc-tro-vay-70-lh-0914647097-pr31552312
+2024-11-02 11:38:04,650 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-dao-tri-phuong-phu-thuan-3-prj-q7-saigon-riverside/ban-gia-tro-chi-1-95-ty-yen-tam-lap-nghiep-lh-0965431233-pr35430054
+2024-11-02 11:38:12,451 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-vo-nguyen-giap-phuong-an-phu-prj-lumiere-riverside/tin-gia-that-em-hiep-chuyen-mua-ban-quan-2-pr41007787
+2024-11-02 11:38:21,673 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-dao-tri-phuong-phu-thuan-3-prj-q7-saigon-riverside/ch-sg-hot-sap-ban-giao-view-song-gia-sieu-hat-de-chi-tu-1-8ty-lh-0968364060-pr31878130
+2024-11-02 11:38:29,667 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-vung-thien-phuong-tan-dong-hiep-prj-phu-dong-skyone/-gia-tu-1-5-ty-thanh-toan-9tr-thang-cam-ket-thue-lai-8-10tr-thang-o-trung-tam-tp-di-an-pr41005124
+2024-11-02 11:38:49,105 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-an-binh-phuong-an-binh-prj-phu-dong-sky-garden/mo-ban-sap-ban-giao-gia-tu-2-ty-6-chiet-khau-15-pr41003332
+2024-11-02 11:38:58,496 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-dao-tri-phuong-phu-thuan-3-prj-q7-saigon-riverside/gio-hang-doc-quyen-dang-ban-gia-tot-xem-nha-24-7-lh-pr40164578
+2024-11-02 11:39:06,687 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-02 11:39:17,145 - root - INFO - Completed scraping Chung cư of BDSWebCrawler
+2024-11-02 11:39:17,146 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-nha-dat
+2024-11-02 11:39:21,684 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-02 11:39:25,433 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/hot-duy-nhat-1-can-shop-vinoceanpark3-54m2-5tang-gia-chi-hon-7-ty-so-do-lau-dai-chi-120tr-m2-pr41404455
+2024-11-02 11:39:33,079 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-tran-phu-thi-tran-thuong-tin-prj-him-lam-thuong-tin/-gio-hang-uu-tien-vi-tri-kinh-doanh-sam-uat-n-khai-thac-ngay-dong-tien-pr40878592
+2024-11-02 11:39:43,772 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-70-2-phuong-dai-mo-prj-louis-city/bang-hang-chuyen-nhuong-du-an-thang-11-2024-pr41404151
+2024-11-02 11:39:51,412 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/quy-can-phan-khu-anh-duong-chinh-sach-chiet-khau-vo-cung-hap-dan-nhieu-loai-hinh-dien-tich-pr41327912
+2024-11-02 11:39:59,899 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/bang-gia-moi-nhat-anh-ap-dung-chinh-sach-chiet-khau-tren-11-tru-vao-gia-ban-pr41360351
+2024-11-02 11:40:07,473 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-dan-chu-xa-vinh-tan-prj-sun-casa-central/chi-900tr-n-3-tang-cho-thue-16tr-thang-ck-5-vsip-group-mo-ban-dot-cuoi-pr41403175
+2024-11-02 11:40:16,465 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-duong-le-hoan-phuong-hoa-phu-2-prj-artisan-park/chinh-thuc-mo-ban-2-mat-tien-cam-ket-thue-lai-480-trieu-nam-trong-4-nam-pr41253364
+2024-11-02 11:40:24,697 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/can-goc-don-lap-dao-dua-24-3-ty-chiet-khau-20-tang-ngay-5-cay-vang-tri-gia-375-trieu-pr39234897
+2024-11-02 11:40:55,108 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/mo-ban-quy-so-luong-gioi-han-thanh-toan-30-mien-lai-70-den-36-thang-pr41402667
+2024-11-02 11:41:04,270 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/tong-hop-cac-can-re-dep-nhat-du-an-global-gate-loa-pr41372413
+2024-11-02 11:41:12,912 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/ban-shop-pb16-vin-3-gia-9-ty-doi-dien-43-toa-chung-cu-so-huu-lau-dai-lhe-pr41223233
+2024-11-02 11:41:20,756 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-quoc-lo-1a-xa-tien-hiep-1-prj-sun-urban-city/quy-can-vip-shophouse-chon-vi-tri-chon-can-mua-cap-mua-si-pr41401832
+2024-11-02 11:41:30,131 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-trong-tan-phuong-duong-noi-prj-khu-do-thi-geleximco-le-trong-tan/ban-75m-geximco-gia-11-ty-can-120m-gia-15-ty-pr41089063
+2024-11-02 11:41:38,328 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-le-quang-dao-phuong-duong-noi-prj-an-quy-villa-kdt-duong-noi/bt-ha-dong-mat-dien-tich-180m-san-so-n-ngay-gia-chinh-thuc-cdt-pr41089350
+2024-11-02 11:41:47,479 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/chiet-khau-cao-nhat-01-can-pho-bien-canh-ho-cat-trang-mat-tien-6m-chi-9-x-ty-so-luong-cuc-it-pr40459722
+2024-11-02 11:41:55,790 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hung-prj-the-empire-vinhomes-ocean-park-2/-2-shop-san-ho-2-mat-tien-3mat-thoang-duong-20m-view-bien-15-toa-masteri-pr41308851
+2024-11-02 11:42:04,081 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/quy-can-vinhome-global-gate-vi-tri-dep-va-gia-tot-nhat-thi-truong-lh-pr41029955
+2024-11-02 11:42:13,869 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/ban-song-lap-136m2-dep-nhat-du-an-doi-dien-cv-2-5ha-va-canh-10-toa-chung-cu-dang-xay-pr41394252
+2024-11-02 11:42:22,358 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-co-loa-xa-dong-hoi-prj-vinhomes-co-loa/check-free-bang-hang-cap-nhat-quy-can-dep-thap-tang-va-chung-cu-loa-pr41392571
+2024-11-02 11:42:32,595 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-shophouse-nha-pho-thuong-mai-xa-nghia-tru-prj-the-crown-vinhomes-ocean-park-3/-70m2-mat-tien-5m-gia-chua-den-9-ty-vi-tri-cuc-dep-tai-3-pr41393564
+2024-11-02 11:42:40,770 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-02 11:42:51,050 - root - INFO - Completed scraping Nhà đất of BDSWebCrawler
+2024-11-02 11:42:51,050 - BDS_com_vn_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://batdongsan.com.vn/ban-dat-dat-nen
+2024-11-02 11:42:55,543 - BDS_com_vn_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-02 11:42:59,190 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-420-xa-tan-xa/950tr-70m2-view-ho-hoa-lac-gan-dh-quoc-gia-va-khu-cong-nghe-cao-pr32663896
+2024-11-02 11:43:07,030 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-pho-thanh-ha-xa-nam-son-9/-nghi-duong-gan-ho-ham-lon-tai-thung-lung-ha-pr41390501
+2024-11-02 11:43:09,856 - BDS_com_vn_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.com.vn/ban-dat-pho-thanh-ha-xa-nam-son-9/-nghi-duong-gan-ho-ham-lon-tai-thung-lung-ha-pr41390501: Message: move target out of bounds
+  (Session info: chrome=130.0.6723.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF605E43AF5+28005]
+	(No symbol) [0x00007FF605DA83F0]
+	(No symbol) [0x00007FF605C45639]
+	(No symbol) [0x00007FF605CE63FC]
+	(No symbol) [0x00007FF605CBBA3A]
+	(No symbol) [0x00007FF605CDB8B3]
+	(No symbol) [0x00007FF605CBB7E3]
+	(No symbol) [0x00007FF605C875C8]
+	(No symbol) [0x00007FF605C88731]
+	GetHandleVerifier [0x00007FF60613646D+3118813]
+	GetHandleVerifier [0x00007FF606186CC0+3448624]
+	GetHandleVerifier [0x00007FF60617CF3D+3408301]
+	GetHandleVerifier [0x00007FF605F0A44B+841403]
+	(No symbol) [0x00007FF605DB344F]
+	(No symbol) [0x00007FF605DAF4C4]
+	(No symbol) [0x00007FF605DAF65D]
+	(No symbol) [0x00007FF605D9EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-02 11:43:17,456 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-pho-thanh-ha-xa-nam-son-9/-nghi-duong-gan-ho-ham-lon-tai-thung-lung-ha-pr41390501
+2024-11-02 11:43:25,610 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-tan-xa/ban-lo-trung-tam-phu-hop-y-o-cho-thue-hoac-dau-tu-gia-re-so-voi-xung-quanh-pr41392119
+2024-11-02 11:43:33,297 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-b-lao-xe-re-xa-loc-chau/-bao-aman-blao-1000-m2-co-suoi-ho-tu-nhien-bao-quanh-thich-hop-lam-nha-vuon-nghi-duong-pr41389028
+2024-11-02 11:43:42,085 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-nguyen-thi-ton-phuong-buu-hoa/chu-gui-ban-lo-tp-bien-boa-dt-6x17-6-105-6-m2-gia-3ty-2-tl-pr41387293
+2024-11-02 11:43:50,665 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-duong-noi/chinh-chu-ban-dich-vu-ha-dong-doi-dien-aeon-ha-dong-kinh-doanh-tot-pr40717070
+2024-11-02 11:43:58,691 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-vanh-dai-4-phuong-thoi-hoa/-binh-gia-re-gan-truong-hoc-quoc-te-viet-duc-pr41381724
+2024-11-02 11:44:06,913 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-420-xa-binh-yen-1/nhinh-1ty-re-nhat-sat-tinh-lo-420-cnc-fpt-thach-that-hoa-lac-thong-o-to-tranh-pr41380783
+2024-11-02 11:44:14,817 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-hung-loc-1/sieu-re-chinh-chu-ban-gap-vi-tri-dac-dia-2mt-dt-241-9m2-gia-chi-2-x-ty-pr39802594
+2024-11-02 11:44:22,910 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-le-quang-chi-phuong-hoa-xuan/nh-chu-can-ban-2-lo-mat-tien-va-nguyen-mau-tai-gia-uu-dai-nhat-khu-vuc-pr41373839
+2024-11-02 11:44:30,598 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dai-lo-thang-long-xa-dong-truc/ban-nhanh-87-2m2-tai-khoang-mai-gan-ng-va-du-an-300ha-vingroup-pr41372403
+2024-11-02 11:44:38,834 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-quoc-lo-13-phuong-hung-long/ban-gap-mt-24m-hon-3-sao-3-100m2-so-rieng-gia-280tr-bao-so-canh-kcn-lon-truong-cho-dan-cu-dong-pr41371089
+2024-11-02 11:44:50,030 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-phuoc-lam/gia-chinh-chu-ban-4-lo-mat-tien-duong-4m-co-so-rieng-gia-chi-tu-750tr-nen-lh-pr41370419
+2024-11-02 11:44:57,926 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dang-thanh-hieu-phuong-phu-huu-2/can-ban-tai-quan-9-doi-dien-cang-jtc-pr21349450
+2024-11-02 11:45:05,638 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-dai-lo-thang-long-xa-dong-truc/86-3m-khoang-mai-canh-ng-gan-cong-nghe-cao-hoa-lac-ke-ben-kdt-vin-group-pr41347116
+2024-11-02 11:45:14,902 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-xa-van-canh-1/chinh-chu-ban-51-6m2-co-vi-tri-cuc-dep-cach-duong-trinh-bo-my-dinh-chi-50m-t7-2025-pr40250894
+2024-11-02 11:45:23,143 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-phuong-16-1/ban-gap-lo-mat-tien-vuong-vuc-p16-nhieu-tien-ich-xung-quanh-gia-chi-tuong-duong-hem-pr41361983
+2024-11-02 11:45:31,352 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-nen-du-an-duong-31c-phuong-an-phu-prj-an-phu-an-khanh/ban-lo-mt-re-nhat-khu-do-thi-apak-quan-2-400m2-no-hau-dep-gia-cuc-tot-chi-180tr-m2-72-ty-pr41361499
+2024-11-02 11:45:40,049 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-21a-xa-binh-yen-1/hang-sieu-pham-nen-hoa-lac-chi-tu-4-5-ty-so-do-trao-tay-htls-0-18t-cuc-hiem-lh-pr41358759
+2024-11-02 11:45:50,903 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://batdongsan.com.vn/ban-dat-duong-vo-van-bich-xa-tan-thanh-dong/1800m2-mat-tien-21m-dai-phu-hop-lam-nha-xuong-biet-thu-vuon-pr41354922
+2024-11-02 11:45:59,000 - BDS_com_vn_Webcrawler - INFO - Extracting from: https://vaymuanha.batdongsan.com.vn/?utm_source=propertyguru&utm_medium=referral&utm_campaign=native_ads_srp
+2024-11-02 11:46:09,267 - root - INFO - Completed scraping Đất nền of BDSWebCrawler
+2024-11-02 11:46:09,270 - root - INFO - config file updated successfully!
+2024-11-02 11:46:09,276 - root - INFO - Data saved to ../data/bds_com_vn_data.json
+2024-11-02 20:07:16,461 - root - INFO - Starting crawler BDS_SoCrawler
+2024-11-02 20:07:16,517 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so from page 1 to page 1 and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-11-02 20:08:12,171 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-02 20:08:15,885 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-an-hoa-o-to-hai-thoang-46m2-4-tang-gia-9-4-ty
+2024-11-02 20:08:26,649 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-doi-can-trung-tam-ba-dinh-o-to-kinh-doanh-dt-225m2-x5-tang-gia-chao-28-8-ty
+2024-11-02 20:08:37,190 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-26-pho-do-quang-cau-giay-vi-tri-vip-phan-lo-8-tang-kinh-doanh-dt-94m2-gia-48-ty
+2024-11-02 20:08:47,643 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-13-khuat-duy-tien-vi-tri-dep-ngo-o-to-8-tang-kinh-doanh-dt-100m2-gia-chao-32-ty
+2024-11-02 20:08:58,596 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/chinh-chu-ban-dat-tang-nha-cap-4-gia-tot-ngo-135-doi-can
+2024-11-02 20:09:01,291 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/chinh-chu-ban-dat-tang-nha-cap-4-gia-tot-ngo-135-doi-can: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF741FB3AF5+28005]
+	(No symbol) [0x00007FF741F183F0]
+	(No symbol) [0x00007FF741DB580A]
+	(No symbol) [0x00007FF741DBC2CC]
+	(No symbol) [0x00007FF741DBE5E7]
+	(No symbol) [0x00007FF741DBE6A0]
+	(No symbol) [0x00007FF741DFF9DB]
+	(No symbol) [0x00007FF741E2BA3A]
+	(No symbol) [0x00007FF741DF9246]
+	(No symbol) [0x00007FF741E2BC50]
+	(No symbol) [0x00007FF741E4B8B3]
+	(No symbol) [0x00007FF741E2B7E3]
+	(No symbol) [0x00007FF741DF75C8]
+	(No symbol) [0x00007FF741DF8731]
+	GetHandleVerifier [0x00007FF7422A646D+3118813]
+	GetHandleVerifier [0x00007FF7422F6CC0+3448624]
+	GetHandleVerifier [0x00007FF7422ECF3D+3408301]
+	GetHandleVerifier [0x00007FF74207A44B+841403]
+	(No symbol) [0x00007FF741F2344F]
+	(No symbol) [0x00007FF741F1F4C4]
+	(No symbol) [0x00007FF741F1F65D]
+	(No symbol) [0x00007FF741F0EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-02 20:09:13,169 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/chinh-chu-ban-dat-tang-nha-cap-4-gia-tot-ngo-135-doi-can
+2024-11-02 20:09:16,334 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/chinh-chu-ban-dat-tang-nha-cap-4-gia-tot-ngo-135-doi-can: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF741FB3AF5+28005]
+	(No symbol) [0x00007FF741F183F0]
+	(No symbol) [0x00007FF741DB580A]
+	(No symbol) [0x00007FF741DBC2CC]
+	(No symbol) [0x00007FF741DBE5E7]
+	(No symbol) [0x00007FF741DBE6A0]
+	(No symbol) [0x00007FF741DFF9DB]
+	(No symbol) [0x00007FF741E2BA3A]
+	(No symbol) [0x00007FF741DF9246]
+	(No symbol) [0x00007FF741E2BC50]
+	(No symbol) [0x00007FF741E4B8B3]
+	(No symbol) [0x00007FF741E2B7E3]
+	(No symbol) [0x00007FF741DF75C8]
+	(No symbol) [0x00007FF741DF8731]
+	GetHandleVerifier [0x00007FF7422A646D+3118813]
+	GetHandleVerifier [0x00007FF7422F6CC0+3448624]
+	GetHandleVerifier [0x00007FF7422ECF3D+3408301]
+	GetHandleVerifier [0x00007FF74207A44B+841403]
+	(No symbol) [0x00007FF741F2344F]
+	(No symbol) [0x00007FF741F1F4C4]
+	(No symbol) [0x00007FF741F1F65D]
+	(No symbol) [0x00007FF741F0EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-02 20:09:28,164 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/chinh-chu-ban-dat-tang-nha-cap-4-gia-tot-ngo-135-doi-can
+2024-11-02 20:09:38,740 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-47m2x3t-oto-do-san-truoc-sau-gan-cho-dong-la-7-phut-ra-penika-to-huu
+2024-11-02 20:09:49,355 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-ma-lo-binh-tri-dong-a-4-5-tam-5pn-7wc-gia-7-5-ty-1
+2024-11-02 20:09:59,822 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-ma-lo-binh-tri-dong-a-4-5-tam-5pn-7wc-gia-7-5-ty
+2024-11-02 20:10:10,251 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-2-xet-ma-lo-binh-tri-dong-a-dt-60m2-1-lau-3pn-2wc-gia-4-65-ty
+2024-11-02 20:10:12,972 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/nha-hem-2-xet-ma-lo-binh-tri-dong-a-dt-60m2-1-lau-3pn-2wc-gia-4-65-ty: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF741FB3AF5+28005]
+	(No symbol) [0x00007FF741F183F0]
+	(No symbol) [0x00007FF741DB580A]
+	(No symbol) [0x00007FF741DBC2CC]
+	(No symbol) [0x00007FF741DBE5E7]
+	(No symbol) [0x00007FF741DBE6A0]
+	(No symbol) [0x00007FF741DFF9DB]
+	(No symbol) [0x00007FF741E2BA3A]
+	(No symbol) [0x00007FF741DF9246]
+	(No symbol) [0x00007FF741E2BC50]
+	(No symbol) [0x00007FF741E4B8B3]
+	(No symbol) [0x00007FF741E2B7E3]
+	(No symbol) [0x00007FF741DF75C8]
+	(No symbol) [0x00007FF741DF8731]
+	GetHandleVerifier [0x00007FF7422A646D+3118813]
+	GetHandleVerifier [0x00007FF7422F6CC0+3448624]
+	GetHandleVerifier [0x00007FF7422ECF3D+3408301]
+	GetHandleVerifier [0x00007FF74207A44B+841403]
+	(No symbol) [0x00007FF741F2344F]
+	(No symbol) [0x00007FF741F1F4C4]
+	(No symbol) [0x00007FF741F1F65D]
+	(No symbol) [0x00007FF741F0EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-02 20:10:24,873 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-2-xet-ma-lo-binh-tri-dong-a-dt-60m2-1-lau-3pn-2wc-gia-4-65-ty
+2024-11-02 20:10:35,391 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hxh-duong-207-hiep-phu-dt-66m-cap-4-khu-trung-tam
+2024-11-02 20:10:45,828 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-ngo-thi-nham-ha-dong-o-to-kinh-doanh-dong-tien-52m2-3-tang-gia-10-55-ty
+2024-11-02 20:10:56,397 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-moi-xd-229m2-4-tang-5-6-ty-kp-noi-hoa-2-binh-an-di-an-binh-duong-cach-q1chi-35-phut
+2024-11-02 20:11:07,162 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-nha-re-nhat-khu-vuc-an-ha-pham-van-hai-binh-chanh-5x15-tho-cu
+2024-11-02 20:11:17,683 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hot-duc-hoa-dong-duc-hoa-dt-252m2-co-nha-1-lau-1-tret-co-vuon-rong
+2024-11-02 20:11:28,265 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-ky-tan-quy-tan-phu-nha-moi-keng-51m-5-4x10-2-tang-3pn-cho-thue-9tr-chi-3-85-ty
+2024-11-02 20:11:38,663 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-duong-huynh-tan-phat-tt-nha-be-cach-q-7-300m-phu-my-hung-800m-0938319489
+2024-11-02 20:11:49,219 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/bui-minh-truc-p5-q8-hem-xe-may-ngang-lon-4-5m-x-9m-2-tang-2-phong-ngu-chi-4-3-ty-tl-1
+2024-11-02 20:11:59,623 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/bui-minh-truc-p5-q8-hem-xe-may-ngang-lon-4-5m-x-9m-2-tang-2-phong-ngu-chi-4-3-ty-tl
+2024-11-02 20:12:09,858 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-2-mat-tien-duong-phan-huy-ich-dai-lao-bao-loc-gia-2-750-ty
+2024-11-02 20:12:23,464 - root - INFO - Completed scraping BDS_SoCrawler
+2024-11-02 20:12:23,468 - root - INFO - config file updated successfully!
+2024-11-02 20:12:23,479 - root - INFO - Data saved to ../data/bds_so_data.json
+2024-11-02 20:25:37,173 - root - INFO - Starting crawler BDS_SoCrawler
+2024-11-02 20:25:37,176 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so from page 1 to page 1 and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-11-02 20:26:10,517 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-02 20:26:14,259 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-phan-lo-cau-giay-50m2-o-to-tranh-gan-pho-nhinh-15-ty
+2024-11-02 20:26:25,232 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-an-hoa-o-to-hai-thoang-46m2-4-tang-gia-9-4-ty
+2024-11-02 20:26:36,239 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-doi-can-trung-tam-ba-dinh-o-to-kinh-doanh-dt-225m2-x5-tang-gia-chao-28-8-ty
+2024-11-02 20:26:46,689 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-26-pho-do-quang-cau-giay-vi-tri-vip-phan-lo-8-tang-kinh-doanh-dt-94m2-gia-48-ty
+2024-11-02 20:26:57,419 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-13-khuat-duy-tien-vi-tri-dep-ngo-o-to-8-tang-kinh-doanh-dt-100m2-gia-chao-32-ty
+2024-11-02 20:27:09,679 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/chinh-chu-ban-dat-tang-nha-cap-4-gia-tot-ngo-135-doi-can
+2024-11-02 20:27:12,313 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/chinh-chu-ban-dat-tang-nha-cap-4-gia-tot-ngo-135-doi-can: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF741FB3AF5+28005]
+	(No symbol) [0x00007FF741F183F0]
+	(No symbol) [0x00007FF741DB580A]
+	(No symbol) [0x00007FF741DBC2CC]
+	(No symbol) [0x00007FF741DBE5E7]
+	(No symbol) [0x00007FF741DBE6A0]
+	(No symbol) [0x00007FF741DFF9DB]
+	(No symbol) [0x00007FF741E2BA3A]
+	(No symbol) [0x00007FF741DF9246]
+	(No symbol) [0x00007FF741E2BC50]
+	(No symbol) [0x00007FF741E4B8B3]
+	(No symbol) [0x00007FF741E2B7E3]
+	(No symbol) [0x00007FF741DF75C8]
+	(No symbol) [0x00007FF741DF8731]
+	GetHandleVerifier [0x00007FF7422A646D+3118813]
+	GetHandleVerifier [0x00007FF7422F6CC0+3448624]
+	GetHandleVerifier [0x00007FF7422ECF3D+3408301]
+	GetHandleVerifier [0x00007FF74207A44B+841403]
+	(No symbol) [0x00007FF741F2344F]
+	(No symbol) [0x00007FF741F1F4C4]
+	(No symbol) [0x00007FF741F1F65D]
+	(No symbol) [0x00007FF741F0EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-02 20:27:24,122 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/chinh-chu-ban-dat-tang-nha-cap-4-gia-tot-ngo-135-doi-can
+2024-11-02 20:27:34,586 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-47m2x3t-oto-do-san-truoc-sau-gan-cho-dong-la-7-phut-ra-penika-to-huu
+2024-11-02 20:27:45,297 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-ma-lo-binh-tri-dong-a-4-5-tam-5pn-7wc-gia-7-5-ty-1
+2024-11-02 20:27:56,041 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-ma-lo-binh-tri-dong-a-4-5-tam-5pn-7wc-gia-7-5-ty
+2024-11-02 20:28:06,682 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-2-xet-ma-lo-binh-tri-dong-a-dt-60m2-1-lau-3pn-2wc-gia-4-65-ty
+2024-11-02 20:28:09,648 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/nha-hem-2-xet-ma-lo-binh-tri-dong-a-dt-60m2-1-lau-3pn-2wc-gia-4-65-ty: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF741FB3AF5+28005]
+	(No symbol) [0x00007FF741F183F0]
+	(No symbol) [0x00007FF741DB580A]
+	(No symbol) [0x00007FF741DBC2CC]
+	(No symbol) [0x00007FF741DBE5E7]
+	(No symbol) [0x00007FF741DBE6A0]
+	(No symbol) [0x00007FF741DFF9DB]
+	(No symbol) [0x00007FF741E2BA3A]
+	(No symbol) [0x00007FF741DF9246]
+	(No symbol) [0x00007FF741E2BC50]
+	(No symbol) [0x00007FF741E4B8B3]
+	(No symbol) [0x00007FF741E2B7E3]
+	(No symbol) [0x00007FF741DF75C8]
+	(No symbol) [0x00007FF741DF8731]
+	GetHandleVerifier [0x00007FF7422A646D+3118813]
+	GetHandleVerifier [0x00007FF7422F6CC0+3448624]
+	GetHandleVerifier [0x00007FF7422ECF3D+3408301]
+	GetHandleVerifier [0x00007FF74207A44B+841403]
+	(No symbol) [0x00007FF741F2344F]
+	(No symbol) [0x00007FF741F1F4C4]
+	(No symbol) [0x00007FF741F1F65D]
+	(No symbol) [0x00007FF741F0EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-02 20:28:21,471 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-2-xet-ma-lo-binh-tri-dong-a-dt-60m2-1-lau-3pn-2wc-gia-4-65-ty
+2024-11-02 20:28:32,734 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hxh-duong-207-hiep-phu-dt-66m-cap-4-khu-trung-tam
+2024-11-02 20:28:35,332 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/nha-hxh-duong-207-hiep-phu-dt-66m-cap-4-khu-trung-tam: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF741FB3AF5+28005]
+	(No symbol) [0x00007FF741F183F0]
+	(No symbol) [0x00007FF741DB580A]
+	(No symbol) [0x00007FF741DBC2CC]
+	(No symbol) [0x00007FF741DBE5E7]
+	(No symbol) [0x00007FF741DBE6A0]
+	(No symbol) [0x00007FF741DFF9DB]
+	(No symbol) [0x00007FF741E2BA3A]
+	(No symbol) [0x00007FF741DF9246]
+	(No symbol) [0x00007FF741E2BC50]
+	(No symbol) [0x00007FF741E4B8B3]
+	(No symbol) [0x00007FF741E2B7E3]
+	(No symbol) [0x00007FF741DF75C8]
+	(No symbol) [0x00007FF741DF8731]
+	GetHandleVerifier [0x00007FF7422A646D+3118813]
+	GetHandleVerifier [0x00007FF7422F6CC0+3448624]
+	GetHandleVerifier [0x00007FF7422ECF3D+3408301]
+	GetHandleVerifier [0x00007FF74207A44B+841403]
+	(No symbol) [0x00007FF741F2344F]
+	(No symbol) [0x00007FF741F1F4C4]
+	(No symbol) [0x00007FF741F1F65D]
+	(No symbol) [0x00007FF741F0EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-02 20:28:47,200 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hxh-duong-207-hiep-phu-dt-66m-cap-4-khu-trung-tam
+2024-11-02 20:28:57,683 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-ngo-thi-nham-ha-dong-o-to-kinh-doanh-dong-tien-52m2-3-tang-gia-10-55-ty
+2024-11-02 20:29:08,605 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-moi-xd-229m2-4-tang-5-6-ty-kp-noi-hoa-2-binh-an-di-an-binh-duong-cach-q1chi-35-phut
+2024-11-02 20:29:19,202 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-nha-re-nhat-khu-vuc-an-ha-pham-van-hai-binh-chanh-5x15-tho-cu
+2024-11-02 20:29:29,744 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hot-duc-hoa-dong-duc-hoa-dt-252m2-co-nha-1-lau-1-tret-co-vuon-rong
+2024-11-02 20:29:40,359 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-ky-tan-quy-tan-phu-nha-moi-keng-51m-5-4x10-2-tang-3pn-cho-thue-9tr-chi-3-85-ty
+2024-11-02 20:29:50,942 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-duong-huynh-tan-phat-tt-nha-be-cach-q-7-300m-phu-my-hung-800m-0938319489
+2024-11-02 20:29:53,595 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/ban-nha-duong-huynh-tan-phat-tt-nha-be-cach-q-7-300m-phu-my-hung-800m-0938319489: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF741FB3AF5+28005]
+	(No symbol) [0x00007FF741F183F0]
+	(No symbol) [0x00007FF741DB580A]
+	(No symbol) [0x00007FF741DBC2CC]
+	(No symbol) [0x00007FF741DBE5E7]
+	(No symbol) [0x00007FF741DBE6A0]
+	(No symbol) [0x00007FF741DFF9DB]
+	(No symbol) [0x00007FF741E2BA3A]
+	(No symbol) [0x00007FF741DF9246]
+	(No symbol) [0x00007FF741E2BC50]
+	(No symbol) [0x00007FF741E4B8B3]
+	(No symbol) [0x00007FF741E2B7E3]
+	(No symbol) [0x00007FF741DF75C8]
+	(No symbol) [0x00007FF741DF8731]
+	GetHandleVerifier [0x00007FF7422A646D+3118813]
+	GetHandleVerifier [0x00007FF7422F6CC0+3448624]
+	GetHandleVerifier [0x00007FF7422ECF3D+3408301]
+	GetHandleVerifier [0x00007FF74207A44B+841403]
+	(No symbol) [0x00007FF741F2344F]
+	(No symbol) [0x00007FF741F1F4C4]
+	(No symbol) [0x00007FF741F1F65D]
+	(No symbol) [0x00007FF741F0EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-02 20:30:05,456 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-duong-huynh-tan-phat-tt-nha-be-cach-q-7-300m-phu-my-hung-800m-0938319489
+2024-11-02 20:30:16,061 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/bui-minh-truc-p5-q8-hem-xe-may-ngang-lon-4-5m-x-9m-2-tang-2-phong-ngu-chi-4-3-ty-tl-1
+2024-11-02 20:30:19,000 - BDS_So_Webcrawler - ERROR - Error occurred while extracting data from page https://batdongsan.so/nha-dat/bui-minh-truc-p5-q8-hem-xe-may-ngang-lon-4-5m-x-9m-2-tang-2-phong-ngu-chi-4-3-ty-tl-1: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF741FB3AF5+28005]
+	(No symbol) [0x00007FF741F183F0]
+	(No symbol) [0x00007FF741DB580A]
+	(No symbol) [0x00007FF741DBC2CC]
+	(No symbol) [0x00007FF741DBE5E7]
+	(No symbol) [0x00007FF741DBE6A0]
+	(No symbol) [0x00007FF741DFF9DB]
+	(No symbol) [0x00007FF741E2BA3A]
+	(No symbol) [0x00007FF741DF9246]
+	(No symbol) [0x00007FF741E2BC50]
+	(No symbol) [0x00007FF741E4B8B3]
+	(No symbol) [0x00007FF741E2B7E3]
+	(No symbol) [0x00007FF741DF75C8]
+	(No symbol) [0x00007FF741DF8731]
+	GetHandleVerifier [0x00007FF7422A646D+3118813]
+	GetHandleVerifier [0x00007FF7422F6CC0+3448624]
+	GetHandleVerifier [0x00007FF7422ECF3D+3408301]
+	GetHandleVerifier [0x00007FF74207A44B+841403]
+	(No symbol) [0x00007FF741F2344F]
+	(No symbol) [0x00007FF741F1F4C4]
+	(No symbol) [0x00007FF741F1F65D]
+	(No symbol) [0x00007FF741F0EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-02 20:30:30,845 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/bui-minh-truc-p5-q8-hem-xe-may-ngang-lon-4-5m-x-9m-2-tang-2-phong-ngu-chi-4-3-ty-tl-1
+2024-11-02 20:30:41,769 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/bui-minh-truc-p5-q8-hem-xe-may-ngang-lon-4-5m-x-9m-2-tang-2-phong-ngu-chi-4-3-ty-tl
+2024-11-02 20:30:55,190 - root - INFO - Completed scraping BDS_SoCrawler
+2024-11-02 20:30:55,193 - root - INFO - config file updated successfully!
+2024-11-02 20:30:55,197 - root - INFO - Data saved to ../data/bds_so_data.json
+2024-11-02 21:13:53,143 - root - INFO - Starting crawler BDS_SoCrawler
+2024-11-02 21:13:53,145 - BDS_So_Webcrawler - INFO - Initialized batdongsan.so from page 1 to page 1 and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-11-02 21:14:26,049 - BDS_So_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-02 21:14:29,785 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-apartment-pho-vinh-phuc-115m2-9-tang-mt-7-5m-13-phong-o-to-gia-38-ty
+2024-11-02 21:14:40,245 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-phan-lo-cau-giay-50m2-o-to-tranh-gan-pho-nhinh-15-ty
+2024-11-02 21:14:50,775 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-an-hoa-o-to-hai-thoang-46m2-4-tang-gia-9-4-ty
+2024-11-02 21:15:02,012 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-doi-can-trung-tam-ba-dinh-o-to-kinh-doanh-dt-225m2-x5-tang-gia-chao-28-8-ty
+2024-11-02 21:15:13,706 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-26-pho-do-quang-cau-giay-vi-tri-vip-phan-lo-8-tang-kinh-doanh-dt-94m2-gia-48-ty
+2024-11-02 21:15:24,554 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-ngo-13-khuat-duy-tien-vi-tri-dep-ngo-o-to-8-tang-kinh-doanh-dt-100m2-gia-chao-32-ty
+2024-11-02 21:15:35,509 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/chinh-chu-ban-dat-tang-nha-cap-4-gia-tot-ngo-135-doi-can
+2024-11-02 21:15:45,974 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-47m2x3t-oto-do-san-truoc-sau-gan-cho-dong-la-7-phut-ra-penika-to-huu
+2024-11-02 21:15:56,387 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-ma-lo-binh-tri-dong-a-4-5-tam-5pn-7wc-gia-7-5-ty-1
+2024-11-02 21:16:07,095 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-ma-lo-binh-tri-dong-a-4-5-tam-5pn-7wc-gia-7-5-ty
+2024-11-02 21:16:17,629 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hem-2-xet-ma-lo-binh-tri-dong-a-dt-60m2-1-lau-3pn-2wc-gia-4-65-ty
+2024-11-02 21:16:28,646 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hxh-duong-207-hiep-phu-dt-66m-cap-4-khu-trung-tam
+2024-11-02 21:16:39,195 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-pho-ngo-thi-nham-ha-dong-o-to-kinh-doanh-dong-tien-52m2-3-tang-gia-10-55-ty
+2024-11-02 21:16:50,687 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-moi-xd-229m2-4-tang-5-6-ty-kp-noi-hoa-2-binh-an-di-an-binh-duong-cach-q1chi-35-phut
+2024-11-02 21:17:01,258 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-can-nha-re-nhat-khu-vuc-an-ha-pham-van-hai-binh-chanh-5x15-tho-cu
+2024-11-02 21:17:12,170 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/nha-hot-duc-hoa-dong-duc-hoa-dt-252m2-co-nha-1-lau-1-tret-co-vuon-rong
+2024-11-02 21:17:23,147 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/tan-ky-tan-quy-tan-phu-nha-moi-keng-51m-5-4x10-2-tang-3pn-cho-thue-9tr-chi-3-85-ty
+2024-11-02 21:17:34,485 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/ban-nha-duong-huynh-tan-phat-tt-nha-be-cach-q-7-300m-phu-my-hung-800m-0938319489
+2024-11-02 21:17:44,898 - BDS_So_Webcrawler - INFO - Extracting from: https://batdongsan.so/nha-dat/bui-minh-truc-p5-q8-hem-xe-may-ngang-lon-4-5m-x-9m-2-tang-2-phong-ngu-chi-4-3-ty-tl-1
+2024-11-02 21:17:58,610 - root - INFO - Completed scraping BDS_SoCrawler
+2024-11-02 21:17:58,614 - root - INFO - config file updated successfully!
+2024-11-02 21:17:58,626 - root - INFO - Data saved to ../data/bds_so_data.json
