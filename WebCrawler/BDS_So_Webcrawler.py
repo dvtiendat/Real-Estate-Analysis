@@ -14,6 +14,7 @@ import numpy as np
 from WebCrawler import WebCrawler
 from utils import dms_to_decimal, scroll_shim
 import logging
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -48,6 +49,7 @@ class BDS_SoWebCrawler(WebCrawler):
                     url = self.base_url
                 else :
                     url = self.base_url[:-2] + '?page=' + str(page) + self.base_url[-2:]
+                time.sleep(15)
                 driver.get(url)
                 driver.implicitly_wait(0.5) 
                 links =  driver.find_elements(By.XPATH , value="//article[@class='float-re']//h3/a") 
@@ -77,7 +79,7 @@ class BDS_SoWebCrawler(WebCrawler):
         # columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Kinh độ', 'Vĩ độ','Phường','Quận','Thành phố','Mức giá','Diện tích','Mặt tiền' ,'Hướng nhà', 
         #    'Số tầng','Số toilet','Đường vào', 'Hướng ban công','Số phòng ngủ',
         #    'Pháp lý', 'Nội thất']
-        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Giá', 'Địa chỉ', 'Mức giá', 'Diện tích', 'Mặt tiền', 'Lộ giới','Số tầng', 
+        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Địa chỉ', 'Giá', 'Diện tích', 'Mặt tiền', 'Lộ giới','Số tầng', 
                    'Số toilet', 'Số phòng ngủ']
 
         house_data = {col: np.nan for col in columns}
@@ -87,63 +89,64 @@ class BDS_SoWebCrawler(WebCrawler):
             return None
         
         try:
-                driver.get(page)
-                
-                # address = driver.find_element(By.XPATH, "//div[@class='re-address']//i[@class='ion-ios-location']").text
-                address = driver.find_element(By.XPATH, "//div[@class='re-address']").text
-                date, month, year = driver.find_element(By.XPATH, "//ul[@class='short-detail-2 list2 clearfix']/li[1]/span[@class='sp3']").text.split("/")
-                num = int(driver.find_element(By.XPATH, "//ul[@class='short-detail-2 list2 clearfix']/li[3]/span[@class='sp3']").text)
-                price = driver.find_element(By.XPATH, "//div[@class='re-price']//strong").text
-                
-                # address = driver.find_element(By.XPATH, "//span[@class='re__pr-short-description js__pr-address']").text.split(',')
-                # date, month, year = driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[1]").text.splitlines()[1].split("/")
-                # num = int(driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[4]").text.splitlines()[1])
+            time.sleep(15)
+            driver.get(page)
+            
+            # address = driver.find_element(By.XPATH, "//div[@class='re-address']//i[@class='ion-ios-location']").text
+            address = driver.find_element(By.XPATH, "//div[@class='re-address']").text
+            date, month, year = driver.find_element(By.XPATH, "//ul[@class='short-detail-2 list2 clearfix']/li[1]/span[@class='sp3']").text.split("/")
+            num = int(driver.find_element(By.XPATH, "//ul[@class='short-detail-2 list2 clearfix']/li[3]/span[@class='sp3']").text)
+            price = driver.find_element(By.XPATH, "//div[@class='re-price']//strong").text
+            
+            # address = driver.find_element(By.XPATH, "//span[@class='re__pr-short-description js__pr-address']").text.split(',')
+            # date, month, year = driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[1]").text.splitlines()[1].split("/")
+            # num = int(driver.find_element(By.XPATH , "//div[@class='re__pr-short-info re__pr-config js__pr-config']//div[4]").text.splitlines()[1])
 
-                # iframe = driver.find_elements(By.XPATH, '//iframe[@class="lazyload"]')[0]
-                # scroll_shim(driver,iframe)
-                # actions.move_to_element(iframe).perform()
-                # driver.implicitly_wait(10)
-                # iframe = driver.find_element(By.XPATH, '//iframe[@class=" lazyloaded"]')    
-                # driver.switch_to.frame(frame_reference=iframe)
-                # longitude , latitude = driver.find_element(By.XPATH , "//div[@class='place-name']").text.split(' ')
-                # driver.switch_to.default_content()
-                house_data['Mức giá'] = price
-                house_data['Ngày'] = date
-                house_data['Tháng'] = month
-                house_data['Năm'] = year
-                house_data['Mã tin'] = num
+            # iframe = driver.find_elements(By.XPATH, '//iframe[@class="lazyload"]')[0]
+            # scroll_shim(driver,iframe)
+            # actions.move_to_element(iframe).perform()
+            # driver.implicitly_wait(10)
+            # iframe = driver.find_element(By.XPATH, '//iframe[@class=" lazyloaded"]')    
+            # driver.switch_to.frame(frame_reference=iframe)
+            # longitude , latitude = driver.find_element(By.XPATH , "//div[@class='place-name']").text.split(' ')
+            # driver.switch_to.default_content()
+            house_data['Mức giá'] = price
+            house_data['Ngày'] = date
+            house_data['Tháng'] = month
+            house_data['Năm'] = year
+            house_data['Mã tin'] = num
+            
+            p = address[-3].strip().split(' ')
+            if 'Phường' in p or 'Xã' in p or 'Thị trấn' in p :
+                p = ' '.join(p[1:])
+            else :
+                p = ' '.join(p)
                 
-                p = address[-3].strip().split(' ')
-                if 'Phường' in p or 'Xã' in p or 'Thị trấn' in p :
-                    p = ' '.join(p[1:])
-                else :
-                    p = ' '.join(p)
+            q = address[-2].strip().split(' ')
+            if 'Huyện' in q or 'Quận' in q :
+                q = ' '.join(q[1:])
+            else :
+                q = ' '.join(q)
                     
-                q = address[-2].strip().split(' ')
-                if 'Huyện' in q or 'Quận' in q :
-                    q = ' '.join(q[1:])
-                else :
-                    q = ' '.join(q)
-                        
-                house_data['Địa chỉ'] = address
-                # house_data['Phường'] = address
-                # house_data['Quận'] = address
-                # house_data['Thành phố'] = address[-1].strip()
+            house_data['Địa chỉ'] = address
+            # house_data['Phường'] = address
+            # house_data['Quận'] = address
+            # house_data['Thành phố'] = address[-1].strip()
 
-                list_items = driver.find_elements(By.XPATH, '//ul[@class="re-property"]/li')
-                for item in list_items:
-                    text = item.text.strip()
-                    if ':' in text:
-                        key, value = [part.strip() for part in text.split(":", 1)]
-                        house_data[key] = value 
-                # keys = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//ul[@class='re-property']"))) 
-                # keys = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//span[@class='re__pr-specs-content-item-title']")))
-                # values = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//span[@class='re__pr-specs-content-item-value']")))
-                # for index, key in enumerate(keys):
-                #     house_data[key.text] = values[index].text
+            list_items = driver.find_elements(By.XPATH, '//ul[@class="re-property"]/li')
+            for item in list_items:
+                text = item.text.strip()
+                if ':' in text:
+                    key, value = [part.strip() for part in text.split(":", 1)]
+                    house_data[key] = value 
+            # keys = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//ul[@class='re-property']"))) 
+            # keys = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//span[@class='re__pr-specs-content-item-title']")))
+            # values = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//span[@class='re__pr-specs-content-item-value']")))
+            # for index, key in enumerate(keys):
+            #     house_data[key.text] = values[index].text
                     
 
-                return house_data
+            return house_data
                 
         except Exception as e:
             logger.error(f'Error occurred while extracting data from page {page}: {e}') 

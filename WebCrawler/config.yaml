@@ -69,7 +69,6 @@ BDS_SoCrawler:
   - Năm
   - Giá
   - Địa chỉ
-  - Mức giá
   - Diện tích
   - Mặt tiền
   - Lộ giới
@@ -77,4 +76,4 @@ BDS_SoCrawler:
   - Số toilet
   - Số phòng ngủ
   num_pages: 1
-  start_page: 2
+  start_page: 1
