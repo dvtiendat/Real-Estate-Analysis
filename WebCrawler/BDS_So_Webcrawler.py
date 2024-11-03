@@ -49,7 +49,7 @@ class BDS_SoWebCrawler(WebCrawler):
                     url = self.base_url
                 else :
                     url = self.base_url[:-2] + '?page=' + str(page) + self.base_url[-2:]
-                time.sleep(15)
+                time.sleep(5)
                 driver.get(url)
                 driver.implicitly_wait(0.5) 
                 links =  driver.find_elements(By.XPATH , value="//article[@class='float-re']//h3/a") 
@@ -89,7 +89,7 @@ class BDS_SoWebCrawler(WebCrawler):
             return None
         
         try:
-            time.sleep(15)
+            time.sleep(5)
             driver.get(page)
             
             # address = driver.find_element(By.XPATH, "//div[@class='re-address']//i[@class='ion-ios-location']").text
@@ -110,7 +110,7 @@ class BDS_SoWebCrawler(WebCrawler):
             # driver.switch_to.frame(frame_reference=iframe)
             # longitude , latitude = driver.find_element(By.XPATH , "//div[@class='place-name']").text.split(' ')
             # driver.switch_to.default_content()
-            house_data['Mức giá'] = price
+            house_data['Giá'] = price
             house_data['Ngày'] = date
             house_data['Tháng'] = month
             house_data['Năm'] = year

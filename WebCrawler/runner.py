@@ -109,7 +109,7 @@ def main():
         
         # Update config and save file 
         update_config(updated_config, config_path)
-        output_path = f"../data/bds_so_data.json" # CHANGE THIS 
+        output_path = f"../SampleData/bds_so_data.json" # CHANGE THIS 
         tmp = final_df.to_dict(orient="records")
         with open(output_path, 'w', encoding='utf8') as f:
             json.dump(tmp, f, indent = 2, ensure_ascii= False)
