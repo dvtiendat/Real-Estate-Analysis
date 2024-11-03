@@ -64,7 +64,7 @@ BDS_SoCrawler:
   base_url: https://batdongsan.so/nha-dat-ban/nha-rieng#/
   final_columns:
   - Mã tin
-  - Ngày,
+  - Ngày
   - Tháng
   - Năm
   - Giá
