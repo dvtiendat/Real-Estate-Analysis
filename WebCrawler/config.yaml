@@ -23,8 +23,8 @@ AlonhadatWebCrawler:
   - Chiều dài
   - Số phòng ngủ
   - Chính chủ
-  num_pages: 5
-  start_page: 1
+  num_pages: 2
+  start_page: 5
 BDSWebCrawler:
   final_columns:
   - Mã tin

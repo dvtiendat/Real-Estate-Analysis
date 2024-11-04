@@ -12459,3 +12459,802 @@ Stacktrace:
 2024-11-04 19:36:39,988 - Alonhadat_Webcrawler - INFO - Process ended with total of 5 pages
 2024-11-04 19:36:46,282 - root - ERROR - Error occurred while scraping: documents must be a non-empty list
 2024-11-04 19:36:46,294 - root - INFO - config file updated successfully!
+2024-11-04 20:42:55,470 - root - INFO - Starting crawler AlonhadatWebCrawler
+2024-11-04 20:42:55,473 - Alonhadat_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 1 and base URL: https://alonhadat.com.vn/nha-dat/can-ban.html
+2024-11-04 20:43:15,730 - Alonhadat_Webcrawler - INFO - Process ended with total of 1 pages
+2024-11-04 20:43:19,493 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-cach-cho-binh-chanh-3km-gia-100-khong-phat-sinh-them-so-hong-rieng--15394533.html
+2024-11-04 20:43:28,943 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-gap-nha-ngay-cho-binh-chanh-dang-cho-thue-7-5tr-th-120m2-630tr-15300231.html
+2024-11-04 20:43:40,012 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/-ban-gap-nha-ngay-cho-binh-chanh-dang-cho-thue-7-5tr-th-120m2-630tr-15300231.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:43:47,872 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-mat-tien-dang-kinh-doanh-88-4m2-gia-900tr-ngay-sau-cho-so-hong-rieng-14143306.html
+2024-11-04 20:43:57,276 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-sang-gap-2200m2-dat-duong-18m-rong-thang-vao-khu-cong-nghiep-cho-gia-190-tr-so-15307902.html
+2024-11-04 20:44:08,271 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/ket-tien-sang-gap-2200m2-dat-duong-18m-rong-thang-vao-khu-cong-nghiep-cho-gia-190-tr-so-15307902.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:44:16,067 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/dat-dv-la-khe-1-lo-duy-nhat-50m-mt-4-2m-10-8-ty-15381140.html
+2024-11-04 20:44:25,339 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-gap-biet-thu-kdt-dich-vong-cau-giay-270m-5t-mt15m-72-ty-lo-goc-don-lap-dang-cap-13694697.html
+2024-11-04 20:44:36,425 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/ban-gap-biet-thu-kdt-dich-vong-cau-giay-270m-5t-mt15m-72-ty-lo-goc-don-lap-dang-cap-13694697.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:44:44,250 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-dat-xa-van-ha-vuong-dep-o-to-vao-dat-dau-tu-chia-lo-114m-mt-8-5m-chao-ban-2-1-ty-14156076.html
+2024-11-04 20:44:55,261 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/ban-dat-xa-van-ha-vuong-dep-o-to-vao-dat-dau-tu-chia-lo-114m-mt-8-5m-chao-ban-2-1-ty-14156076.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:45:03,077 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/cat-lo-nen-dat-2800m2-tho-cu-shr-290-trieu-gia-bao-so-mt-duong-tinh-lo-canh-cho-uy-ban-14247377.html
+2024-11-04 20:45:12,566 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-1-tret-1-lau-100m2-gia-750-trieu-shr-cho-binh-chanh-duong-bui-thanh-khiet-15391055.html
+2024-11-04 20:45:21,977 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ton-duc-thang-lien-chieu-tp-da-nang-nha-lo-goc-re-hon-nha-lo-ong-15358030.html
+2024-11-04 20:45:31,375 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-nha-khu-vuon-dao-2-mat-ngo-o-to-tranh-90m2-35-5-ty-15251658.html
+2024-11-04 20:45:42,477 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/-ban-nha-khu-vuon-dao-2-mat-ngo-o-to-tranh-90m2-35-5-ty-15251658.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:45:50,244 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-sang-gap-1-010m2-dat-duong-rong-thang-vao-kcn-dong-dan-ngay-truong-cho-gia-150tr-15389416.html
+2024-11-04 20:45:59,536 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/can-duy-nhat-gia-tot-2ty745-gan-san-bay-nguyen-sy-sach-tan-binh-62-5m2-15391305.html
+2024-11-04 20:46:10,588 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/can-duy-nhat-gia-tot-2ty745-gan-san-bay-nguyen-sy-sach-tan-binh-62-5m2-15391305.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:46:18,380 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ngay-trung-tam-quan-5-duong-an-duong-vuong-57-8m2-gia-dang-giam-con-2ty385-15391385.html
+2024-11-04 20:46:27,781 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/mua-kinh-doanh-lay-ngay-can-thong-nhat-go-vap-65m2-gia-2ty620-khu-dan-cu-shr-15391139.html
+2024-11-04 20:46:38,776 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/mua-kinh-doanh-lay-ngay-can-thong-nhat-go-vap-65m2-gia-2ty620-khu-dan-cu-shr-15391139.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:46:48,126 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/biet-thu-mat-tien-nui-thanh-quan-hai-chau-tp-da-nang-110m-ngang-khung-6m-3-tang-3-14830837.html
+2024-11-04 20:46:59,242 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/biet-thu-mat-tien-nui-thanh-quan-hai-chau-tp-da-nang-110m-ngang-khung-6m-3-tang-3-14830837.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:47:06,982 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-dat-ngop-dau-tu-da-nganh-3-500m2-gia-105-trieu-sat-cho-ql-13-hay-goi-nhanh--14698153.html
+2024-11-04 20:47:16,434 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/dat-full-tho-cu-so-hong-rieng-mt-duong-10m-khu-dan-cu-giap-sai-gon-258m2-12x21-5-gia-4ty-15249228.html
+2024-11-04 20:47:25,876 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-mat-tien-do-dang-tuyen-duong-7-5m-le-5m-nha-dep-vao-o-ngay-90m2-3-tang-5-9t-14728844.html
+2024-11-04 20:47:35,293 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-2-4-sao-tho-cu-2-450m2-gia-185tr-sao-mat-tien-duong-nhua-khu-cong-nghiep-24m-15371152.html
+2024-11-04 20:47:46,370 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/ban-2-4-sao-tho-cu-2-450m2-gia-185tr-sao-mat-tien-duong-nhua-khu-cong-nghiep-24m-15371152.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:47:57,414 - Alonhadat_Webcrawler - INFO - Data loaded successfully
+2024-11-04 20:47:57,415 - root - INFO - Completed scraping AlonhadatWebCrawler
+2024-11-04 20:47:57,416 - root - INFO - AlonhadatWebCrawler data successfully pushed to DB
+2024-11-04 20:47:57,428 - root - INFO - config file updated successfully!
+2024-11-04 20:51:06,359 - root - INFO - Starting crawler AlonhadatWebCrawler
+2024-11-04 20:51:06,362 - Alonhadat_Webcrawler - INFO - Initialized batdongsan.com.vn from page 1 to page 2 and base URL: https://alonhadat.com.vn/nha-dat/can-ban.html
+2024-11-04 20:51:43,778 - Alonhadat_Webcrawler - INFO - Process ended with total of 2 pages
+2024-11-04 20:51:47,493 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-1-tret-1-lau-100m2-gia-750-trieu-shr-cho-binh-chanh-duong-bui-thanh-khiet-15391055.html
+2024-11-04 20:51:56,769 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-mat-tien-dang-kinh-doanh-88-4m2-gia-900tr-ngay-sau-cho-so-hong-rieng-14143306.html
+2024-11-04 20:52:06,203 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ton-duc-thang-lien-chieu-tp-da-nang-nha-lo-goc-re-hon-nha-lo-ong-15358030.html
+2024-11-04 20:52:16,194 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-cach-cho-binh-chanh-3km-gia-100-khong-phat-sinh-them-so-hong-rieng--15394533.html
+2024-11-04 20:52:27,499 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/ban-nha-cach-cho-binh-chanh-3km-gia-100-khong-phat-sinh-them-so-hong-rieng--15394533.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:52:35,268 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-gap-nha-ngay-cho-binh-chanh-dang-cho-thue-7-5tr-th-120m2-630tr-15300231.html
+2024-11-04 20:52:46,573 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/-ban-gap-nha-ngay-cho-binh-chanh-dang-cho-thue-7-5tr-th-120m2-630tr-15300231.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:52:54,294 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-sang-gap-2200m2-dat-duong-18m-rong-thang-vao-khu-cong-nghiep-cho-gia-190-tr-so-15307902.html
+2024-11-04 20:53:03,861 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/dat-dv-la-khe-1-lo-duy-nhat-50m-mt-4-2m-10-8-ty-15381140.html
+2024-11-04 20:53:13,323 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-gap-biet-thu-kdt-dich-vong-cau-giay-270m-5t-mt15m-72-ty-lo-goc-don-lap-dang-cap-13694697.html
+2024-11-04 20:53:22,854 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-dat-xa-van-ha-vuong-dep-o-to-vao-dat-dau-tu-chia-lo-114m-mt-8-5m-chao-ban-2-1-ty-14156076.html
+2024-11-04 20:53:32,288 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/cat-lo-nen-dat-2800m2-tho-cu-shr-290-trieu-gia-bao-so-mt-duong-tinh-lo-canh-cho-uy-ban-14247377.html
+2024-11-04 20:53:41,987 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-nha-khu-vuon-dao-2-mat-ngo-o-to-tranh-90m2-35-5-ty-15251658.html
+2024-11-04 20:53:53,185 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/-ban-nha-khu-vuon-dao-2-mat-ngo-o-to-tranh-90m2-35-5-ty-15251658.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:54:00,976 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ket-tien-sang-gap-1-010m2-dat-duong-rong-thang-vao-kcn-dong-dan-ngay-truong-cho-gia-150tr-15389416.html
+2024-11-04 20:54:10,251 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/mua-kinh-doanh-lay-ngay-can-thong-nhat-go-vap-65m2-gia-2ty620-khu-dan-cu-shr-15391139.html
+2024-11-04 20:54:21,410 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/mua-kinh-doanh-lay-ngay-can-thong-nhat-go-vap-65m2-gia-2ty620-khu-dan-cu-shr-15391139.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:54:29,085 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/can-duy-nhat-gia-tot-2ty745-gan-san-bay-nguyen-sy-sach-tan-binh-62-5m2-15391305.html
+2024-11-04 20:54:38,224 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ngay-trung-tam-quan-5-duong-an-duong-vuong-57-8m2-gia-dang-giam-con-2ty385-15391385.html
+2024-11-04 20:54:49,268 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/ngay-trung-tam-quan-5-duong-an-duong-vuong-57-8m2-gia-dang-giam-con-2ty385-15391385.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:54:57,069 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/biet-thu-mat-tien-nui-thanh-quan-hai-chau-tp-da-nang-110m-ngang-khung-6m-3-tang-3-14830837.html
+2024-11-04 20:55:08,072 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/biet-thu-mat-tien-nui-thanh-quan-hai-chau-tp-da-nang-110m-ngang-khung-6m-3-tang-3-14830837.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:55:15,718 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-dat-ngop-dau-tu-da-nganh-3-500m2-gia-105-trieu-sat-cho-ql-13-hay-goi-nhanh--14698153.html
+2024-11-04 20:55:25,450 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/dat-full-tho-cu-so-hong-rieng-mt-duong-10m-khu-dan-cu-giap-sai-gon-258m2-12x21-5-gia-4ty-15249228.html
+2024-11-04 20:55:36,567 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/dat-full-tho-cu-so-hong-rieng-mt-duong-10m-khu-dan-cu-giap-sai-gon-258m2-12x21-5-gia-4ty-15249228.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:55:44,392 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-mat-tien-do-dang-tuyen-duong-7-5m-le-5m-nha-dep-vao-o-ngay-90m2-3-tang-5-9t-14728844.html
+2024-11-04 20:55:55,615 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/nha-mat-tien-do-dang-tuyen-duong-7-5m-le-5m-nha-dep-vao-o-ngay-90m2-3-tang-5-9t-14728844.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:56:03,285 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-2-4-sao-tho-cu-2-450m2-gia-185tr-sao-mat-tien-duong-nhua-khu-cong-nghiep-24m-15371152.html
+2024-11-04 20:56:14,514 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/ban-2-4-sao-tho-cu-2-450m2-gia-185tr-sao-mat-tien-duong-nhua-khu-cong-nghiep-24m-15371152.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='address']//span[@class='value']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:56:22,339 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/dat-sat-khu-do-thi-co-duong-o-to-quay-dau-truoc-dat-4-5-ty-15386387.html
+2024-11-04 20:56:33,144 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/dat-sat-khu-do-thi-co-duong-o-to-quay-dau-truoc-dat-4-5-ty-15386387.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='address']//span[@class='value']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:56:40,816 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/can-ban-biet-thu-so-26-28-duong-50-phuong10-quan-6-tp-hcm--15285794.html
+2024-11-04 20:56:55,742 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/can-ban-biet-thu-so-26-28-duong-50-phuong10-quan-6-tp-hcm--15285794.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:57:03,585 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-nha-gia-re-do-nhuan-tan-loi--15395265.html
+2024-11-04 20:57:12,846 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/chinh-chu-can-ban-gap-3-lo-dat-phuong-an-lac-quan-binh-tan-15383806.html
+2024-11-04 20:57:23,882 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/chinh-chu-can-ban-gap-3-lo-dat-phuong-an-lac-quan-binh-tan-15383806.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:57:31,651 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/-ban-3-lo-lien-ke-ea-kmat-hoa-dong-sap-ve-tp-bmt-duong-be-tong--15395082.html
+2024-11-04 20:57:41,082 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/chi-880-trieu-la-anh-chi-da-so-huu-ngay-bds-duong-nhua-kcn-dat-do-ngang-10x30m-tho-cu-80-15354398.html
+2024-11-04 20:57:52,301 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/chi-880-trieu-la-anh-chi-da-so-huu-ngay-bds-duong-nhua-kcn-dat-do-ngang-10x30m-tho-cu-80-15354398.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:58:01,511 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-can-nha-gan-cho-de-kinh-doang-nam-d-le-thi-hong-p-7-go-vap-gia-2ty090-dt-52-3m2-shr-15313647.html
+2024-11-04 20:58:12,570 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/ban-can-nha-gan-cho-de-kinh-doang-nam-d-le-thi-hong-p-7-go-vap-gia-2ty090-dt-52-3m2-shr-15313647.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:58:20,268 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-lo-dat-89m2-trung-tam-chi-linh-phuong-10-sau-seaview-2-thanh-pho-vung-tau-14872413.html
+2024-11-04 20:58:29,573 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/mua-nha-tang-toan-bo-noi-that-cao-cap-d-hoa-giay-p-7-phu-nhuan-gia-4-ty-480-dt-48m2-shr-15295557.html
+2024-11-04 20:58:38,781 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/thanh-ly-gap-can-nha-d-van-kiep-p-3-binh-thanh-gia-2ty159-dt-50-8m2-shr-15292102.html
+2024-11-04 20:58:49,799 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/thanh-ly-gap-can-nha-d-van-kiep-p-3-binh-thanh-gia-2ty159-dt-50-8m2-shr-15292102.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:58:59,083 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/gap-chi-voi-4-ty-2-co-ngay-nha-nguyen-kiem-72m2-hem-xe-hoi-dan-cu-dong-duc-shr-15381612.html
+2024-11-04 20:59:10,175 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/gap-chi-voi-4-ty-2-co-ngay-nha-nguyen-kiem-72m2-hem-xe-hoi-dan-cu-dong-duc-shr-15381612.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:59:17,953 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/hiem-ban-dat-tien-duong-dong-anh-hang-xom-kdt-co-duong-96m2-gia-nhinh-7-ty-dep--15394487.html
+2024-11-04 20:59:29,006 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/hiem-ban-dat-tien-duong-dong-anh-hang-xom-kdt-co-duong-96m2-gia-nhinh-7-ty-dep--15394487.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 20:59:36,685 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-6-tang-thang-may-pho-bo-de-nguyen-van-cu-o-to-vao-nha-dt-50m-gia-12-48-ty-15389932.html
+2024-11-04 20:59:46,121 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-toi-can-ban-ccmni-do-khong-quan-li-duoc-70m2-mat-tien-rong-nha-ngo-oto-tranh-15394354.html
+2024-11-04 20:59:57,989 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/nha-toi-can-ban-ccmni-do-khong-quan-li-duoc-70m2-mat-tien-rong-nha-ngo-oto-tranh-15394354.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 21:00:05,730 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/can-tien-gap-ban-lo-can-nha-duong-tran-thu-do-phu-thanh-tan-phu-dt-53-1m2-3-470-ty-15391368.html
+2024-11-04 21:00:15,392 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/chot-nhanh-nha-le-van-sy-p1-tan-binh-gia-3ty140-dt-52-46m2-thue-15tr-thang--15394240.html
+2024-11-04 21:00:24,751 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nha-dep-phan-xich-long-p2-phu-nhuan-gia-3ty290-dt-64m2-thue-18tr-thang--15394093.html
+2024-11-04 21:00:34,155 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/nhanh-tay-lien-he-mua-ngay-can-nha-banh-van-tran-tan-binh-dt-60m2-gia-4-6-ty-15382227.html
+2024-11-04 21:00:45,246 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/nhanh-tay-lien-he-mua-ngay-can-nha-banh-van-tran-tan-binh-dt-60m2-gia-4-6-ty-15382227.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 21:00:52,953 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/ban-nha-gia-ngop-gia-chi-4ty200-dang-cho-thue-22tr-thang-o-pham-van-hai-tan-binh-15381598.html
+2024-11-04 21:01:02,217 - Alonhadat_Webcrawler - INFO - Extracting from: https://alonhadat.com.vn/chi-1-can-nha-pho-bgi-duong-19m5-gia-tot-can-noi-bo--15005291.html
+2024-11-04 21:01:13,231 - Alonhadat_Webcrawler - ERROR - Error occurred while extracting data from page https://alonhadat.com.vn/chi-1-can-nha-pho-bgi-duong-19m5-gia-tot-can-noi-bo--15005291.html: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='date']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF61F1C3AF5+28005]
+	(No symbol) [0x00007FF61F1283F0]
+	(No symbol) [0x00007FF61EFC580A]
+	(No symbol) [0x00007FF61F015A3E]
+	(No symbol) [0x00007FF61F015D2C]
+	(No symbol) [0x00007FF61F05EA97]
+	(No symbol) [0x00007FF61F03BA7F]
+	(No symbol) [0x00007FF61F05B8B3]
+	(No symbol) [0x00007FF61F03B7E3]
+	(No symbol) [0x00007FF61F0075C8]
+	(No symbol) [0x00007FF61F008731]
+	GetHandleVerifier [0x00007FF61F4B646D+3118813]
+	GetHandleVerifier [0x00007FF61F506CC0+3448624]
+	GetHandleVerifier [0x00007FF61F4FCF3D+3408301]
+	GetHandleVerifier [0x00007FF61F28A44B+841403]
+	(No symbol) [0x00007FF61F13344F]
+	(No symbol) [0x00007FF61F12F4C4]
+	(No symbol) [0x00007FF61F12F65D]
+	(No symbol) [0x00007FF61F11EBB9]
+	BaseThreadInitThunk [0x00007FFA7F177374+20]
+	RtlUserThreadStart [0x00007FFA8025CC91+33]
+
+2024-11-04 21:01:24,349 - Alonhadat_Webcrawler - INFO - Data loaded successfully
+2024-11-04 21:01:24,350 - root - INFO - Completed scraping AlonhadatWebCrawler
+2024-11-04 21:01:24,352 - root - INFO - AlonhadatWebCrawler data successfully pushed to DB
+2024-11-04 21:01:24,363 - root - INFO - config file updated successfully!
