@@ -47,9 +47,9 @@ def run_crawler(config):
     Begin scraping procedure
     '''
     updated_config = config
-    # crawler_names = ['BDS_SoCrawler' ,'BDSWebCrawler', 'AlonhadatWebCrawler'] # CHANGE THIS
+    crawler_names = ['BDS_SoCrawler' ,'BDSWebCrawler', 'AlonhadatWebCrawler'] # CHANGE THIS
     # crawler_names = ['BDS_SoCrawler']
-    crawler_names = ['BDSWebCrawler']
+    # crawler_names = ['BDSWebCrawler']
     # crawler_names = ['AlonhadatWebCrawler']
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler}')
