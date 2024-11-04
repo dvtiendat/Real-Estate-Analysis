@@ -33,7 +33,7 @@ class BDSWebCrawler(WebCrawler):
         
         # driver.set_window_size(1024, 768)
         driver = webdriver.Chrome(opt)
-        driver.set_window_size(1920, 1080)
+        driver.set_window_size(2500, 1400)
         driver.implicitly_wait(10)
         actions = ActionChains(driver)
         wait = WebDriverWait(driver, 10)
@@ -136,8 +136,8 @@ class BDSWebCrawler(WebCrawler):
         except Exception as e:
             logger.error(f'Error occurred while extracting data from page {page}: {e}') 
             raise
-        # finally:
-        #     driver.quit()
+        finally:
+            driver.quit()
   
 
     def multithread_extract(self, max_workers=4):

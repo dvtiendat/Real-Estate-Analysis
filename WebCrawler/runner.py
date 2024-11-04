@@ -10,7 +10,7 @@ import os
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://svbk:<password>@cluster0.h5ef7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #change password to access to the database
+uri = "mongodb+srv://svbk:dmHUST@cluster0.h5ef7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #change password to access to the database
 client = MongoClient(uri, server_api = ServerApi('1'))
 
 # setup logger
@@ -47,9 +47,9 @@ def run_crawler(config):
     Begin scraping procedure
     '''
     updated_config = config
-    #crawler_names = ['BDS_SoCrawler' ,'BDSWebCrawler', 'AlonhadatWebCrawler'] # CHANGE THIS
-    crawler_names = ['BDS_SoCrawler']
-    # crawler_names = ['BDSWebCrawler']
+    # crawler_names = ['BDS_SoCrawler' ,'BDSWebCrawler', 'AlonhadatWebCrawler'] # CHANGE THIS
+    # crawler_names = ['BDS_SoCrawler']
+    crawler_names = ['BDSWebCrawler']
     # crawler_names = ['AlonhadatWebCrawler']
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler}')
@@ -111,10 +111,10 @@ def main():
         update_config(updated_config, config_path)
         output_path = f"../SampleData/bds_so_data.json" # CHANGE THIS 
         tmp = final_df.to_dict(orient="records")
-        with open(output_path, 'w', encoding='utf8') as f:
-            json.dump(tmp, f, indent = 2, ensure_ascii= False)
-        # final_df.to_csv(output_path, index=False)
-        logger.info(f"Data saved to {output_path}")
+        # with open(output_path, 'w', encoding='utf8') as f:
+        #     json.dump(tmp, f, indent = 2, ensure_ascii= False)
+        # # final_df.to_csv(output_path, index=False)
+        # logger.info(f"Data saved to {output_path}")
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
 

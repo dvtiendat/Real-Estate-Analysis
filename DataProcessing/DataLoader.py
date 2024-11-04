@@ -15,8 +15,12 @@ collection_alonhadat = db['Alo_nha_dat']
 #print(collection_bds_so)
 
 bds_so_data = list(collection_bds_so.find())
-print(len(bds_so_data))
-df = pd.DataFrame(bds_so_data)
+alo_nha_dat_data = list(collection_alonhadat.find())
+bds_com_vn_data = list(collection_bds_com_vn.find())
+
+print(len(alo_nha_dat_data))
+print(len(bds_com_vn_data))
+df = pd.DataFrame(bds_com_vn_data)
 
 print(df.head(10))
 # print(bds_so_data)
