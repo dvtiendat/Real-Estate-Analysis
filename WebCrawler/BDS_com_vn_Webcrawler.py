@@ -129,15 +129,13 @@ class BDSWebCrawler(WebCrawler):
                 keys = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//span[@class='re__pr-specs-content-item-title']")))
                 values = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//span[@class='re__pr-specs-content-item-value']")))
                 for index, key in enumerate(keys):
-                    house_data[key.text] = values[index].text
-
-                return house_data
-                
+                    house_data[key.text] = values[index].text   
         except Exception as e:
             logger.error(f'Error occurred while extracting data from page {page}: {e}') 
             raise
         finally:
             driver.quit()
+            return house_data
   
 
     def multithread_extract(self, max_workers=4):

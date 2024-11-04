@@ -108,7 +108,7 @@ class AlonhadatWebCrawler(WebCrawler):
             return None
         
         try:
-            time.sleep(15)
+            # time.sleep(15)
             driver.get(page)
             
             address = driver.find_element(By.XPATH, "//div[@class='address']//span[@class='value']").text.split(',')
@@ -162,15 +162,12 @@ class AlonhadatWebCrawler(WebCrawler):
                         house_data[values[i].text] = np.nan
                     else:
                         house_data[values[i].text] = values[i+1].text
-
-            return house_data
-            
-            
         except Exception as e:
             logger.error(f'Error occurred while extracting data from page {page}: {e}') 
             raise
         finally:
             driver.quit()
+            return house_data
   
 
     def multithread_extract(self, max_workers=4):
