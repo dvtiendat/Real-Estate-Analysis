@@ -6,6 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+from fake_useragent import UserAgent
 import concurrent.futures
 from tenacity import retry, stop_after_attempt, wait_exponential
 import time
@@ -14,6 +15,7 @@ import pandas as pd
 import numpy as np
 from WebCrawler import WebCrawler
 from utils import dms_to_decimal, scroll_shim
+
 import logging
 import datetime
 
@@ -22,6 +24,12 @@ cur_datetime = datetime.datetime.now()
 cur_date = cur_datetime.day
 cur_year = cur_datetime.year
 cur_month = cur_datetime.month
+
+previous_day = cur_datetime - datetime.timedelta(days=1)
+prev_day = previous_day.day
+prev_month = previous_day.month
+prev_year = previous_day.year
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -36,9 +44,16 @@ class AlonhadatWebCrawler(WebCrawler):
             logger.info(f"Initialized batdongsan.com.vn from page {start_page} with base URL: {base_url}")
 
     def init_driver(self):
-        opt = Options()
-        # opt.add_argument("--headless")
-        driver = webdriver.Chrome(opt)
+        
+        options = Options()
+        ua = UserAgent()
+        user_agent = ua.random
+
+        options.add_argument(f'--user-agent={user_agent}')
+        driver = webdriver.Chrome(options=options)
+        # opt = Options()
+        # # opt.add_argument("--headless")
+        # driver = webdriver.Chrome(opt)
         driver.implicitly_wait(10)
         actions = ActionChains(driver)
         wait = WebDriverWait(driver, 10)
@@ -103,6 +118,10 @@ class AlonhadatWebCrawler(WebCrawler):
                 house_data['Ngày'] = cur_date
                 house_data['Tháng'] = cur_month
                 house_data['Năm'] = cur_year
+            elif 'Hôm qua' in t:
+                house_data['Ngày'] = prev_day
+                house_data['Tháng'] = prev_month
+                house_data['Năm'] = prev_year
             else :
                 date , month , year  = t.split()[1].split("/")
                 house_data['Ngày'] = date
@@ -150,8 +169,8 @@ class AlonhadatWebCrawler(WebCrawler):
         except Exception as e:
             logger.error(f'Error occurred while extracting data from page {page}: {e}') 
             raise
-        # finally:
-        #     driver.quit()
+        finally:
+            driver.quit()
   
 
     def multithread_extract(self, max_workers=4):
