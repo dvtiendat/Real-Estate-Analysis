@@ -14,17 +14,21 @@ collection_alonhadat = db['Alo_nha_dat']
 
 #print(collection_bds_so)
 
+
+
+# collection_bds_com_vn.delete_many({})
 bds_so_data = list(collection_bds_so.find())
 alo_nha_dat_data = list(collection_alonhadat.find())
 bds_com_vn_data = list(collection_bds_com_vn.find())
-
 print(len(alo_nha_dat_data))
 print(len(bds_com_vn_data))
 print(len(bds_so_data))
-df = pd.DataFrame(alo_nha_dat_data)
+df = pd.DataFrame(bds_com_vn_data)
 df = df.dropna(subset=['Mã tin'])
-print(df.head(10))
-print(df.info())
+df_tmp = df.drop(columns=['Mã tin'])
+df_tmp.drop_duplicates(inplace=True)
+print(df_tmp.head(10))
+print(df_tmp.info())
 # print(bds_so_data)
 
 # for item in bds_so_data:
