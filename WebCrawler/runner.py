@@ -48,16 +48,16 @@ def run_crawler(config):
     '''
     updated_config = config
     # crawler_names = ['BDS_SoCrawler' ,'BDSWebCrawler', 'AlonhadatWebCrawler'] # CHANGE THIS
-    # crawler_names = ['BDS_SoCrawler']
+    crawler_names = ['BDS_SoCrawler', 'BDSWebCrawler']
     # crawler_names = ['BDSWebCrawler']
-    crawler_names = ['AlonhadatWebCrawler']
+    # crawler_names = ['AlonhadatWebCrawler', 'BDS_SoCrawler']
     for crawler in crawler_names:
         logger.info(f'Starting crawler {crawler}')
         if crawler == 'BDSWebCrawler':
             final_df = pd.DataFrame(columns=config[crawler]['final_columns'])
             for property_type, settings in config[crawler]['property_types'].items():
                 try:
-                    scraper = BDSWebCrawler(num_pages=settings['num_pages'], base_url=settings['base_url'])
+                    scraper = BDSWebCrawler(num_pages=settings['num_pages'], base_url=settings['base_url'], start_page=settings['start_page'])
                     df = scraper.multithread_extract(max_workers=1) # CHANGE MAX_WORKER
 
                     df['Loại'] = property_type
@@ -73,7 +73,7 @@ def run_crawler(config):
         elif crawler == 'AlonhadatWebCrawler':
             final_df = pd.DataFrame(columns=config[crawler]['final_columns'])
             try:
-                scraper = AlonhadatWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
+                scraper = AlonhadatWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'], start_page=config[crawler]['start_page'])
                 df = scraper.multithread_extract(max_workers=1)
                 # df = scraper.transform(df)
                 final_df = pd.concat([final_df,df],ignore_index=True)
@@ -86,13 +86,13 @@ def run_crawler(config):
         elif crawler == 'BDS_SoCrawler':
             final_df = pd.DataFrame(columns=config[crawler]['final_columns'])
             try:
-                scraper = BDS_SoWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'])
+                scraper = BDS_SoWebCrawler(num_pages=config[crawler]['num_pages'], base_url=config[crawler]['base_url'], start_page=config[crawler]['start_page'])
                 df = scraper.multithread_extract(max_workers=1)
                 # df = scraper.transform(df)
                 final_df = pd.concat([final_df,df],ignore_index=True)
                 updated_config[crawler]['start_page'] += updated_config[crawler]['num_pages']
                 logger.info(f'Completed scraping {crawler}')
-                # scraper.load_to_mongo(final_df, client)
+                scraper.load_to_mongo(final_df, client)
                 logging.info(f'{crawler} data successfully pushed to DB')
             except Exception as e:
                 logger.error(f"Error occurred while scraping: {str(e)}")
