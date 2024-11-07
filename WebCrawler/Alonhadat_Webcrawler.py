@@ -70,7 +70,7 @@ class AlonhadatWebCrawler(WebCrawler):
                     url = self.base_url
                 else :
                     url = self.base_url[:-5] + '/trang--' + str(page) + '.html'
-                time.sleep(15)
+                time.sleep(60)
                 driver.get(url)
                 driver.implicitly_wait(0.5) 
                 links =  driver.find_elements(By.XPATH , value="//div[@class='thumbnail']//a") 
@@ -108,7 +108,7 @@ class AlonhadatWebCrawler(WebCrawler):
             return None
         
         try:
-            # time.sleep(15)
+            time.sleep(90)
             driver.get(page)
             
             address = driver.find_element(By.XPATH, "//div[@class='address']//span[@class='value']").text.split(',')

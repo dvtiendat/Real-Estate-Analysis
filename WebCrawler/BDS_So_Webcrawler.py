@@ -79,7 +79,7 @@ class BDS_SoWebCrawler(WebCrawler):
         # columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Kinh độ', 'Vĩ độ','Phường','Quận','Thành phố','Mức giá','Diện tích','Mặt tiền' ,'Hướng nhà', 
         #    'Số tầng','Số toilet','Đường vào', 'Hướng ban công','Số phòng ngủ',
         #    'Pháp lý', 'Nội thất']
-        columns = ['Mã tin', 'Ngày', 'Tháng', 'Năm', 'Địa chỉ', 'Giá', 'Diện tích', 'Mặt tiền', 'Lộ giới','Số tầng', 
+        columns = ['Mã tin', 'Date', 'Địa chỉ', 'Mức giá', 'Diện tích', 'Mặt tiền', 'Lộ giới','Số tầng', 'Hướng',  
                    'Số toilet', 'Số phòng ngủ']
 
         house_data = {col: np.nan for col in columns}
@@ -110,11 +110,14 @@ class BDS_SoWebCrawler(WebCrawler):
             # driver.switch_to.frame(frame_reference=iframe)
             # longitude , latitude = driver.find_element(By.XPATH , "//div[@class='place-name']").text.split(' ')
             # driver.switch_to.default_content()
-            house_data['Giá'] = price
+            house_data['Mức giá'] = price
             house_data['Ngày'] = date
             house_data['Tháng'] = month
             house_data['Năm'] = year
             house_data['Mã tin'] = num
+            print(f"Mức giá: {price}")
+            print(f"Ngày / Tháng /Năm: {date}/{month}/{year}")
+            print(f"Mã tin: {num}")
             
             p = address[-3].strip().split(' ')
             if 'Phường' in p or 'Xã' in p or 'Thị trấn' in p :
@@ -129,30 +132,34 @@ class BDS_SoWebCrawler(WebCrawler):
                 q = ' '.join(q)
                     
             house_data['Địa chỉ'] = address
+            print(f"Địa chỉ: {address}")
             # house_data['Phường'] = address
             # house_data['Quận'] = address
             # house_data['Thành phố'] = address[-1].strip()
 
-            list_items = driver.find_elements(By.XPATH, '//ul[@class="re-property"]/li')
-            for item in list_items:
-                text = item.text.strip()
-                if ':' in text:
-                    key, value = [part.strip() for part in text.split(":", 1)]
-                    house_data[key] = value 
-            # keys = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//ul[@class='re-property']"))) 
+            # list_items = driver.find_elements(By.XPATH, '//ul[@class="re-property"]/li')
+            # for item in list_items:
+            #     text = item.text.strip()
+            #     if ':' in text:
+            #         key, value = [part.strip() for part in text.split(":", 1)]
+            #         house_data[key] = value 
+            texts = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//ul[@class='re-property']/li")))
+            for text in texts:
+                if ":" not in text.text:
+                    continue
+                key, value = [part.strip() for part in text.text.split(":", 1)]
+                print(key, value)
+                house_data[key] = value
             # keys = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//span[@class='re__pr-specs-content-item-title']")))
             # values = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//span[@class='re__pr-specs-content-item-value']")))
             # for index, key in enumerate(keys):
             #     house_data[key.text] = values[index].text
-                    
-
-            return house_data
-                
         except Exception as e:
             logger.error(f'Error occurred while extracting data from page {page}: {e}') 
             raise
         finally:
             driver.quit()
+            return house_data
   
 
     def multithread_extract(self, max_workers=4):
