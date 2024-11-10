@@ -1,0 +1,6 @@
+2024-11-10 19:09:22,815 - root - INFO - Starting crawler BDS_SoCrawler
+2024-11-10 19:09:22,815 - root - INFO - Starting crawler BDS_SoCrawler
+2024-11-10 19:09:22,816 - WebCrawler.BDS_So_Webcrawler - INFO - Initialized batdongsan.so from page 71 to page 71 and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-11-10 19:09:22,816 - WebCrawler.BDS_So_Webcrawler - INFO - Initialized batdongsan.so from page 71 to page 71 and base URL: https://batdongsan.so/nha-dat-ban/nha-rieng#/
+2024-11-10 19:09:28,109 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/1c75dcc8180016a168fb55d6df998f77
+2024-11-10 19:09:28,109 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/1c75dcc8180016a168fb55d6df998f77
