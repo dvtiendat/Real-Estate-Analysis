@@ -63,9 +63,8 @@ class Pipeline():
         self.integrated_columns = integrated_columns
         self.final_data = pd.DataFrame(columns=self.integrated_columns)
     def run_crawler(self, crawler_names):
-        return
         '''
-        Begin scraping procedure
+        Begin scraping procedures
         '''
         config = self.config
         updated_config = config
@@ -136,9 +135,12 @@ class Pipeline():
             final_df = pd.concat([final_df, added_data], axis = 0)
         self.final_data = pd.concat([self.final_data, final_df], axis = 0)
 
-    def run(self, crawler_names):
-        web_names = [self.crawler_to_web_names[_] for _ in crawler_names]
-        self.run_crawler(crawler_names)
+    def run(self, crawler_names, only_integrate = False):
+        if only_integrate:
+            web_names = [self.crawler_to_web_names[_] for _ in self.crawler_names]
+        else:
+            web_names = [self.crawler_to_web_names[_] for _ in crawler_names]
+            self.run_crawler(crawler_names)
         self.run_tranform_and_integrate(web_names)
         self.push_to_db()
     
