@@ -12,7 +12,7 @@ from tqdm import tqdm
 import pandas as pd
 import numpy as np
 from WebCrawler import WebCrawler
-from utils import dms_to_decimal, scroll_shim
+from .utils import dms_to_decimal, scroll_shim
 import logging
 import time
 
