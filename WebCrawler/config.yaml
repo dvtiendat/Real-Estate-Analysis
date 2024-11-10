@@ -23,7 +23,7 @@ AlonhadatWebCrawler:
   - Chiều dài
   - Số phòng ngủ
   - Chính chủ
-  num_pages: 2
+  num_pages: 1
   start_page: 7
 BDSWebCrawler:
   final_columns:
@@ -50,16 +50,16 @@ BDSWebCrawler:
   property_types:
     Chung cư:
       base_url: https://batdongsan.com.vn/ban-can-ho-chung-cu
-      num_pages: 40
-      start_page: 111
+      num_pages: 1
+      start_page: 112
     Nhà đất:
       base_url: https://batdongsan.com.vn/ban-nha-dat
-      num_pages: 40
-      start_page: 111
+      num_pages: 1
+      start_page: 112
     Đất nền:
       base_url: https://batdongsan.com.vn/ban-dat-dat-nen
-      num_pages: 40
-      start_page: 111
+      num_pages: 1
+      start_page: 112
 BDS_SoCrawler:
   base_url: https://batdongsan.so/nha-dat-ban/nha-rieng#/
   final_columns:
@@ -76,5 +76,5 @@ BDS_SoCrawler:
   - Số tầng
   - Số toilet
   - Số phòng ngủ
-  num_pages: 40
-  start_page: 69
+  num_pages: 1
+  start_page: 71
