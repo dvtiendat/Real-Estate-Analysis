@@ -46,13 +46,14 @@ class AlonhadatWebCrawler(WebCrawler):
     def init_driver(self):
         
         options = Options()
+        options.add_argument("--headless")
         ua = UserAgent()
         user_agent = ua.random
 
         options.add_argument(f'--user-agent={user_agent}')
         driver = webdriver.Chrome(options=options)
         # opt = Options()
-        # # opt.add_argument("--headless")
+        # opt.add_argument("--headless")
         # driver = webdriver.Chrome(opt)
         driver.implicitly_wait(10)
         actions = ActionChains(driver)
