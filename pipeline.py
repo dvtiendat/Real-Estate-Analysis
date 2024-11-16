@@ -141,6 +141,7 @@ class Pipeline():
         else:
             web_names = [self.crawler_to_web_names[_] for _ in crawler_names]
             self.run_crawler(crawler_names)
+            web_names = [self.crawler_to_web_names[_] for _ in self.crawler_names]
         self.run_tranform_and_integrate(web_names)
         self.push_to_db()
     
