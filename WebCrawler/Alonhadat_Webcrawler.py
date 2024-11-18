@@ -7,6 +7,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException,
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from fake_useragent import UserAgent
+import undetected_chromedriver as uc
 import concurrent.futures
 from tenacity import retry, stop_after_attempt, wait_exponential
 import time
@@ -46,12 +47,13 @@ class AlonhadatWebCrawler(WebCrawler):
     def init_driver(self):
         
         options = Options()
-        options.add_argument("--headless")
+        # options.add_argument("--headless")
         ua = UserAgent()
         user_agent = ua.random
 
         options.add_argument(f'--user-agent={user_agent}')
-        driver = webdriver.Chrome(options=options)
+        driver = uc.Chrome(options=options)
+
         # opt = Options()
         # opt.add_argument("--headless")
         # driver = webdriver.Chrome(opt)
@@ -71,7 +73,7 @@ class AlonhadatWebCrawler(WebCrawler):
                     url = self.base_url
                 else :
                     url = self.base_url[:-5] + '/trang--' + str(page) + '.html'
-                time.sleep(60)
+                # time.sleep(60)
                 driver.get(url)
                 driver.implicitly_wait(0.5) 
                 links =  driver.find_elements(By.XPATH , value="//div[@class='thumbnail']//a") 
@@ -109,7 +111,7 @@ class AlonhadatWebCrawler(WebCrawler):
             return None
         
         try:
-            time.sleep(90)
+            # time.sleep(90)
             driver.get(page)
             
             address = driver.find_element(By.XPATH, "//div[@class='address']//span[@class='value']").text.split(',')
