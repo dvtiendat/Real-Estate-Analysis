@@ -101,7 +101,10 @@ def transform_bdscomvn(data: pd.DataFrame) -> pd.DataFrame:
     bds_mapping = {
         'Đất nền': 'Đ',
         'Nhà đất': 'N',
-        'Chung cư': 'CC'  
+        'Chung cư': 'CC',
+        'Căn hộ chung cư': 'CC',
+        'Biệt thự, nhà liền kề': 'N',
+        'Đất nền, liền kề, đất dự án': 'Đ'
     }
     data_modified['Loại'] = data_modified['Loại'].apply(lambda x: bds_mapping.get(x, x))
 
@@ -220,7 +223,9 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
         'Đất thổ cư, đất ở': 'Đ',
         'Nhà mặt tiền': 'N',
         'Nhà trong hẻm': 'N',
-        'Căn hộ chung cư': 'CC'
+        'Căn hộ chung cư': 'CC',
+        'Biệt thự, nhà liền kề': 'N',
+        'Đất nền, liền kề, đất dự án': 'Đ'
     }
     data_modified['Loại BDS'] = data_modified['Loại BDS'].apply(lambda x: bds_mapping.get(x, x))
 
