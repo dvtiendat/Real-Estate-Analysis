@@ -50,16 +50,16 @@ BDSWebCrawler:
   property_types:
     Chung cư:
       base_url: https://batdongsan.com.vn/ban-can-ho-chung-cu
-      num_pages: 20
-      start_page: 133
+      num_pages: 40
+      start_page: 270
     Nhà đất:
       base_url: https://batdongsan.com.vn/ban-nha-dat
-      num_pages: 20
-      start_page: 133
+      num_pages: 40
+      start_page: 270
     Đất nền:
       base_url: https://batdongsan.com.vn/ban-dat-dat-nen
-      num_pages: 20
-      start_page: 133
+      num_pages: 40
+      start_page: 270
 BDS_SoCrawler:
   base_url: https://batdongsan.so/nha-dat-ban/nha-rieng#/
   final_columns:
@@ -77,4 +77,4 @@ BDS_SoCrawler:
   - Số toilet
   - Số phòng ngủ
   num_pages: 50
-  start_page: 221
+  start_page: 271
