@@ -1,8 +1,10 @@
 import logging
 import pandas as pd
+import numpy
 import yaml
 import json
 import os
+import warnings
 
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
@@ -20,6 +22,7 @@ file_handler.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
+warnings.filterwarnings("ignore")
 
 def get_config(path):
     '''
@@ -50,7 +53,7 @@ class Pipeline():
                  config_path: str = 'WebCrawler/config.yaml', 
                  crawler_names: list = ['BDS_SoCrawler' ,'BDSWebCrawler', 'AlonhadatWebCrawler'], 
                  web: list = ['BDS_So', 'BDS_com_vn', 'Alo_nha_dat'],
-                 integrated_columns: list = ['Diện tích', 'Đường trước nhà', 'Mặt tiền','Số tầng', 'Số toilet','Số phòng ngủ', 'Loại', 'Hướng', 'Mức giá']):
+                 integrated_columns: list = ['Pháp lý', 'Nội thất', 'Diện tích', 'Đường trước nhà', 'Mặt tiền', 'Số tầng', 'Số toilet','Số phòng ngủ', 'Loại', 'Hướng', 'Mức giá']):
         self.config_path = config_path
         self.crawler_names = crawler_names
         self.web = web
@@ -131,9 +134,14 @@ class Pipeline():
             assert web in self.web, "web_names element must be in ['BDS_So', 'BDS_com_vn', 'Alo_nha_dat']"
         for web in web_names:
             data = tranform(web)
-            added_data = data.loc[:, self.integrated_columns]
-            final_df = pd.concat([final_df, added_data], axis = 0)
-        self.final_data = pd.concat([self.final_data, final_df], axis = 0)
+            added_data_columns = set(data.columns.tolist())
+            common_columns = set(self.integrated_columns) & added_data_columns
+            idk_columns = set(self.integrated_columns) - added_data_columns
+            print(common_columns)
+            added_data = data.loc[:, list(common_columns)]
+            added_data.loc[:, list(idk_columns)] = np.nan
+            final_df = pd.concat([final_df, added_data], axis = 0, ignore_index=True)
+        self.final_data = pd.concat([self.final_data, final_df], axis = 0, ignore_index=True)
 
     def run(self, crawler_names, only_integrate = False):
         if only_integrate:
@@ -150,6 +158,8 @@ class Pipeline():
         collection.delete_many({})
         records = self.final_data.to_dict(orient='records')
         collection.insert_many(records)
+        print(self.final_data.info())
+        print(f"Integrated data has {self.final_data.shape[0]} houses")
         print("Data pushed to DB Successfully!!")
 
 if __name__ == "__main__":

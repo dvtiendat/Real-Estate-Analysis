@@ -292,8 +292,6 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
         'Căn hộ chung cư': 'CC'
     }
     data_modified['Loại BDS'] = data_modified['Loại BDS'].apply(lambda x: bds_mapping.get(x, x))
-    data_modified['Số toilet'] = np.nan
-    data_modified['Mặt tiền'] = np.nan
     data_modified.rename(columns = {"Số lầu": "Số tầng", "Đường vào": "Đường trước nhà", "Loại BDS": "Loại"}, inplace = True)
     return data_modified
 
