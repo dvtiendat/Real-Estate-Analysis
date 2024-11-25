@@ -54,20 +54,37 @@ def convert_to_city(address):
 
     # Southern Vietnam
     # Southeast
-    "hồ chí minh city", "bình dương", "đồng nai", 
-    "bà rịa - vũng tàu", "tây ninh", "bình phước",
+    "hồ chí minh", "bình dương", "đồng nai", 
+    "bà rịa vũng tàu", "tây ninh", "bình phước",
     
     # Mekong River Delta
     "cần thơ", "long an", "tiền giang", "bến tre", 
     "trà vinh", "vĩnh long", "đồng tháp", "an giang", 
     "kiên giang", "hậu giang", "sóc trăng", "bạc liêu", "cà mau"
     ]
+
+    district_mapping = {}
+    for province in vietnam_provinces_cities:
+        district_mapping[province] = [province]
+
+    district_mapping['hồ chí minh'] = ["q9", "hóc môn", "bình hưng hòa", "thới an", "hcm", "củ chi","nhà bè" ,"hồ chí minh", "bình thạnh", "thủ đức", "gò vấp", "quận 1", "quận 2","quận 4", "quận 5","quận 6" ,"quận 7", "q7","quận 9", "q11","quận 12", "quận 3", "quận 8", "tân bình", "phú nhuận", "bình tân", "tân phú"]
+    district_mapping['hà nội'] = ["hoàn kiếm", "cổ linh", "chương mỹ", 'tân mai', "khương đình", "nguyễn trãi", "trương định", "thanh oai", "thanh trì","trung văn", "hoài đức", "trường chinh" , "hà nội", "đông anh", "long biên", "cầu giấy", "đống đa", "thanh xuân", "hai bà trưng", "bắc từ liêm", "nam từ liêm", "ba đình", "hoàng mai", "tây hồ", "gia lâm", "hà đông", "giáp bát", "phương liệt"]
+    district_mapping['thừa thiên huế'] = ['thừa thiên huế', 'huế']
+    district_mapping['đồng nai'] = ['đồng nai', 'biên hòa', 'bình đa', 'an bình', "tân hiệp"]
+    district_mapping['bình dương'] = ['bình dương', 'dĩ an', 'thuận an']
+    district_mapping['quảng ninh'] = ['quảng ninh', 'hạ long', ]
+    district_mapping['đà nẵng'] = ['đà nẵng', 'hải châu', 'cẩm lệ']
+    district_mapping['khánh hòa'] = ['khánh hòa', 'khánh hoà', 'nha trang']
+    district_mapping['đắk lắk'] = ['đắk lắk', 'buôn ma thuột']
+
     if type(address) is float:
         return address
     tmp = address.lower()
     for province in vietnam_provinces_cities:
-        if province in tmp:
-            return province 
+        for t in district_mapping[province]:
+            if t in tmp:
+                return province 
+    print(tmp)
     return 'KXĐ'
 
 def transform_bdsso(data: pd.DataFrame) -> pd.DataFrame:
