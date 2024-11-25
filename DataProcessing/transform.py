@@ -26,12 +26,56 @@ def load_data(web):
     return_data_frame = pd.DataFrame(list(db[web].find()))
     return return_data_frame
 
+def convert_to_city(address):
+    vietnam_provinces_cities = [
+    # Northern Vietnam
+    # Red River Delta
+    "hà nội", "hải phòng", "bắc ninh", "hà nam", "hưng yên", 
+    "nam định", "ninh bình", "thái bình", "vĩnh phúc", 
+    "quảng ninh", "hải dương",
+    
+    # Northern Midlands and Mountains
+    "hà giang", "cao bằng", "bắc kạn", "lạng sơn", 
+    "tuyên quang", "thái nguyên", "phú thọ", "bắc giang", 
+    "điện biên", "lai châu", "sơn la", "hòa bình", 
+    "yên bái", "lào cai",
+
+    # Central Vietnam
+    # North Central Coast
+    "thanh hóa", "nghệ an", "hà tĩnh", "quảng bình", 
+    "quảng trị", "thừa thiên huế",
+    
+    # South Central Coast
+    "đà nẵng", "quảng nam", "quảng ngãi", "bình định", 
+    "phú yên", "khánh hòa", "ninh thuận", "bình thuận",
+
+    # Central Highlands
+    "kon tum", "gia lai", "đắk lắk", "đắk nông", "lâm đồng",
+
+    # Southern Vietnam
+    # Southeast
+    "hồ chí minh city", "bình dương", "đồng nai", 
+    "bà rịa - vũng tàu", "tây ninh", "bình phước",
+    
+    # Mekong River Delta
+    "cần thơ", "long an", "tiền giang", "bến tre", 
+    "trà vinh", "vĩnh long", "đồng tháp", "an giang", 
+    "kiên giang", "hậu giang", "sóc trăng", "bạc liêu", "cà mau"
+    ]
+    if type(address) is float:
+        return address
+    tmp = address.lower()
+    for province in vietnam_provinces_cities:
+        if province in tmp:
+            return province 
+    return 'KXĐ'
+
 def transform_bdsso(data: pd.DataFrame) -> pd.DataFrame:
-    global integrated_columns
     data_modified = data.copy()
     data_modified = data_modified.dropna(subset=['Mã tin'])
     data_modified = data_modified.drop(columns=['_id', 'Mã tin', 'Ngày', 'Tháng', 'Năm'])
     data_modified.drop_duplicates(inplace=True, keep = 'first')
+    data_modified['Thành phố'] = data_modified['Địa chỉ'].apply(convert_to_city)
     def convert_area(area):
         if pd.isnull(area):
             return None
@@ -91,7 +135,6 @@ def transform_bdsso(data: pd.DataFrame) -> pd.DataFrame:
     return data_modified
 
 def transform_bdscomvn(data: pd.DataFrame) -> pd.DataFrame:
-    global integrated_columns
     data_modified = data.copy()
     data_modified = data_modified.dropna(subset=['Mã tin'])
     data_modified = data_modified.drop(columns=['_id', 'Mã tin', 'Ngày', 'Tháng', 'Năm'])
@@ -117,7 +160,7 @@ def transform_bdscomvn(data: pd.DataFrame) -> pd.DataFrame:
         'Đất nền, liền kề, đất dự án': 'Đ'
     }
     data_modified['Loại'] = data_modified['Loại'].apply(lambda x: bds_mapping.get(x, x))
-
+    data_modified['Thành phố'] = data_modified['Thành phố'].apply(convert_to_city)
     # Replace full names with abbreviated direction names
     direction_mapping = {
         'đông': 'Đ',
@@ -183,7 +226,6 @@ def transform_bdscomvn(data: pd.DataFrame) -> pd.DataFrame:
     return data_modified
     
 def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
-    global integrated_columns
     data_modified = data.copy()
     data_modified = data_modified.dropna(subset=['Mã tin'])
     data_modified = data_modified.drop(columns=['_id', 'Mã tin', 'Ngày', 'Tháng', 'Năm'])
@@ -213,7 +255,7 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
     # Hàm chuyển đổi giá trị cột mức giá
     data_modified['Diện tích'] = data_modified['Diện tích'].apply(convert_area)
     data_modified['Mức giá'] = data_modified.apply(lambda row: convert_price_to_billion(row['Mức giá'], row['Diện tích']), axis=1)
-
+    data_modified['Thành phố'] = data_modified['Thành phố'].apply(convert_to_city)
     # Xử lý các cột phòng
     columns_to_process = ['Phòng ăn', 'Nhà bếp', 'Sân thượng', 'Chỗ để xe hơi', 'Chính chủ', 'Chổ để xe hơi']
     for col in columns_to_process:
