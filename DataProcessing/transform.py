@@ -51,17 +51,27 @@ def transform_bdsso(data: pd.DataFrame) -> pd.DataFrame:
         
     # Replace full names with abbreviated direction names
     direction_mapping = {
+        'đông': 'Đ',
+        'tây': 'T',
+        'nam': 'N',
+        'bắc': 'B',
+        'đông bắc': 'ĐB',
+        'đông nam': 'ĐN',
+        'tây bắc': 'TB',
+        'tây nam': 'TN',
+        'không xác định': 'KXĐ',
+        'Đông - Nam': 'ĐN',
+        'Tây - Bắc': 'TB',
+        'Đông - Bắc': 'ĐB',
+        'Đông - Nam': 'ĐN',
+        'Tây - Nam': 'TN',
         'Đông': 'Đ',
-        'Tây': 'T',
-        'Nam': 'N',
         'Bắc': 'B',
-        'Đông Bắc': 'ĐB',
-        'Đông Nam': 'ĐN',
-        'Tây Bắc': 'TB',
-        'Tây Nam': 'TN',
-        'Không xác định': 'KXĐ'
+        'Nam': 'N',
+        'Tây': 'T'
     }
-    data_modified['Hướng'] = data_modified['Hướng'].apply(lambda x: direction_mapping.get(x.strip(), x.strip()) if type(x) is not float else x)
+    data_modified['Hướng'] = data_modified['Hướng'].apply(lambda x: direction_mapping.get(' '.join(x.replace('-', '').strip().lower().split()), 'KXĐ') if type(x) is not float else x)
+    # data_modified['Hướng'] = data_modified['Hướng'].apply(lambda x: ' '.join(x.replace('-', '').strip().lower().split()) if type(x) is not float else x)
 
     # Hàm chuyển đổi giá trị cột mức giá
     def convert_price_to_billion(price_str, area):
@@ -110,17 +120,29 @@ def transform_bdscomvn(data: pd.DataFrame) -> pd.DataFrame:
 
     # Replace full names with abbreviated direction names
     direction_mapping = {
-        'Đông': 'Đ',
-        'Tây': 'T',
-        'Nam': 'N',
-        'Bắc': 'B',
-        'Đông - Bắc': 'ĐB',
+        'đông': 'Đ',
+        'tây': 'T',
+        'nam': 'N',
+        'bắc': 'B',
+        'đông bắc': 'ĐB',
+        'đông nam': 'ĐN',
+        'tây bắc': 'TB',
+        'tây nam': 'TN',
+        'không xác định': 'KXĐ',
         'Đông - Nam': 'ĐN',
         'Tây - Bắc': 'TB',
-        'Tây - Nam': 'TN'
+        'Đông - Bắc': 'ĐB',
+        'Đông - Nam': 'ĐN',
+        'Tây - Nam': 'TN',
+        'Đông': 'Đ',
+        'Bắc': 'B',
+        'Nam': 'N',
+        'Tây': 'T'
     }
-    data_modified['Hướng ban công'] = data_modified['Hướng ban công'].apply(lambda x: direction_mapping.get(x.strip(), x.strip()) if type(x) is not float else x)
-
+    data_modified['Hướng ban công'] = data_modified['Hướng ban công'].apply(lambda x: direction_mapping.get(' '.join(x.replace('-', '').strip().lower().split()), 'KXĐ') if type(x) is not float else x)
+    data_modified['Hướng nhà'] = data_modified['Hướng nhà'].apply(lambda x: direction_mapping.get(' '.join(x.replace('-', '').strip().lower().split()), 'KXĐ') if type(x) is not float else x)
+    # data_modified['Hướng ban công'] = data_modified['Hướng ban công'].apply(lambda x: ' '.join(x.replace('-', '').strip().lower().split()) if type(x) is not float else x)
+    
     # Convert columns 'Đường vào', 'Mặt tiền' to numerical values, keep NaN as is
     numeric_columns = ['Đường vào', 'Mặt tiền']
     for col in numeric_columns:
@@ -157,6 +179,7 @@ def transform_bdscomvn(data: pd.DataFrame) -> pd.DataFrame:
         data_modified[col] = pd.to_numeric(data_modified[col], errors='ignore')       
    
     data_modified.rename(columns = {"Hướng nhà": "Hướng", "Đường vào": "Đường trước nhà"}, inplace = True)
+    # print(f"BDScomvn: {data_modified['Hướng'].unique().tolist()}")
     return data_modified
     
 def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
@@ -205,18 +228,19 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
         data_modified[col] = pd.to_numeric(data_modified[col], errors='ignore')   
 
     # Replace full names with abbreviated direction names
-    direction_mapping = {
-        'Đông': 'Đ',
-        'Tây': 'T',
-        'Nam': 'N',
-        'Bắc': 'B',
-        'Đông Bắc': 'ĐB',
-        'Đông Nam': 'ĐN',
-        'Tây Bắc': 'TB',
-        'Tây Nam': 'TN',
-        'Không xác định': 'KXĐ'
-    }
-    data_modified['Hướng'] = data_modified['Hướng'].apply(lambda x: direction_mapping.get(x.strip(), x.strip()) if type(x) is not float else x)
+    # direction_mapping = {
+    #     'đông': 'Đ',
+    #     'tây': 'T',
+    #     'nam': 'N',
+    #     'bắc': 'B',
+    #     'đông bắc': 'ĐB',
+    #     'đông nam': 'ĐN',
+    #     'tây bắc': 'TB',
+    #     'tây nam': 'TN',
+    #     'không xác định': 'KXĐ'
+    # }
+    # # data_modified['Hướng'] = data_modified['Hướng'].apply(lambda x: direction_mapping.get(x.replace('-', '').strip().lower(), 'KXĐ') if type(x) is not float else x)
+    # data_modified['Hướng'] = data_modified['Hướng'].apply(lambda x: ' '.join(x.replace('-', '').strip().lower().split()) if not pd.isnull(x) else x)
 
     # Replace nhà
     bds_mapping = {
@@ -272,17 +296,27 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
 
     # Replace full names with abbreviated direction names
     direction_mapping = {
+        'đông': 'Đ',
+        'tây': 'T',
+        'nam': 'N',
+        'bắc': 'B',
+        'đông bắc': 'ĐB',
+        'đông nam': 'ĐN',
+        'tây bắc': 'TB',
+        'tây nam': 'TN',
+        'không xác định': 'KXĐ',
+        'Đông - Nam': 'ĐN',
+        'Tây - Bắc': 'TB',
+        'Đông - Bắc': 'ĐB',
+        'Đông - Nam': 'ĐN',
+        'Tây - Nam': 'TN',
         'Đông': 'Đ',
-        'Tây': 'T',
-        'Nam': 'N',
         'Bắc': 'B',
-        'Đông Bắc': 'ĐB',
-        'Đông Nam': 'ĐN',
-        'Tây Bắc': 'TB',
-        'Tây Nam': 'TN',
-        'Không xác định': 'KXĐ'
+        'Nam': 'N',
+        'Tây': 'T'
     }
-    data_modified['Hướng'] = data_modified['Hướng'].apply(lambda x: direction_mapping.get(x.strip(), x.strip()) if type(x) is not float else x)
+    data_modified['Hướng'] = data_modified['Hướng'].apply(lambda x: direction_mapping.get(' '.join(x.replace('-', '').strip().lower().split()), 'KXĐ') if type(x) is not float else x)
+    # data_modified['Hướng'] = data_modified['Hướng'].apply(lambda x: ' '.join(x.replace('-', '').strip().lower().split()) if type(x) is not float else x)
 
     # Replace nhà
     bds_mapping = {
@@ -301,8 +335,8 @@ if __name__ == "__main__":
     alo_nha_dat_data = load_data('Alo_nha_dat')
     # processed = transform_bdscomvn(data)
     bds_com_vn_data_processed = transform_bdscomvn(bds_com_vn_data)
-    alo_nha_dat_data_processed = tranform_alonhadat(alo_nha_dat_data)
-    bds_so_data_processed = tranform_bdsso(bds_so_data)
+    alo_nha_dat_data_processed = transform_alonhadat(alo_nha_dat_data)
+    bds_so_data_processed = transform_bdsso(bds_so_data)
     final_df = pd.concat([bds_com_vn_data_processed, alo_nha_dat_data_processed, bds_so_data_processed], axis = 0)
     # print(alo_nha_dat_data_processed.columns)
     # print(bds_com_vn_data_processed.columns)
