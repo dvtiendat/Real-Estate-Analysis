@@ -53,7 +53,7 @@ class Pipeline():
                  config_path: str = 'WebCrawler/config.yaml', 
                  crawler_names: list = ['BDS_SoCrawler' ,'BDSWebCrawler', 'AlonhadatWebCrawler'], 
                  web: list = ['BDS_So', 'BDS_com_vn', 'Alo_nha_dat'],
-                 integrated_columns: list = ['Diện tích', 'Đường trước nhà', 'Mặt tiền', 'Số tầng', 'Số toilet','Số phòng ngủ', 'Loại', 'Hướng', 'Mức giá']):
+                 integrated_columns: list = ['Thành phố', 'Diện tích', 'Đường trước nhà', 'Mặt tiền', 'Số tầng', 'Số toilet','Số phòng ngủ', 'Loại', 'Hướng', 'Mức giá']):
         self.config_path = config_path
         self.crawler_names = crawler_names
         self.web = web
@@ -158,6 +158,7 @@ class Pipeline():
         collection.delete_many({})
         records = self.final_data.to_dict(orient='records')
         collection.insert_many(records)
+        # print(self.final_data['Thành phố'].unique())
         print(f"Integrated data has {self.final_data.shape[0]} houses")
         print("Data pushed to DB Successfully!!")
 
