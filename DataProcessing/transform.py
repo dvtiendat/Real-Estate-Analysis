@@ -107,9 +107,9 @@ def transform_bdsso(data: pd.DataFrame) -> pd.DataFrame:
     numeric_columns = ['Mặt tiền','Lộ giới','Số tầng', 'Số phòng ngủ', 'Số toilet']
     for col in numeric_columns:
         data_modified[col] = data_modified[col].fillna(np.nan)
-        data_modified[col] = data_modified[col].apply(lambda x: str(x).replace(',', '.').strip() if pd.notnull(x) else x)
+        data_modified[col] = data_modified[col].apply(lambda x: str(x).replace(',', '.').replace('-', '.').strip() if pd.notnull(x) else x)
         data_modified[col] = pd.to_numeric(data_modified[col], errors='ignore') 
-        
+    
     # Replace full names with abbreviated direction names
     direction_mapping = {
         'đông': 'Đ',
@@ -207,7 +207,7 @@ def transform_bdscomvn(data: pd.DataFrame) -> pd.DataFrame:
     numeric_columns = ['Đường vào', 'Mặt tiền']
     for col in numeric_columns:
         data_modified[col] = data_modified[col].fillna(np.nan)
-        data_modified[col] = data_modified[col].apply(lambda x: str(x).replace('m', '').replace(',', '.').strip() if pd.notnull(x) else x)
+        data_modified[col] = data_modified[col].apply(lambda x: str(x).replace('m', '').replace(',', '.').replace('-', '.').strip() if pd.notnull(x) else x)
         data_modified[col] = pd.to_numeric(data_modified[col], errors='ignore')   
         
     # Xử lý cột tầng   
@@ -283,7 +283,7 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
     numeric_columns = ['Đường trước nhà', 'Số lầu', 'Số phòng ngủ','Chiều ngang', 'Chiều dài']
     for col in numeric_columns:
         data_modified[col] = data_modified[col].fillna(np.nan)
-        data_modified[col] = data_modified[col].apply(lambda x: str(x).replace('m', '').replace(',', '.').strip() if pd.notnull(x) else x)
+        data_modified[col] = data_modified[col].apply(lambda x: str(x).replace('m', '').replace(',', '.').replace('-', '.').strip() if pd.notnull(x) else x)
         data_modified[col] = pd.to_numeric(data_modified[col], errors='ignore')   
 
     # Replace full names with abbreviated direction names
