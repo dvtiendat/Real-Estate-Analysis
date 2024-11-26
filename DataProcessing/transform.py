@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-
+from unidecode import unidecode
 uri = "mongodb+srv://svbk:dmHUST@cluster0.h5ef7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #change password to access to the database
 client = MongoClient(uri, server_api = ServerApi('1'))
 db = client['VietNameseRealEstateData']
@@ -67,23 +67,31 @@ def convert_to_city(address):
     for province in vietnam_provinces_cities:
         district_mapping[province] = [province]
 
-    district_mapping['hồ chí minh'] = ["q9", "hóc môn", "bình hưng hòa", "thới an", "hcm", "củ chi","nhà bè" ,"hồ chí minh", "bình thạnh", "thủ đức", "gò vấp", "quận 1", "quận 2","quận 4", "quận 5","quận 6" ,"quận 7", "q7","quận 9", "q11","quận 12", "quận 3", "quận 8", "tân bình", "phú nhuận", "bình tân", "tân phú"]
-    district_mapping['hà nội'] = ["hoàn kiếm", "cổ linh", "chương mỹ", 'tân mai', "khương đình", "nguyễn trãi", "trương định", "thanh oai", "thanh trì","trung văn", "hoài đức", "trường chinh" , "hà nội", "đông anh", "long biên", "cầu giấy", "đống đa", "thanh xuân", "hai bà trưng", "bắc từ liêm", "nam từ liêm", "ba đình", "hoàng mai", "tây hồ", "gia lâm", "hà đông", "giáp bát", "phương liệt"]
+    district_mapping['hồ chí minh'] = ["q4", "tân phong", "phường 5", "long trường", "đông hưng thuận", "lê văn quới", "thạnh lộc", "long thạnh mỹ", "phước long b", "bình trị đông a", "tăng nhơn phú a", "bình chánh" , "q10", "q6", "q9", "hóc môn", "bình hưng hòa", "thới an", "hcm", "củ chi","nhà bè" ,"hồ chí minh", "bình thạnh", "thủ đức", "gò vấp", "quận 1", "quận 2","quận 4", "quận 5","quận 6" ,"quận 7", "q7","quận 9", "q11","quận 12", "quận 3", "quận 8", "tân bình", "phú nhuận", "bình tân", "tân phú"]
+    district_mapping['hà nội'] = ['nguyên hồng', 'ngô quyền quang trung', 'hồ đắc di', 'hồ tây', 'phú xuyên', "kcn quang minh", "văn quán", "bùi xưowng trạch", "mộ lao", "khương trung", "trương đinh", "bùi xuân trạch", "thanh trì", "triều khúc", "hoàn kiếm", "cổ linh", "chương mỹ", 'tân mai', "khương đình", "nguyễn trãi", "trương định", "thanh oai", "thanh trì","trung văn", "hoài đức", "trường chinh" , "hà nội", "đông anh", "long biên", "cầu giấy", "đống đa", "thanh xuân", "hai bà trưng", "bắc từ liêm", "nam từ liêm", "ba đình", "hoàng mai", "tây hồ", "gia lâm", "hà đông", "giáp bát", "phương liệt", "hoàng quốc việt", ]
     district_mapping['thừa thiên huế'] = ['thừa thiên huế', 'huế']
-    district_mapping['đồng nai'] = ['đồng nai', 'biên hòa', 'bình đa', 'an bình', "tân hiệp"]
+    district_mapping['đồng nai'] = ['đồng nai', 'biên hòa', 'bình đa', 'an bình', "tân hiệp", "tam hiệp", 'nhơn trạch', 'phường trảng dài']
     district_mapping['bình dương'] = ['bình dương', 'dĩ an', 'thuận an']
     district_mapping['quảng ninh'] = ['quảng ninh', 'hạ long', ]
-    district_mapping['đà nẵng'] = ['đà nẵng', 'hải châu', 'cẩm lệ']
+    district_mapping['đà nẵng'] = ['an hải đông', 'hòa thọ đông', 'đà nẵng', 'hải châu', 'cẩm lệ', 'sơn trà']
     district_mapping['khánh hòa'] = ['khánh hòa', 'khánh hoà', 'nha trang']
     district_mapping['đắk lắk'] = ['đắk lắk', 'buôn ma thuột']
-
+    district_mapping['bà rịa vũng tàu'] = ['bà rịa vũng tàu', 'vũng tàu', 'bà rịa']
+    district_mapping['hải phòng'] = ['hải phòng', 'hải an']
+    district_mapping['thanh hóa'] = ['thanh hóa', 'tân sơn'] 
+    district_mapping['kiên giang'] = ['kiên giang', 'phú quốc']
+    district_mapping['quảng nam'] = ['quảngt nam', 'quảng nam']
     if type(address) is float:
         return address
-    tmp = address.lower()
+    tmp = address.lower().strip()
     for province in vietnam_provinces_cities:
         for t in district_mapping[province]:
-            if t in tmp:
-                return province 
+            if tmp.find(t.strip()) != -1:
+                return province
+            if unidecode(tmp).find(unidecode(t)) != -1:
+                return province
+    with open("tmp.txt", "a", encoding = "utf8") as f:
+        f.write(tmp + "\n")
     print(tmp)
     return 'KXĐ'
 
