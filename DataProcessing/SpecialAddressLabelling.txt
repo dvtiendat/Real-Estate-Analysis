@@ -20,8 +20,8 @@ tân kỳ tân quý	hồ chí minh
 bùi minh trực	hồ chí minh
 đại thành	hà nội
 âu dương lân	hồ chí minh
-908900868	kxđ
-908679398	kxđ
+908900868	KXĐ
+908679398	KXĐ
 đại thành	hà nội
 đông la	hà nội
 đường số 9	hồ chí minh
@@ -36,16 +36,16 @@ bến nghé, q1	hồ chí minh
 lê lư	hồ chí minh
 đông la	hà nội
 đakao, q1	hồ chí minh
-965135166	kxđ
+965135166	KXĐ
 đường gò cát phú hữu	hồ chí minh
 dạ nam	hồ chí minh
 phan huy ích, p14	hồ chí minh
-938463731	kxđ
+938463731	KXĐ
 phố trạm	hà nội
 đại thành	hà nội
 39 đại lộ nam sông mã	thanh hóa
 trần xuân soạn, tân hưng	hồ chí minh
-976153325	kxđ
+976153325	KXĐ
 phạm văn đồng	hồ chí minh
 đại thành	hà nội
 vườn lài,p an phú đông	hồ chí minh
@@ -54,14 +54,14 @@ dương bá trạc	hồ chí minh
 bán nhà 2mt nguyễn văn quỳ p.phú thuận q.7 – dt 35m2 – 1.98 tỷ. lh:0903195986.	hồ chí minh
 đai thành	hà nội
 tỉnh lộ 10	hồ chí minh
-931351494	kxđ
+931351494	KXĐ
 phạm thế hiển	hồ chí minh
 dương bá trạc	hồ chí minh
 đường đồng khởi	đồng nai
 đường võ văn hát long trườn	hồ chí minh
-908121191	kxđ
-931351494	kxđ
-931351494	kxđ
+908121191	KXĐ
+931351494	KXĐ
+931351494	KXĐ
 ấp tấn long, xã thanh phú,huyện bến lức	long an
 đường só 10	hồ chí minh
 ⭐bán nhà mới xây ở luôn kim mã 36m 5 tầng, 3pn nhỉnh 5tỷ, 0368709992	hà nội
@@ -110,9 +110,9 @@ phúc lợi	hà nội
 đại thành	hà nội
 kiến hưng	hà nội
 đông la	hà nội
-906143614	kxđ
+906143614	KXĐ
 yên nghĩa	hà nội
-938657228	kxđ
+938657228	KXĐ
 đường số 8	hồ chí minh
 đại thành	hà nội
 đường 546 phước long a	hồ chí minh
@@ -125,7 +125,7 @@ lê lai quảng hưng	hồ chí minh
 đông la	hà nội
 264 lê văn lương, tân hưng	hồ chí minh
 linh xuân	hồ chí minh
-bán nhà gỗ vị trí cực đẹp tại thôn tân lập xã earsai - 550m2 - shr - 17 tỷ. lh:0935925317.	kxđ
+bán nhà gỗ vị trí cực đẹp tại thôn tân lập xã earsai - 550m2 - shr - 17 tỷ. lh:0935925317.	KXĐ
 đại thành	hà nội
 tã quang bửu q.8	hồ chí minh
 bông sao q.8	hồ chí minh
@@ -274,7 +274,7 @@ cẩm vân, đê la thành	hà nội
 nguyễn văn cừ	hà nội
 114/18 phạm văn chiêu	hồ chí minh
 phố hào nam	hà nội
-907117487	kxđ
+907117487	KXĐ
 lâm hạ	hà nội
 143 nguyễn chính	hà nội
 ái mộ	hà nội
@@ -282,7 +282,7 @@ lâm hạ	hà nội
 xô viết nghệ tĩnh, phường 21	hồ chí minh
 ⭐siêu hiếm - mặt ngõ hàng hòm kinh doanh vô địch - ô tô - thửa vuông, mặt tiền rộng, 0366581205	hà nội
 văn khê la khê	hà nội
-903715747	kxđ
+903715747	KXĐ
 yên xá tân triều	hà nội
 ngọc thuỵ	hà nội
 ngoại giao đoàn	hà nội
@@ -293,8 +293,8 @@ ngọc trì	hà nội
 71 tân ấp	hà nội
 phố láng hạ	hà nội
 ngọc thụy	hà nội
-362983839	kxđ
-931683938	kxđ
+362983839	KXĐ
+931683938	KXĐ
 biệt thự mini kdc hồng loan quận cái răng 170m2 chỉ 5,86 tỷ. lh:0886218238.	cần thơ
 văn khê la khê	hà nội
 vị trí đắc địa chùa liên phái	hà nội
@@ -304,22 +304,22 @@ phúc lợi	hà nội
 đức giang	hà nội
 xuân đỉnh	hà nội
 kđt ao sào	hồ chí minh
-d	kxđ
+d	KXĐ
 thạch bàn	hà nội
 ái mộ	hà nội
 vũ tông phan	hà nội
 lê lợi hà cầu	hà nội
-366212771	kxđ
+366212771	KXĐ
 xa la phúc la	hà nội
 nguyễn thị thập p. tân quy	hồ chí minh
 cần bán nhà cấp 4 mới xây kiên cố tại p3gv 68m2 shr 7.95 tỷ. lh:0931457505	hồ chí minh
 xuân thới thượng	hồ chí minh
 xuân thới sơn	hồ chí minh
 bán nhà đường xe tải quốc lộ 50 vào hxh tránh bùi minh trực q.8 - giá chỉ từ 90 triệu/1m2	hồ chí minh
-973789819	kxđ
+973789819	KXĐ
 tây tựu	hà nội
 an dương vương	hà nội
-976376779	kxđ
+976376779	KXĐ
 kim giang	hà nội
 bến nghé, q1	hồ chí minh
 bạch mai	hà nội
@@ -337,14 +337,14 @@ tây tựu	hà nội
 tây tựu	hà nội
 tây tựu	hà nội
 đê la thành	hà nội
-906647194	kxđ
+906647194	KXĐ
 p.tam bình	hồ chí minh
 chợ khâm thiên	hà nội
 bình trị đông	hồ chí minh
 xã đàn	hà nội
-398761518	kxđ
-908549669	kxđ
-939736661	kxđ
+398761518	KXĐ
+908549669	KXĐ
+939736661	KXĐ
 ngõ gốc đề	hà nội
 van canh	hà nội
 mặt đường giải phóng	hà nội
@@ -356,18 +356,18 @@ văn hương	hà nội
 ⭐bán 2 căn shophouse tại long thành (century city bình sơn); 5,3tỷ; 0976606093	hà nội
 ngõ chợ khâm thiêm	hà nội
 nhà mặt tiền hxh 567/35/13 lê văn khương p.hiệp thành q12 - shr (dt 5mx15,22m) chỉ 4.9 tỷ. lh:0919126937 - 0933175046.	hồ chí minh
-355845494	kxđ
-357856386	kxđ
-102/16	kxđ
+355845494	KXĐ
+357856386	KXĐ
+102/16	KXĐ
 ung văn khiêm, phường 25	hồ chí minh
 xô viết nghệ tĩnh, phường 21	hồ chí minh
 xa la phúc la	hà nội
-913191403	kxđ
+913191403	KXĐ
 xã xuân thới đông	hồ chí minh
 xã xuân thới thượng	hồ chí minh
 xã thới tam thôn	hồ chí minh
 xã xuân thới thượng	hồ chí minh
-902814269	kxđ
+902814269	KXĐ
 mậu lương kiến hưng	hà nội
 cạnh chợ lai xá, đối diện đại học thành đô, cách trường đại học công nghiệp chỉ 1km.,	hà nội
 215 bùi đình túy, hẻm xe hơi, 3 tầng, 4pn, 58m2(5.3x11.5), chỉ 5.4 tỷ đồng.	hồ chí minh
@@ -376,17 +376,17 @@ xuân đỉnh	hà nội
 nguyễn trung trực	hà nội
 đường 79	bắc ninh
 ql32 lai xá kim chung	hà nội
-989222778	kxđ
-989222778	kxđ
-989222778	kxđ
-989222778	kxđ
+989222778	KXĐ
+989222778	KXĐ
+989222778	KXĐ
+989222778	KXĐ
 vạn phúc	hà nội
 nguyễn hữu trí	long an
 bùi thanh khiết	hồ chí minh
 thạnh phú - vĩnh cửu	đồng nai
 158 kim guang	hà nội
 201 ngõ tô hoàng	hà nội
-2024-04-22 00:00:00	kxđ
+2024-04-22 00:00:00	KXĐ
 đường đình phong phú	hồ chí minh
 nguyễn văn cừ	hà nội
 kdc bình phú 1	hồ chí minh
@@ -394,15 +394,15 @@ hồng bàng	hồ chí minh
 an thượng 18	đà nẵng
 nguyễn hữu thọ	hồ chí minh
 phường tam hòa	đồng nai
-969456404	kxđ
-779707179	kxđ
+969456404	KXĐ
+779707179	KXĐ
 kim giang	hà nội
 161 bình trị đông,p bình trị đông	hồ chí minh
 ngay khu dân cư trường thọ , đường số 2	hồ chí minh
-854049979	kxđ
+854049979	KXĐ
 68 nguyễn văn linh	hà nội
-901322363	kxđ
-102/16	kxđ
+901322363	KXĐ
+102/16	KXĐ
 vũ tông phan	hà nội
 vũ hữu	hà nội
 vũ tông phan	hà nội
@@ -410,14 +410,14 @@ vũ tông phan	hà nội
 kim giang	hà nội
 pháo đài láng	hà nội
 p11, q3	hồ chí minh
-917931111	kxđ
+917931111	KXĐ
 vũ xuân thiều	hà nội
 linh đàm	hà nội
 phạm văn đồng	hà nội
 156 hồng mai	hà nội
 165 hồng mai	hà nội
 vũ tông phan	hà nội
-962780324	kxđ
+962780324	KXĐ
 trường thạnh	hồ chí minh
 trường thạnh	hồ chí minh
 trường thạnh	hồ chí minh
@@ -425,7 +425,7 @@ linh trung	hồ chí minh
 kim chung	hà nội
 la phù	hà nội
 kim chung	hà nội
-số 53	kxđ
+số 53	KXĐ
 phương mai	hà nội
 thanh liệt	hà nội
 phố tôn đức thắng	hà nội
@@ -447,7 +447,7 @@ vũ tông phan	hà nội
 xuân đỉnh	hà nội
 lô b2 - độc lập - tuy hòa - bình kiến	phú yên
 thạch cẩm, thạch thành	thanh hóa
-915937527	kxđ
+915937527	KXĐ
 ngọc khánh	hà nội
 nguyễn an ninh	hà nội
 hẻm 350 chiến lược	hồ chí minh
@@ -457,8 +457,8 @@ ngọc thụy	hà nội
 kim giang	hà nội
 ngọc lâm	hà nội
 100 tây sơn	hà nội
-984175796	kxđ
-933279273	kxđ
+984175796	KXĐ
+933279273	KXĐ
 phường linh đông	hồ chí minh
 phường hiệp bình	hồ chí minh
 phường bình chiểu	hồ chí minh
@@ -475,25 +475,25 @@ nguyễn xiển tân triều	hà nội
 đào tấn	hà nội
 147 dương đình hội hẻm xe hơi, tnp b, 90m2(4.5x17.5), 4,75 tỷ.	hồ chí minh
 đào tấn	hà nội
-979499498	kxđ
+979499498	KXĐ
 50 trung liệt	hà nội
 50 trung liệt	hà nội
 lê đình cẩn, tân tạo	hồ chí minh
-918741585	kxđ
+918741585	KXĐ
 xuân la	hà nội
 ⭐bán nhà ngõ 40 đường quán trữ (bến xe miền tây) p.lãm hà q.kiến an, hp, 0936519079	hải phòng
 kim giang	hà nội
 thạnh phú - vĩnh cửu	đồng nai
 nguyễn văn cừ	hà nội
-896001512	kxđ
-896001512	kxđ
+896001512	KXĐ
+896001512	KXĐ
 hương lộ 2,bình trị đông	hồ chí minh
 khu nhà vườn long phước , phường long phước.	hồ chí minh
 đường thanh niên	hà nội
 kim giang	hà nội
 thạnh phú - vĩnh cửu	đồng nai
 bến bình đông,p14 q8	hồ chí minh
-909369825	kxđ
+909369825	KXĐ
 nhà cấp 4 cần bán tại hẻm đường số 8, linh xuân 53m2 shr 3.3 tỷ. lh:0903376222.	hồ chí minh
 phố kim đồng	hà nội
 hiệp thành 26	hồ chí minh
@@ -503,7 +503,7 @@ hiệp thành 43 , q12	hồ chí minh
 hiệp thành 17 , q12	hồ chí minh
 200 hiệp thành 43 , q12	hồ chí minh
 390 nguyễn văn cừ	hà nội
-903376222	kxđ
+903376222	KXĐ
 hoàng hoa thám	hà nội
 hoàng như tiếp	hà nội
 nguyễn văn cừ	hà nội
@@ -530,7 +530,7 @@ võ thị sáu	hà nội
 trần khát chân	hà nội
 khu dân cư vĩnh lộc	hồ chí minh
 phố kim đồng	hà nội
-977008540	kxđ
+977008540	KXĐ
 553 giải phóng	hà nội
 liên khu 5-6	hồ chí minh
 đường nguyễn ái quốc, p. tân tiến	hồ chí minh
@@ -542,7 +542,7 @@ hẻm đường bùi hữu nghĩa, p. bửu hòa	hồ chí minh
 xã bình hòa - vinh cửu	đồng nai
 lê đình cẩn	quảng ngãi
 chợ cũ, tương bình hiệp, thủ dầu một	hồ chí minh
-128	kxđ
+128	KXĐ
 đường giang văn minh	hà nội
 đội cấn	hà nội
 hẻm 82 võ văn kiệt p11 q5	hồ chí minh
@@ -617,11 +617,11 @@ thượng thanh	hà nội
 xã bình hòa	đồng nai
 tân ký tân quý ,p tân quý	hồ chí minh
 xã bình hòa - vĩnh cửu	đồng nai
-888012456	kxđ
+888012456	KXĐ
 543 nguyễn đình chiểu q3	hồ chí minh
 ngõ 42 thịnh liệt	hà nội
 ngõ 141 giáp nhị	hà nội
-936188378	kxđ
+936188378	KXĐ
 dương bá trạc,p1,q8	hồ chí minh
 hẻm lưu hữu phước p15 q8	hồ chí minh
 tứ liên	hà nội
@@ -629,9 +629,9 @@ tứ liên	hà nội
 đặng thai mai	hà nội
 290 hiệp thành 13	hồ chí minh
 chiến lược, p bình trị đông	hồ chí minh
-0909711000.	kxđ
-962000227	kxđ
-962000227	kxđ
+0909711000.	KXĐ
+962000227	KXĐ
+962000227	KXĐ
 chiến lược, p btđ	đà nẵng
 đường trần cao vân, thạc gián, thanh khê	hồ chí minh
 phạm thế hiển, p6,q8	hồ chí minh
@@ -654,8 +654,8 @@ xã thạnh phú - vĩnh cửu	đồng nai
 hẻm đường cây cám	hồ chí minh
 đại lộ 2, phước bình	hồ chí minh
 nguyễn sơn	hà nội
-1084	kxđ
-t50	kxđ
+1084	KXĐ
+t50	KXĐ
 bạch lâm -gia tân 2 -tn-đn	đồng nai
 xã thạnh phú	hồ chí minh
 hẻm 759 hương lộ 2	hồ chí minh
@@ -726,15 +726,15 @@ phạm văn chiêu	hồ chí minh
 tô hiệu, hiệp tân	hồ chí minh
 lương khánh thiện	hồ chí minh
 nguyễn văn đậu	hồ chí minh
-160	kxđ
-328455449	kxđ
+160	KXĐ
+328455449	KXĐ
 định công thượng	hà nội
 hoàng đạo thành	hà nội
-937875541	kxđ
+937875541	KXĐ
 yên phúc phúc la	hà nội
 bùi tư toàn	hồ chí minh
-903336620	kxđ
-901355197	kxđ
+903336620	KXĐ
+901355197	KXĐ
 đường số 15 phú hữu, hẻm ô tô, giá bán 4.5 tỷ, dt 57m2, mt 8m, ôtô đỗ cửa.	hồ chí minh
 lê trọng tấn	hà nội
 đường , long hòa, bình thuỷ	hồ chí minh
@@ -782,11 +782,11 @@ kim đồng	hà nội
 quảng bá	hà nội
 phố yên lạc	hà nội
 yên lạc	hà nội
-823799297	kxđ
+823799297	KXĐ
 hẻm đường số 14a	hồ chí minh
 tô ngọc vân	hà nội
-901417427	kxđ
-918008809	kxđ
+901417427	KXĐ
+918008809	KXĐ
 nguyễn văn luông	hồ chí minh
 nguyễn quý yêm	hồ chí minh
 mai động	hà nội
