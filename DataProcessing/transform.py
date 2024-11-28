@@ -148,7 +148,7 @@ def transform_bdsso(data: pd.DataFrame) -> pd.DataFrame:
     # Hàm chuyển đổi giá trị cột mức giá
     def convert_price_to_billion(price_str, area):
         try:
-            if isinstance(price_str, str):
+            if isinstance(price_str, float):
                 return price_str
             price_str = str(price_str).lower().replace(' ', '').replace(',', '.')
             if float(price_str)<100:
@@ -233,7 +233,7 @@ def transform_bdscomvn(data: pd.DataFrame) -> pd.DataFrame:
     # Hàm chuyển đổi giá trị cột mức giá
     def convert_price_to_billion(price_str, area):
         try:
-            if isinstance(price_str, str):
+            if isinstance(price_str, float):
                 return price_str
             price_str = str(price_str).lower().replace(' ', '').replace(',', '.')
             if 'tỷ' in price_str:
@@ -275,7 +275,7 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
     # Hàm chuyển đổi giá trị cột mức giá
     def convert_price_to_billion(price_str, area):
         try:
-            if isinstance(price_str, str):
+            if isinstance(price_str, float):
                 return price_str
             price_str = str(price_str).lower().replace(' ', '').replace(',', '.')
             if 'tỷ' in price_str:
@@ -342,7 +342,7 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
     # Hàm chuyển đổi giá trị cột mức giá
     def convert_price_to_billion(price_str, area):
         try:
-            if isinstance(price_str, str):
+            if isinstance(price_str, float):
                 return price_str
             price_str = price_str.lower().replace(' ', '').replace(',', '.')
             if 'tỷ' in price_str:
