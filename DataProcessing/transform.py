@@ -90,8 +90,11 @@ def convert_to_city(address):
                 return province
             if unidecode(tmp).find(unidecode(t)) != -1:
                 return province
-    with open("tmp.txt", "a", encoding = "utf8") as f:
-        f.write(tmp + "\n")
+    with open("DataProcessing/SpecialAddressLabelling.txt", "r", encoding='utf8') as f:
+        tmp1 = [t.replace("\n", "").split("\t") for t in f.readlines()]
+        for t in tmp1:
+            if tmp in t[0] or t[0] in tmp:
+                return t[1]
     print(tmp)
     return 'KXĐ'
 
@@ -145,6 +148,8 @@ def transform_bdsso(data: pd.DataFrame) -> pd.DataFrame:
     # Hàm chuyển đổi giá trị cột mức giá
     def convert_price_to_billion(price_str, area):
         try:
+            if isinstance(price_str, str):
+                return price_str
             price_str = str(price_str).lower().replace(' ', '').replace(',', '.')
             if float(price_str)<100:
                 return float(price_str)
@@ -228,6 +233,8 @@ def transform_bdscomvn(data: pd.DataFrame) -> pd.DataFrame:
     # Hàm chuyển đổi giá trị cột mức giá
     def convert_price_to_billion(price_str, area):
         try:
+            if isinstance(price_str, str):
+                return price_str
             price_str = str(price_str).lower().replace(' ', '').replace(',', '.')
             if 'tỷ' in price_str:
                 return float(price_str.replace('tỷ', ''))
@@ -268,6 +275,8 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
     # Hàm chuyển đổi giá trị cột mức giá
     def convert_price_to_billion(price_str, area):
         try:
+            if isinstance(price_str, str):
+                return price_str
             price_str = str(price_str).lower().replace(' ', '').replace(',', '.')
             if 'tỷ' in price_str:
                 return float(price_str.replace('tỷ', ''))
@@ -333,13 +342,15 @@ def transform_alonhadat(data: pd.DataFrame) -> pd.DataFrame:
     # Hàm chuyển đổi giá trị cột mức giá
     def convert_price_to_billion(price_str, area):
         try:
+            if isinstance(price_str, str):
+                return price_str
             price_str = price_str.lower().replace(' ', '').replace(',', '.')
             if 'tỷ' in price_str:
                 return float(price_str.replace('tỷ', ''))
             elif 'triệu' in price_str:
                 return (float(price_str.replace('triệu', '')) * area) / 1000 if area else None
         except Exception as e:
-            print(price_str)
+            print(price_str, type(price_str))
             return None
         return None
     
