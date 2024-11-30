@@ -157,55 +157,6 @@ class BDSWebCrawler(WebCrawler):
         df = pd.DataFrame(final_data)
         return df
             
-    
-    def transform(self,df):
-        cols_to_change = ['Diện tích','Mặt tiền' , 'Số tầng','Số toilet','Số phòng ngủ', 'Đường vào']
-
-        for col in cols_to_change:
-            flag = df[col].to_list()
-            new_attribute = []
-
-            for s in flag:
-                try:
-                    if s != np.nan and  (not isinstance(s,float)):
-                        new_attribute.append(float(s.split()[0].replace(',','.')))
-                    else :
-                        new_attribute.append(np.nan)
-                except ValueError:
-                    new_attribute.append(np.nan)
-
-            df[col] = new_attribute
-    
-        flag = df['Mức giá'].to_list()
-        new_attribute = [] 
-        for index,s in enumerate(flag) :
-            s = s.split()
-            
-            try :
-                if 'triệu/m²' in s :
-                    new_attribute.append( (float(s[0].replace(',','.')) * df.iloc[index]['Diện tích']) / 1000 )
-                else :
-                    new_attribute.append(float(s[0].replace(',','.')))
-            except ValueError:
-                new_attribute.append(np.nan)
-        df['Mức giá'] = new_attribute
-        
-        flag = df['Kinh độ'].to_list()
-        flag = [dms_to_decimal(x) for x in flag ]
-        df['Kinh độ'] = flag
-        
-        flag = df['Vĩ độ'].to_list()
-        flag = [dms_to_decimal(x) for x in flag ]
-        df['Vĩ độ'] = flag 
-    
-        date_cols = ['Ngày', 'Tháng', 'Năm']
-        for col in date_cols:
-            flag = df[col].to_list()
-            flag = [float(x) for x in flag]
-            df[col] = flag
-        
-        
-        return df
     def load_to_mongo(self, df, client):
         db = client['VietNameseRealEstateData']
         collection = db['BDS_com_vn']

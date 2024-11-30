@@ -9,11 +9,6 @@ class WebCrawler(ABC):
     def extract(self):
         pass
 
-    @abstractmethod
-    def transform(self,df):
-        pass
-
-
     def load_to_csv(self,df,csv_path):
         df.to_csv(csv_path)
         pass

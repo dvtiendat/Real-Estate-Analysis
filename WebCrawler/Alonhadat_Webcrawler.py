@@ -191,49 +191,6 @@ class AlonhadatWebCrawler(WebCrawler):
         
         df = pd.DataFrame(final_data)
         return df
-            
-    
-    def transform(self,df):
-        
-        df['Mã tin'] = [int(x) for x in (df['Mã tin'].to_list()) ]
-        df['Số phòng ngủ'] = [float(x)  if  not isinstance(x,float) else np.nan for x in (df['Số phòng ngủ'].to_list()) ]
-        df['Chiều ngang'] = [float(x[:-1].replace(',','.'))  if  not isinstance(x,float) else np.nan for x in (df['Chiều ngang'].to_list())  ] 
-        df['Chiều dài'] = [float(x[:-1].replace(',','.'))  if  not isinstance(x,float) else np.nan for x in (df['Chiều dài'].to_list())   ]         
-        df['Diện tích'] = [float(x.split()[0]) for x in (df['Diện tích'].to_list())]
-        df['Đường trước nhà'] = [float(x[:-1].replace(',','.'))  if  not isinstance(x,float) else np.nan for x in (df['Đường trước nhà'].to_list())   ]
-
-    
-        flag = df['Mức giá'].to_list()
-        new_attribute = [] 
-        for index,s in enumerate(flag) :        
-            s = s.split()
-            if 'thỏa' in s or 'Thỏa' in s :
-                new_attribute.append(np.nan)
-                continue 
-            elif 'triệu' in s :
-                new_attribute.append(float(s[0].replace(',','.')) / 1000)
-            elif 'triệu/m²' in s :
-                new_attribute.append( (float(s[0].replace(',','.')) * df.iloc[index]['Diện tích']) / 1000 )
-            else :
-                new_attribute.append(float(s[0].replace(',','.')))
-        df['Mức giá'] = new_attribute
-        
-        date_cols = ['Ngày', 'Tháng', 'Năm']
-        for col in date_cols:
-            flag = df[col].to_list()
-            new_attribute = []
-            for x in flag :
-                try:
-                    if isinstance(x,str):
-                        new_attribute.append(float(x))
-                    else :
-                        new_attribute.append(x)
-                except Exception as e :
-                    new_attribute.append(np.nan)
-                    print(e)
-            df[col] = new_attribute
-        
-        return df
     
     def load_to_mongo(self, df, client):
         db = client['VietNameseRealEstateData']
