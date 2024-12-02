@@ -21,6 +21,11 @@ directions = ["East", "West", "North", "South", "North East", "South East", "Sou
 area_selections_house_apartment = ["<20m2", "20-50m2", "50m2-100m2", ">100m2"]
 area_selections_land = ["<1000m2", "1000-5000m2", "5000-10000m2", ">10000m2"]
 
+st.sidebar.title("DDDHM's Vietnamese Real-estate Price Predictor")
+st.sidebar.header("Choose the real-estate type to continue")
+st.write("")
+property_type = st.sidebar.radio("Select Property Type", ["House", "Apartment", "Land"])
+
 def property_type_selection():
     st.title("DDDHM's Vietnamese Real-estate Price Predictor")
     st.header("Choose the real-estate type to continue")
@@ -69,13 +74,8 @@ def page_house():
     # st.write(f"Number of Floors: {floors}")
     # st.write(f"Direction: {direction}")
     col1, col2, col3 = st.columns(3, gap = "large")
-    with col1: 
-        button1 = st.button("Back to Selection")
     with col3:
         button2 = st.button("Predict House Price")
-    if button1:
-        st.session_state.page = None
-        st.rerun()  
     if button2:
         prediction = predict_price("House", bedrooms=bedrooms, toilets=toilets)
         st.write(prediction)
@@ -97,13 +97,8 @@ def page_apartment():
     st.write(f"Number of Toilets: {toilets}")
     st.write(f"Direction: {direction}")
     col1, col2, col3 = st.columns(3, gap = "large")
-    with col1: 
-        button1 = st.button("Back to Selection")
     with col3:
         button2 = st.button("Predict House Price")
-    if button1:
-        st.session_state.page = None
-        st.rerun()  
     if button2:
         prediction = predict_price("House", bedrooms=bedrooms, toilets=toilets)
         st.write(prediction)
@@ -123,30 +118,32 @@ def page_land():
     st.write(f"City/Province: {city}")
     st.write(f"Direction: {direction}")
     col1, col2, col3 = st.columns(3, gap = "large")
-    with col1: 
-        button1 = st.button("Back to Selection")
     with col3:
         button2 = st.button("Predict House Price")
-    if button1:
-        st.session_state.page = None
-        st.rerun()  
     if button2:
         prediction = predict_price("House", area=area)
         st.write(prediction)
             
 
 def main():
-    if "page" not in st.session_state:
-        st.session_state.page = None
+    # if "page" not in st.session_state:
+    #     st.session_state.page = None
 
+    # # Check if there's a page to navigate to
+    # if st.session_state.page is None:
+    #     property_type_selection()
+    # elif st.session_state.page == "House":
+    #     page_house()
+    # elif st.session_state.page == "Apartment":
+    #     page_apartment()
+    # elif st.session_state.page == "Land":
+    #     page_land()
     # Check if there's a page to navigate to
-    if st.session_state.page is None:
-        property_type_selection()
-    elif st.session_state.page == "House":
+    if property_type == "House":
         page_house()
-    elif st.session_state.page == "Apartment":
+    elif property_type == "Apartment":
         page_apartment()
-    elif st.session_state.page == "Land":
+    elif property_type == "Land":
         page_land()
 
 if __name__ == "__main__":
