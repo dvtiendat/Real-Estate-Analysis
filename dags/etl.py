@@ -17,7 +17,7 @@ with DAG('etl' , default_args= default_args, schedule= '@once') as dag :
     
     etl = BashOperator(
         task_id = "etl",
-        bash_command = "python WebCrawler.py",
+        bash_command = "python main.py",
         cwd= './Real-Estate-Analysis'
     )
     
