@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
@@ -14,16 +14,15 @@ collection_alonhadat = db['Alo_nha_dat']
 final_collection = db['Final_Real_Estate']
 #print(collection_bds_so)
 
+df_alonhadat = pd.DataFrame(list(collection_alonhadat.find()))
+df_bdsso = pd.DataFrame(list(collection_bds_so.find()))
+df_bds_com_vn = pd.DataFrame(list(collection_bds_com_vn.find()))
 
-final_data = list(final_collection.find())
-df = pd.DataFrame(final_data)
-# df = df.dropna(subset=['Mã tin'])
-df_tmp = df.copy()
-# df_tmp = df.drop(columns=['_id', 'Mã tin', 'Ngày', 'Tháng', 'Năm'])
-df_tmp.drop_duplicates(inplace=True, keep = 'first')
-print(df_tmp.head(10))
-print(df_tmp.info())
-# print(bds_so_data)
-
-# for item in bds_so_data:
-#     print(item)
+websites = ['Alonhadat', 'BDS.so', 'BDS.com.vn']
+statistics = [df_alonhadat.shape[0] * 2, df_bdsso.shape[0] * 2, df_bds_com_vn.shape[0]]
+plt.figure(figsize=(8, 5))
+plt.bar(websites, statistics)  # Optional: Adjust color for better visuals
+plt.title('Website Statistics')
+plt.xlabel('Websites')
+plt.ylabel('Number of raw data crawled')
+plt.show()
