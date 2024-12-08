@@ -1,4 +1,20 @@
 import streamlit as st
+import pandas as pd 
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+import sys
+st.set_page_config(layout="wide")
+sys.stdout.reconfigure(encoding='utf-8')
+
+uri = "mongodb+srv://svbk:dmHUST@cluster0.h5ef7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #change password to access to the database
+client = MongoClient(uri, server_api = ServerApi('1'))
+db = client['VietNameseRealEstateData']
+collection = db['Final_Real_Estate']
+final_data = list(collection.find())
+df = pd.DataFrame(final_data)
 
 # Custom CSS to increase font size
 st.markdown(f""" 
@@ -22,10 +38,190 @@ area_selections_house_apartment = ["<20m2", "20-50m2", "50m2-100m2", ">100m2"]
 area_selections_land = ["<1000m2", "1000-5000m2", "5000-10000m2", ">10000m2"]
 
 st.sidebar.title("DDDHM's Vietnamese Real-estate Price Predictor")
-st.sidebar.header("Choose the real-estate type to continue")
 st.write("")
-property_type = st.sidebar.radio("Select Property Type", ["House", "Apartment", "Land"])
+option = st.sidebar.selectbox("Choose landing page" , ['Dashboard' , "Prediction tool"])
 
+def total_by_type():
+        # Number of houses by each Type
+
+    type_counts = df['Loại'].value_counts()
+
+    ordered_types = ['N', 'CC', 'Đ']
+    type_counts = type_counts[ordered_types]
+
+    color_map = {
+        'Đ': '#ffb6c1',
+        'N': '#a3c9d1',
+        'CC': '#f9d372'
+    }
+
+    colors = [color_map.get(x, 'gray') for x in type_counts.index]
+
+    plt.figure(figsize=(6, 3))
+    bars = plt.barh(type_counts.index, type_counts.values, color=colors)
+
+    plt.title('Number of Properties by Types')
+    plt.xlabel('Counts')
+    plt.ylabel('Types')
+
+    legend_labels = {
+        'Đ': 'Land',
+        'CC': 'Apartments',
+        'N': 'Houses'
+    }
+
+    for bar in bars:
+        plt.text(bar.get_width() + 20, bar.get_y() + bar.get_height() / 2,
+                f'{bar.get_width()}', va='center', ha='left', fontsize=10)
+
+    plt.grid(axis='x', linestyle='--', alpha=0.3)
+    plt.subplots_adjust(right=1)
+
+    handles = [plt.Line2D([0], [0], color=color_map[key], lw=6, label=legend_labels[key]) for key in ['Đ', 'CC', 'N']]
+    plt.legend(handles=handles)
+    
+    return plt
+
+def top5_high_avg_price():
+    top_5_cc = df[df['Loại'] == 'CC'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nlargest(5, 'Mức giá').reset_index()
+    top_5_n = df[df['Loại'] == 'N'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nlargest(5, 'Mức giá').reset_index()
+    top_5_d = df[df['Loại'] == 'Đ'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nlargest(5, 'Mức giá').reset_index()
+
+    fig, axes = plt.subplots(1, 3, figsize=(18, 6))
+
+    # Plot for Apartment
+    sns.barplot(
+        data=top_5_cc,
+        x='Mức giá',
+        y=top_5_cc['Thành phố'].str.title(),
+        palette='flare_r',
+        ax=axes[0]
+    )
+    axes[0].set_title('Apartment', fontsize=14)
+    axes[0].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[0].set_ylabel('City', fontsize=12)
+    axes[0].grid(axis='x', linestyle='--', alpha=0.3)
+
+    # Plot for House
+    sns.barplot(
+        data=top_5_n,
+        x='Mức giá',
+        y=top_5_n['Thành phố'].str.title(),
+        palette='flare_r',
+        ax=axes[1]
+    )
+    axes[1].set_title('House', fontsize=14)
+    axes[1].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[1].set_ylabel('City', fontsize=12)
+    axes[1].grid(axis='x', linestyle='--', alpha=0.3)
+
+    # Plot for Land
+    sns.barplot(
+        data=top_5_d,
+        x='Mức giá',
+        y=top_5_d['Thành phố'].str.title(),
+        palette='flare_r',
+        ax=axes[2]
+    )
+    axes[2].set_title('Land', fontsize=14)
+    axes[2].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[2].set_ylabel('City', fontsize=12)
+    axes[2].grid(axis='x', linestyle='--', alpha=0.3)
+
+    # Add value labels to each bar
+    for ax, top_5_data in zip(axes, [top_5_cc, top_5_n, top_5_d]):
+        for index, value in enumerate(top_5_data['Mức giá']):
+            ax.text(
+                value + 0.5,
+                index,
+                f'{value:.2f}',
+                va='center',
+                fontsize=10
+            )
+
+    plt.tight_layout()
+    return plt
+
+def top5_low_avg_price():
+    # Filter data for each type and get top 5 cities with the lowest property prices for each type
+    top_5_cc = df[df['Loại'] == 'CC'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nsmallest(5, 'Mức giá').reset_index()
+    top_5_n = df[df['Loại'] == 'N'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nsmallest(5, 'Mức giá').reset_index()
+    top_5_d = df[df['Loại'] == 'Đ'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nsmallest(5, 'Mức giá').reset_index()
+
+    fig, axes = plt.subplots(1, 3, figsize=(18, 6))
+
+    # Plot for Apartment
+    sns.barplot(
+        data=top_5_cc,
+        x='Mức giá',
+        y=top_5_cc['Thành phố'].str.title(),
+        palette='crest_r',
+        ax=axes[0]
+    )
+    axes[0].set_title('Apartment', fontsize=14)
+    axes[0].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[0].set_ylabel('City', fontsize=12)
+    axes[0].grid(axis='x', linestyle='--', alpha=0.3)
+
+    # Plot for House
+    sns.barplot(
+        data=top_5_n,
+        x='Mức giá',
+        y=top_5_n['Thành phố'].str.title(),
+        palette='crest_r',
+        ax=axes[1]
+    )
+    axes[1].set_title('House', fontsize=14)
+    axes[1].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[1].set_ylabel('City', fontsize=12)
+    axes[1].grid(axis='x', linestyle='--', alpha=0.3)
+
+    # Plot for Land
+    sns.barplot(
+        data=top_5_d,
+        x='Mức giá',
+        y=top_5_d['Thành phố'].str.title(),
+        palette='crest_r',
+        ax=axes[2]
+    )
+    axes[2].set_title('Land', fontsize=14)
+    axes[2].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[2].set_ylabel('City', fontsize=12)
+    axes[2].grid(axis='x', linestyle='--', alpha=0.3)
+
+    # Add value labels to each bar
+    for ax, top_5_data in zip(axes, [top_5_cc, top_5_n, top_5_d]):
+        for index, value in enumerate(top_5_data['Mức giá']):
+            ax.text(
+                value + 0.05,
+                index,
+                f'{value:.2f}',
+                va='center',
+                fontsize=10
+            )
+            
+    plt.tight_layout()
+    return plt 
+
+def dashboard():
+    global df
+    st.title("Number of Properties by Type")
+    plt3 = total_by_type()
+    st.pyplot(plt3,use_container_width=True) 
+    
+    st.markdown("")
+    
+    st.title("Top 5 Cities With The Highest Average Price By Type")
+    plt1 = top5_high_avg_price()
+    st.pyplot(plt1,use_container_width=True)
+
+    st.markdown("")
+
+    st.title("Top 5 Cities With The Lowest Average Price By Type")
+    plt2 = top5_low_avg_price()
+    st.pyplot(plt2,use_container_width=True)
+       
+    
 def property_type_selection():
     st.title("DDDHM's Vietnamese Real-estate Price Predictor")
     st.header("Choose the real-estate type to continue")
@@ -65,14 +261,6 @@ def page_house():
     floors = st.select_slider("Number of Floors", options = list(range(1, 11)) + ["10+"], value = 1)
     direction = st.selectbox("Direction of the House", directions, index=directions.index("Unknown"))
 
-    # st.write(f"Area: {area}")
-    # st.write(f"Front Road Size: {front_road_size}")
-    # st.write(f"Frontage Size: {frontage_size}")
-    # st.write(f"City/Province: {city}")
-    # st.write(f"Number of Bedrooms: {bedrooms}")
-    # st.write(f"Number of Toilets: {toilets}")
-    # st.write(f"Number of Floors: {floors}")
-    # st.write(f"Direction: {direction}")
     col1, col2, col3 = st.columns(3, gap = "large")
     with col3:
         button2 = st.button("Predict House Price")
@@ -126,25 +314,17 @@ def page_land():
             
 
 def main():
-    # if "page" not in st.session_state:
-    #     st.session_state.page = None
-
-    # # Check if there's a page to navigate to
-    # if st.session_state.page is None:
-    #     property_type_selection()
-    # elif st.session_state.page == "House":
-    #     page_house()
-    # elif st.session_state.page == "Apartment":
-    #     page_apartment()
-    # elif st.session_state.page == "Land":
-    #     page_land()
-    # Check if there's a page to navigate to
-    if property_type == "House":
-        page_house()
-    elif property_type == "Apartment":
-        page_apartment()
-    elif property_type == "Land":
-        page_land()
+    if option == "Dashboard":
+        dashboard()
+    elif option == "Prediction tool":
+        st.sidebar.header("Choose the real-estate type to continue")
+        property_type = st.sidebar.radio("Select Property Type", ["House", "Apartment", "Land"])
+        if property_type == "House":
+            page_house()
+        elif property_type == "Apartment":
+            page_apartment()
+        elif property_type == "Land":
+            page_land()
 
 if __name__ == "__main__":
     main()
