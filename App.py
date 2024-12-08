@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd 
 import matplotlib.pyplot as plt
 import seaborn as sns
-import plotly
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import sys
