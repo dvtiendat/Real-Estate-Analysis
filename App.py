@@ -1,10 +1,16 @@
 import streamlit as st
 import pandas as pd 
+import json
 import matplotlib.pyplot as plt
 import seaborn as sns
+import sys
+import pickle
+import numpy as np
+import xgboost as xg
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-import sys
+from sklearn.preprocessing import StandardScaler
+
 st.set_page_config(layout="wide")
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -14,7 +20,12 @@ db = client['VietNameseRealEstateData']
 collection = db['Final_Real_Estate']
 final_data = list(collection.find())
 df = pd.DataFrame(final_data)
-
+columns = []
+scaler = pickle.load(open('./SavedModels/scaler.pkl', 'rb'))
+with open('./SavedModels/columns.json', 'r') as f:
+    columns = json.load(f)
+xgboost_model = pickle.load(open('./SavedModels/xgb_model.pkl', 'rb'))
+    
 # Custom CSS to increase font size
 st.markdown(f""" 
     <style> 
@@ -24,18 +35,47 @@ st.markdown(f"""
     unsafe_allow_html=True,
 )
 provinces = [
-    "An Giang", "Bà Rịa-Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bến Tre", "Bình Dương", "Bình Phước", "Bình Thuận", 
+    "An Giang", "Bà Rịa Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bến Tre", "Bình Dương", "Bình Phước", "Bình Thuận", 
     "Cà Mau", "Cần Thơ", "Cao Bằng", "Đắk Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai", "Đồng Tháp", "Gia Lai", "Hà Giang", 
     "Hà Nam", "Hà Nội", "Hà Tĩnh", "Hải Dương", "Hải Phòng", "Hậu Giang", "Hoà Bình", "Hồ Chí Minh", "Hưng Yên", "Khánh Hòa", 
     "Kiên Giang", "Kon Tum", "Lai Châu", "Lâm Đồng", "Lạng Sơn", "Lào Cai", "Long An", "Nam Định", "Nghệ An", "Ninh Bình", 
     "Ninh Thuận", "Phú Thọ", "Phú Yên", "Quảng Bình", "Quảng Nam", "Quảng Ngãi", "Quảng Ninh", "Quảng Trị", "Sóc Trăng", 
-    "Sơn La", "Tây Ninh", "Thái Bình", "Thái Nguyên", "Thanh Hóa", "Thừa Thiên-Huế", "Tiền Giang", "Trà Vinh", "Tuyên Quang", 
+    "Sơn La", "Tây Ninh", "Thái Bình", "Thái Nguyên", "Thanh Hóa", "Thừa Thiên Huế", "Tiền Giang", "Trà Vinh", "Tuyên Quang", 
     "Vĩnh Long", "Vĩnh Phúc", "Yên Bái"
 ]
-directions = ["East", "West", "North", "South", "North East", "South East", "South West", "North West", "Unknown"]
-area_selections_house_apartment = ["<20m2", "20-50m2", "50m2-100m2", ">100m2"]
+directions = ["East", "West", "North", "South", "North East", "South East", "South West", "North West", "Any"]
+direction_to_column = {
+    "East": "Đ",
+    "West": "W",
+    "North": "B",
+    "South": "N",
+    "North East": "ĐB", 
+    "South East": "ĐN", 
+    "South West": "TN", 
+    "North West": "TB", 
+    "Any": "KXĐ"
+}
+area_selections_house_apartment = ["<20m2", "20-50m2", "50-100m2", "100-200m2", ">200m2"]
+select_to_area_house_apartment = {
+    "<20m2": 15.,
+    "20-50m2": 35.,
+    "50-100m2": 75.,
+    "100-200m2": 150.,
+    ">200m2": 300. 
+}
 area_selections_land = ["<1000m2", "1000-5000m2", "5000-10000m2", ">10000m2"]
-
+select_to_area_land = {
+    "<1000m2": 500.,
+    "1000-5000m2": 3000.,
+    "5000-10000m2": 7500.,
+    ">10000m2": 15000. 
+}
+select_to_frontage_size_or_front_road_width = {
+    "1-5m": 3., 
+    "5-10m": 7.5, 
+    "10-20m": 15., 
+    ">20m": 25.
+}
 st.sidebar.title("DDDHM's Vietnamese Real-estate Price Predictor")
 st.write("")
 option = st.sidebar.selectbox("Choose landing page" , ['Dashboard' , "Prediction tool"])
@@ -235,37 +275,121 @@ def property_type_selection():
         st.session_state.page = property_type
         st.rerun()  
 
-def predict_price(property_type, **kwargs):
+@st.dialog("Predicted price")
+def predict_price(property_type, **kwargs): 
+    estate_info = {column: 0. for column in columns[:-1]}
+    direction = kwargs.get('direction')
+    city = kwargs.get('city')
+    area = kwargs.get('area')
+    estate_info['Hướng_' + direction_to_column[direction]] = 1.
+    # estate_info['Diện tích'] = area_selections_house_apartment[area]
+    
+    found_city = False
+    for column in columns:
+        if city.lower() in column:
+            estate_info[column] = 1.
+            found_city = True
+            break  
+    if not found_city:
+        estate_info['Thành phố_KXĐ'] = 1.
     if property_type == "House":
-        # Replace with actual prediction logic for House
-        return f"Predicted House Price: {kwargs.get('bedrooms', 'N/A')} bedrooms, {kwargs.get('toilets', 'N/A')} toilets, {kwargs.get('floors', 'N/A')} floors"
+        estate_info['Diện tích'] = float(scaler['Diện tích'].transform([[np.log(select_to_area_house_apartment[area])]]).reshape(-1).squeeze(0))
+        estate_info['Loại_N'] = 1.
+        bedrooms = kwargs.get('bedrooms')
+        toilets = kwargs.get('toilets')
+        floors = kwargs.get('floors')
+        frontage_size = kwargs.get('frontage_size') 
+        front_road_width = kwargs.get('front_road_width')
+        if bedrooms == "10+":
+            estate_info['Số phòng ngủ'] = 11. 
+        else:
+            estate_info['Số phòng ngủ'] = float(bedrooms) 
+        estate_info['Số phòng ngủ'] = float(scaler['Số phòng ngủ'].transform([[estate_info['Số phòng ngủ']]]).reshape(-1).squeeze(0))
+        if toilets == "10+":
+            estate_info['Số toilet'] = 11. 
+        else:
+            estate_info['Số toilet'] = float(toilets)
+        estate_info['Số toilet'] = float(scaler['Số toilet'].transform([[estate_info['Số toilet']]]).reshape(-1).squeeze(0))
+        if floors == "10+":
+            estate_info['Số tầng'] = 11. 
+        else:
+            estate_info['Số tầng'] = float(floors)
+        estate_info['Số tầng'] = float(scaler['Số tầng'].transform([[estate_info['Số tầng']]]).reshape(-1).squeeze(0))
+        estate_info['Mặt tiền'] =  float(scaler['Mặt tiền'].transform([[np.log(select_to_frontage_size_or_front_road_width[frontage_size])]]).reshape(-1).squeeze(0))
+        estate_info['Đường trước nhà'] = float(scaler['Đường trước nhà'].transform([[np.log(select_to_frontage_size_or_front_road_width[front_road_width])]]).reshape(-1).squeeze(0))
+        
+        print(json.dumps(estate_info, indent = 2, ensure_ascii=False))
+        # return f"Predicted House Price: {kwargs.get('bedrooms', 'N/A')} bedrooms, {kwargs.get('toilets', 'N/A')} toilets, {kwargs.get('floors', 'N/A')} floors"
     elif property_type == "Apartment":
-        # Replace with actual prediction logic for Apartment
-        return f"Predicted Apartment Price: {kwargs.get('bedrooms', 'N/A')} bedrooms, {kwargs.get('toilets', 'N/A')} toilets"
+        estate_info['Diện tích'] = float(scaler['Diện tích'].transform([[np.log(select_to_area_house_apartment[area])]]).reshape(-1).squeeze(0))
+        estate_info['Loại_CC'] = 1.
+        estate_info['Số tầng'] = 1.
+        bedrooms = kwargs.get('bedrooms')
+        toilets = kwargs.get('toilets')
+        frontage_size = kwargs.get('frontage_size') 
+        front_road_width = kwargs.get('front_road_width')
+        if bedrooms == "10+":
+            estate_info['Số phòng ngủ'] = 11. 
+        else:
+            estate_info['Số phòng ngủ'] = float(bedrooms)
+        estate_info['Số phòng ngủ'] = float(scaler['Số phòng ngủ'].transform([[estate_info['Số phòng ngủ']]]).reshape(-1).squeeze(0))    
+        if toilets == "10+":
+            estate_info['Số toilet'] = 11. 
+        else:
+            estate_info['Số toilet'] = float(toilets)
+        estate_info['Số toilet'] = float(scaler['Số toilet'].transform([[estate_info['Số toilet']]]).reshape(-1).squeeze(0))
+        estate_info['Mặt tiền'] = -10.
+        estate_info['Mặt tiền missing'] = 1.
+        estate_info['Đường trước nhà missing'] = 1.
+        estate_info['Đường trước nhà'] = -10.
+        # print(json.dumps(estate_info, indent = 2, ensure_ascii=False))
+        # return f"Predicted Apartment Price: {kwargs.get('bedrooms', 'N/A')} bedrooms, {kwargs.get('toilets', 'N/A')} toilets"
     elif property_type == "Land":
-        # Replace with actual prediction logic for Land
-        return f"Predicted Land Price: {kwargs.get('area', 'N/A')} square meters, {kwargs.get('location', 'N/A')}"
-    else:
-        return "No prediction available"
+        estate_info['Diện tích'] = float(scaler['Diện tích'].transform([[select_to_area_land[area]]]).reshape(-1).squeeze(0))
+        estate_info['Loại_Đ'] = 1
+        directions = kwargs.get('direction')
+        frontage_size = kwargs.get('frontage_size')
+        front_road_width = kwargs.get('front_road_width')
+        estate_info['Mặt tiền'] =  float(scaler['Mặt tiền'].transform([[np.log(select_to_frontage_size_or_front_road_width[frontage_size])]]).reshape(-1).squeeze(0))
+        estate_info['Đường trước nhà'] = float(scaler['Đường trước nhà'].transform([[np.log(select_to_frontage_size_or_front_road_width[front_road_width])]]).reshape(-1).squeeze(0))
+        estate_info['Số phòng ngủ'] = -10.
+        estate_info['Số phòng ngủ missing'] = 1.
+        estate_info['Số tầng'] = -10.
+        estate_info['Số tầng missing'] = 1.
+        estate_info['Số toilet'] = -10.
+        estate_info['Số toilet missing'] = 1.
+        print(directions, frontage_size, front_road_width, city, area)
+        # print(json.dumps(estate_info, indent = 2, ensure_ascii=False))
+        # return f"Predicted Land Price: {kwargs.get('area', 'N/A')} square meters, {kwargs.get('location', 'N/A')}"
+    print(json.dumps(estate_info, indent = 2, ensure_ascii=False))
+    x_input = np.array([v for k, v in estate_info.items()]).reshape(1, -1)
+    output = np.exp(scaler["Mức giá"].inverse_transform([[xgboost_model['best_model'].predict(x_input)[0]]]).reshape(-1).squeeze(0))
+    st.write(f"The predicted price is: {output:.2f} billion VND")
+    return "LOL!"
 
 def page_house():
     st.title("Predicting for house-type real-estate")
     st.write("Now choose your estate properties for price prediction")
     area = st.select_slider("Area", options = area_selections_house_apartment, value = "20-50m2")
-    front_road_size = st.selectbox("Front Road Size", ["1-5m", "5-10m", ">10m", "Others"])
-    frontage_size = st.selectbox("Frontage size", ["1-5m", "5-10m", ">10m", "Others"])
+    front_road_width = st.selectbox("Front Road Size", ["1-5m", "5-10m", "10-20m", ">20m"])
+    frontage_size = st.selectbox("Frontage size", ["1-5m", "5-10m", "10-20m", ">20m"])
     city = st.selectbox("City/Province", provinces)
     bedrooms = st.select_slider("Number of Bedrooms", options = list(range(1, 11)) + ["10+"], value = 3)
     toilets = st.select_slider("Number of Toilets", options = list(range(1, 11)) + ["10+"], value = 2)
     floors = st.select_slider("Number of Floors", options = list(range(1, 11)) + ["10+"], value = 1)
-    direction = st.selectbox("Direction of the House", directions, index=directions.index("Unknown"))
+    direction = st.selectbox("Direction of the House", directions, index=directions.index("Any"))
 
-    col1, col2, col3 = st.columns(3, gap = "large")
-    with col3:
-        button2 = st.button("Predict House Price")
+    button2 = st.button("Predict House Price")
     if button2:
-        prediction = predict_price("House", bedrooms=bedrooms, toilets=toilets)
-        st.write(prediction)
+        prediction = predict_price("House", 
+                                   bedrooms=bedrooms, 
+                                   toilets=toilets, 
+                                   floors=floors,
+                                   direction=direction,
+                                   area=area, 
+                                   city=city, 
+                                   frontage_size=frontage_size,
+                                   front_road_width=front_road_width)
 
     
 
@@ -276,7 +400,7 @@ def page_apartment():
     city = st.selectbox("City/Province", provinces)
     bedrooms = st.select_slider("Number of Bedrooms", options = list(range(1, 11)) + ["10+"], value = 3)
     toilets = st.select_slider("Number of Toilets", options = list(range(1, 11)) + ["10+"], value = 2)
-    direction = st.selectbox("Direction of the House", directions, index=directions.index("Unknown"))
+    direction = st.selectbox("Direction of the House", directions, index=directions.index("Any"))
 
     st.write(f"Area: {area}")
     st.write(f"City/Province: {city}")
@@ -287,7 +411,12 @@ def page_apartment():
     with col3:
         button2 = st.button("Predict House Price")
     if button2:
-        prediction = predict_price("House", bedrooms=bedrooms, toilets=toilets)
+        prediction = predict_price("Apartment", 
+                                   bedrooms=bedrooms, 
+                                   toilets=toilets,
+                                   direction=direction,
+                                   area=area, 
+                                   city=city)
         st.write(prediction)
 
 def page_land():
@@ -297,7 +426,7 @@ def page_land():
     front_road_size = st.selectbox("Front Road Size", ["1-5m", "5-10m", ">10m", "Others"])
     frontage_size = st.selectbox("Frontage size", ["1-5m", "5-10m", ">10m", "Others"])
     city = st.selectbox("City/Province", provinces)
-    direction = st.selectbox("Direction of the House", directions, index=directions.index("Unknown"))
+    direction = st.selectbox("Direction of the House", directions, index=directions.index("Any"))
 
     st.write(f"Area: {area}")
     st.write(f"Front Road Size: {front_road_size}")
@@ -308,7 +437,12 @@ def page_land():
     with col3:
         button2 = st.button("Predict House Price")
     if button2:
-        prediction = predict_price("House", area=area)
+        prediction = predict_price("Land",  
+                                   direction=direction,
+                                   area=area, 
+                                   city=city, 
+                                   frontage_size=frontage_size,
+                                   front_road_width=front_road_width)
         st.write(prediction)
             
 
