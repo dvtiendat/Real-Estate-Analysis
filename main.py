@@ -25,4 +25,6 @@ logger.addHandler(file_handler)
 if __name__ == "__main__":
     pipeline = Pipeline(password='dmHUST')
     #pipeline.run(['BDS_SoCrawler', 'BDSWebCrawler', 'AlonhadatWebCrawler'])
-    pipeline.run(['BDS_SoCrawler', 'BDSWebCrawler'], only_integrate=True)
+    pipeline.run(['BDSWebCrawler'], only_integrate=True)
+    # pipeline.run(['BDSWebCrawler'])
+    # pipeline.run(['AlonhadatWebCrawler'])
