@@ -122,123 +122,141 @@ def total_by_type():
     return plt
 
 def top5_high_avg_price():
-    top_5_cc = df[df['Loại'] == 'CC'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nlargest(5, 'Mức giá').reset_index()
-    top_5_n = df[df['Loại'] == 'N'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nlargest(5, 'Mức giá').reset_index()
-    top_5_d = df[df['Loại'] == 'Đ'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nlargest(5, 'Mức giá').reset_index()
+    # Create a temporary DataFrame to perform operations without modifying the original 'df'
+    temp_df = df[~((df['Loại'] == 'N') & (df['Thành phố'].str.lower() == 'thái nguyên'))]
 
+    # Calculate price per square meter in temp_df
+    temp_df['Giá/m²'] = (temp_df['Mức giá']*1000) / temp_df['Diện tích']
+
+    # Filter and calculate the top 5 cities for each type
+    top_5_cc = temp_df[temp_df['Loại'] == 'CC'][['Thành phố', 'Giá/m²']].groupby('Thành phố').mean().nlargest(5, 'Giá/m²').reset_index()
+    top_5_n = temp_df[temp_df['Loại'] == 'N'][['Thành phố', 'Giá/m²']].groupby('Thành phố').mean().nlargest(5, 'Giá/m²').reset_index()
+    top_5_d = temp_df[temp_df['Loại'] == 'Đ'][['Thành phố', 'Giá/m²']].groupby('Thành phố').mean().nlargest(5, 'Giá/m²').reset_index()
+
+    # Plotting section
     fig, axes = plt.subplots(1, 3, figsize=(18, 6))
 
     # Plot for Apartment
     sns.barplot(
         data=top_5_cc,
-        x='Mức giá',
+        x='Giá/m²',
         y=top_5_cc['Thành phố'].str.title(),
         palette='flare_r',
         ax=axes[0]
     )
     axes[0].set_title('Apartment', fontsize=14)
-    axes[0].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[0].set_xlabel('Price per m² (Million VND/m²)', fontsize=12)
     axes[0].set_ylabel('City', fontsize=12)
     axes[0].grid(axis='x', linestyle='--', alpha=0.3)
 
     # Plot for House
     sns.barplot(
         data=top_5_n,
-        x='Mức giá',
+        x='Giá/m²',
         y=top_5_n['Thành phố'].str.title(),
         palette='flare_r',
         ax=axes[1]
     )
     axes[1].set_title('House', fontsize=14)
-    axes[1].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[1].set_xlabel('Price per m² (Million VND/m²)', fontsize=12)
     axes[1].set_ylabel('City', fontsize=12)
     axes[1].grid(axis='x', linestyle='--', alpha=0.3)
 
     # Plot for Land
     sns.barplot(
         data=top_5_d,
-        x='Mức giá',
+        x='Giá/m²',
         y=top_5_d['Thành phố'].str.title(),
         palette='flare_r',
         ax=axes[2]
     )
     axes[2].set_title('Land', fontsize=14)
-    axes[2].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[2].set_xlabel('Price per m² (Million VND/m²)', fontsize=12)
     axes[2].set_ylabel('City', fontsize=12)
     axes[2].grid(axis='x', linestyle='--', alpha=0.3)
 
     # Add value labels to each bar
     for ax, top_5_data in zip(axes, [top_5_cc, top_5_n, top_5_d]):
-        for index, value in enumerate(top_5_data['Mức giá']):
+        for index, value in enumerate(top_5_data['Giá/m²']):
             ax.text(
-                value + 0.5,
+                value + 0.001,
                 index,
                 f'{value:.2f}',
                 va='center',
                 fontsize=10
             )
+
+    fig.suptitle('Top 5 Cities With The Highest Price per m² By Type', fontsize=20)
 
     plt.tight_layout()
     return plt
 
 def top5_low_avg_price():
-    # Filter data for each type and get top 5 cities with the lowest property prices for each type
-    top_5_cc = df[df['Loại'] == 'CC'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nsmallest(5, 'Mức giá').reset_index()
-    top_5_n = df[df['Loại'] == 'N'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nsmallest(5, 'Mức giá').reset_index()
-    top_5_d = df[df['Loại'] == 'Đ'][['Thành phố', 'Mức giá']].groupby('Thành phố').mean().nsmallest(5, 'Mức giá').reset_index()
+    temp_df = df[~((df['Loại'] == 'N') & (df['Thành phố'].str.lower() == 'thái nguyên'))]
 
+    # Calculate price per square meter in temp_df
+    temp_df['Giá/m²'] = (temp_df['Mức giá'] * 1000) / temp_df['Diện tích']
+
+    # Filter and calculate the top 5 cities with the lowest price per square meter for each type
+    top_5_cc = temp_df[temp_df['Loại'] == 'CC'][['Thành phố', 'Giá/m²']].groupby('Thành phố').mean().nsmallest(5, 'Giá/m²').reset_index()
+    top_5_n = temp_df[temp_df['Loại'] == 'N'][['Thành phố', 'Giá/m²']].groupby('Thành phố').mean().nsmallest(5, 'Giá/m²').reset_index()
+    top_5_d = temp_df[temp_df['Loại'] == 'Đ'][['Thành phố', 'Giá/m²']].groupby('Thành phố').mean().nsmallest(5, 'Giá/m²').reset_index()
+
+    # Plotting section
     fig, axes = plt.subplots(1, 3, figsize=(18, 6))
 
     # Plot for Apartment
     sns.barplot(
-        data=top_5_cc,
-        x='Mức giá',
-        y=top_5_cc['Thành phố'].str.title(),
-        palette='crest_r',
-        ax=axes[0]
+    data=top_5_cc,
+    x='Giá/m²',
+    y=top_5_cc['Thành phố'].str.title(),
+    palette='crest_r',
+    ax=axes[0]
     )
     axes[0].set_title('Apartment', fontsize=14)
-    axes[0].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[0].set_xlabel('Price per m² (Million VND/m²)', fontsize=12)
     axes[0].set_ylabel('City', fontsize=12)
     axes[0].grid(axis='x', linestyle='--', alpha=0.3)
 
     # Plot for House
     sns.barplot(
-        data=top_5_n,
-        x='Mức giá',
-        y=top_5_n['Thành phố'].str.title(),
-        palette='crest_r',
-        ax=axes[1]
+    data=top_5_n,
+    x='Giá/m²',
+    y=top_5_n['Thành phố'].str.title(),
+    palette='crest_r',
+    ax=axes[1]
     )
     axes[1].set_title('House', fontsize=14)
-    axes[1].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[1].set_xlabel('Price per m² (Million VND/m²)', fontsize=12)
     axes[1].set_ylabel('City', fontsize=12)
     axes[1].grid(axis='x', linestyle='--', alpha=0.3)
 
     # Plot for Land
     sns.barplot(
-        data=top_5_d,
-        x='Mức giá',
-        y=top_5_d['Thành phố'].str.title(),
-        palette='crest_r',
-        ax=axes[2]
+    data=top_5_d,
+    x='Giá/m²',
+    y=top_5_d['Thành phố'].str.title(),
+    palette='crest_r',
+    ax=axes[2]
     )
     axes[2].set_title('Land', fontsize=14)
-    axes[2].set_xlabel('Average Price (Billion VND)', fontsize=12)
+    axes[2].set_xlabel('Price per m² (Million VND/m²)', fontsize=12)
     axes[2].set_ylabel('City', fontsize=12)
     axes[2].grid(axis='x', linestyle='--', alpha=0.3)
 
     # Add value labels to each bar
     for ax, top_5_data in zip(axes, [top_5_cc, top_5_n, top_5_d]):
-        for index, value in enumerate(top_5_data['Mức giá']):
+        for index, value in enumerate(top_5_data['Giá/m²']):
             ax.text(
-                value + 0.05,
+                value + 0.001,
                 index,
                 f'{value:.2f}',
                 va='center',
                 fontsize=10
             )
-            
+
+    fig.suptitle('Top 5 Cities With The Lowest Price per m² By Type', fontsize=20)
+
     plt.tight_layout()
     return plt 
 
