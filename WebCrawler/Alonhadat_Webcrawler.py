@@ -87,6 +87,7 @@ class AlonhadatWebCrawler(WebCrawler):
                         break
         except Exception as e :
             logger.error(f'Process ended with total of {page-self.start_page} pages : {e}')
+            return pages
         finally:
             driver.quit()
         return pages

@@ -63,6 +63,7 @@ class BDSWebCrawler(WebCrawler):
                         break
         except Exception as e :
             logger.error(f'Get total of {page} pages : {e}')
+            return pages
         finally:
             driver.quit()
         return pages
