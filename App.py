@@ -14,12 +14,7 @@ from sklearn.preprocessing import StandardScaler
 st.set_page_config(layout="wide")
 sys.stdout.reconfigure(encoding='utf-8')
 
-uri = "mongodb+srv://svbk:dmHUST@cluster0.h5ef7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #change password to access to the database
-client = MongoClient(uri, server_api = ServerApi('1'))
-db = client['VietNameseRealEstateData']
-collection = db['Final_Real_Estate']
-final_data = list(collection.find())
-df = pd.DataFrame(final_data)
+df = pd.read_csv('./SavedData/integrated_data.csv')
 columns = []
 scaler = pickle.load(open('./SavedModels/scaler.pkl', 'rb'))
 with open('./SavedModels/columns.json', 'r') as f:
