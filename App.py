@@ -46,7 +46,7 @@ provinces = [
 directions = ["East", "West", "North", "South", "North East", "South East", "South West", "North West", "Any"]
 direction_to_column = {
     "East": "Đ",
-    "West": "W",
+    "West": "T",
     "North": "B",
     "South": "N",
     "North East": "ĐB", 
