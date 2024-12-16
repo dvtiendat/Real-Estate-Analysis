@@ -1,6 +1,6 @@
 ## Real-Estate-Analysis
 
-A capstone project focusing on estate analysis and prediction 
+A capstone project focusing on Vietnamese's real estate analysis and prediction 
 
 ## Features
 
