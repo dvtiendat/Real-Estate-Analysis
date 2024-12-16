@@ -30,3 +30,11 @@ To use this project using git, please do the following.
 * Finally, run the pipeline of the project by
 
 ```python pipeline.py```
+
+## Optinal
+
+* If you want to run the demo application, please run the demo via command
+```streamlit run App.py```
+
+* If you want to setup Apache Airflow for continuous run of data scraping, please follow the following steps:
+
