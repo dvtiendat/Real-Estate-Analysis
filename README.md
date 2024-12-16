@@ -31,14 +31,14 @@ To use this project using git, please do the following.
 
 ```python pipeline.py```
 
-## Optinal
+## Optional
 
 * If you want to run the demo application, please run the demo via command
 ```streamlit run App.py```
 
 * If you want to setup Apache Airflow for continuous run of data scraping, please follow the following steps:
 
-    ### 1. Install [Docker](https://docs.docker.com/engine/install/) and [Docker compose](https://docs.docker.com/compose/install/)
-    ### 2. Run  ` docker compose up -d `
-    ### 3. Access to the Apache Airflow UI via `http://localhost:8080/`
-    ### 4. Login to the UI with the default username is `airflow` and default password is `airflow`
+1. Install [Docker](https://docs.docker.com/engine/install/) and [Docker compose](https://docs.docker.com/compose/install/)
+2. Run  ` docker compose up -d `
+3. Access to the Apache Airflow UI via `http://localhost:8080/`
+4. Login to the UI with the default username is `airflow` and default password is `airflow`
