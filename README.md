@@ -6,11 +6,15 @@ A capstone project focusing on estate analysis and prediction
 
 This repo contains a full pipeline from data collection to transforming \& integrating data and pushing to the final database (located in pipeline.py)
 
+<p align="center">
+  <img src="Assets/pipeline.png" alt = "pipeline" title = "The outline of our group's data collecting process" width="625" height="500">
+</p>
+
 The real-estate data are crawled from three websites: "Alonhadat.com.vn", "Batdongsan.so", and "Batdongsan.com.vn".
 
-Notebooks for exploratory data analysis are located in the EDA folder (EDA/EDA.ipynb)
+Notebooks for exploratory data analysis are located in the EDA folder (EDA/VietnamRealEstateEDA.ipynb)
 
-Other notebooks for modeling (XGBoost, Ridge Regression, Random Forest) (Modeling/XGBoost.ipynb, Modeling/RidgeRegression.ipynb, RandomForest.ipynb)
+Other notebooks for modeling (XGBoost, Ridge Regression, Random Forest) (Modeling/XGBoostModeling.ipynb, Modeling/RidgeRegressionModeling.ipynb, RandomForestModeling.ipynb)
 
 ## Requirement
 
