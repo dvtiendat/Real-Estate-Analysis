@@ -40,5 +40,5 @@ To use this project using git, please do the following.
 
     ### 1. Install [Docker](https://docs.docker.com/engine/install/) and [Docker compose](https://docs.docker.com/compose/install/)
     ### 2. Run  ` docker compose up -d `
-    ### 3. Acess the apache Airflow UI via `http://localhost:8080/`
+    ### 3. Access to the Apache Airflow UI via `http://localhost:8080/`
     ### 4. Login to the UI with the default username is `airflow` and default password is `airflow`
