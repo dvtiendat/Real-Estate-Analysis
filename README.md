@@ -23,7 +23,8 @@ To run the pipeline for the data collection, you must have installed Python vers
 ## How to use: 
 To use this project using git, please do the following.
 * First, open the command prompt / or any related terminals in the directory of the project
-
+```git clone https://github.com/dvtiendat/Real-Estate-Analysis.git```
+```cd Real-Estate-Analysis```
 * Secondly, install required libraries via requirement.txt
 
 ```pip install -q -r requirements.txt```
